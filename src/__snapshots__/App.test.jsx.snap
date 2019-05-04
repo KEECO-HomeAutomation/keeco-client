@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Should match snapshot 1`] = `
+<div>
+  <h1>
+    KEECO Client
+  </h1>
+  <input
+    defaultChecked={true}
+    type="checkbox"
+  />
+</div>
+`;
