@@ -1,0 +1,28 @@
+subscription NodeSubscription {
+	nodeSubscription {
+		mutation
+		node {
+			id
+			uuid
+			name
+			templates {
+				id
+				name
+				data {
+					... on TemplateDataSwitch {
+						id
+						on
+					}
+					... on TemplateDataLamp {
+						id
+						on
+						r
+						g
+						b
+						dim
+					}
+				}
+			}
+		}
+	}
+}

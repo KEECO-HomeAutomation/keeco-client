@@ -1,0 +1,26 @@
+query Nodes {
+	nodes {
+		id
+		uuid
+		name
+		templates {
+			id
+			name
+			data {
+				__typename
+				... on TemplateDataSwitch {
+					id
+					on
+				}
+				... on TemplateDataLamp {
+					id
+					on
+					r
+					g
+					b
+					dim
+				}
+			}
+		}
+	}
+}

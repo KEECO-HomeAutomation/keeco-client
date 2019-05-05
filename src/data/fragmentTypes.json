@@ -1,0 +1,1 @@
+{"__schema":{"types":[{"kind":"UNION","name":"TemplateData","possibleTypes":[{"name":"TemplateDataSwitch"},{"name":"TemplateDataLamp"},{"name":"TemplateDataThermostat"}]}]}}
