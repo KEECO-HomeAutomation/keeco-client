@@ -12,9 +12,4 @@ describe('<App />', () => {
 	test('Should match snapshot', () => {
 		expect(shallow(<App />)).toMatchSnapshot();
 	});
-
-	test('Checkbox should be checked', () => {
-		const comp = shallow(<App />);
-		expect(comp.find('input')).toBeChecked();
-	});
 });

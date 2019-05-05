@@ -1,0 +1,18 @@
+image: nodejs
+branches:
+  - master
+  - dev
+  - release/.*
+matrix:
+  - env: SCRIPT=lint
+  - env: SCRIPT=test:coverage
+install:
+  - npm ci
+script:
+  - npm run $SCRIPT
+deploy:
+  - npm ci
+  - npm run build
+  - cp -t build package.json package-lock.json
+  - tar -czvf dist.tar.gz -C build .
+  - deploy_b2 "KeecoClient-$ABSTRUSE_BRANCH" keeco-client dist.tar.gz
