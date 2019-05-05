@@ -10,38 +10,64 @@ import {
 import { connect } from 'react-redux';
 import { withRouter, Redirect } from 'react-router';
 import { graphql } from 'react-apollo';
+import { withStyles } from '@material-ui/core/styles';
 import { setAuthToken } from '../../data/duck';
 
 import LOGIN_MUTATION from './data/loginMutation.graphql';
+
+import Paper from '@material-ui/core/Paper';
+import TextField from '@material-ui/core/TextField';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+
+const styles = theme => ({
+	centerForm: {
+		width: '33%',
+		margin: 'auto',
+		marginTop: theme.spacing.unit * 10,
+		padding: theme.spacing.unit * 3
+	},
+	textField: {
+		marginBottom: theme.spacing.unit * 3
+	}
+});
 
 const Login = ({
 	username,
 	password,
 	setUsername,
 	setPassword,
-	onLoginClick
+	onLoginClick,
+	classes
 }) => {
 	return (
-		<div>
-			<h1>Login</h1>
-			<span>Username: </span>
-			<input
-				type="text"
+		<Paper className={classes.centerForm}>
+			<Typography variant="h6" gutterBottom>
+				Log in
+			</Typography>
+			<TextField
+				required
+				id="username"
+				label="Username"
 				value={username}
 				onChange={e => setUsername(e.target.value)}
+				className={classes.textField}
 			/>
 			<br />
-			<span>Password: </span>
-			<input
+			<TextField
+				required
+				id="password"
+				label="Password"
 				type="password"
 				value={password}
 				onChange={e => setPassword(e.target.value)}
+				className={classes.textField}
 			/>
 			<br />
-			<button type="button" onClick={onLoginClick}>
-				Log in!
-			</button>
-		</div>
+			<Button onClick={onLoginClick} color="primary">
+				Log in
+			</Button>
+		</Paper>
 	);
 };
 
@@ -89,5 +115,6 @@ export default compose(
 				variables: { input: { username, password } }
 			});
 		}
-	})
+	}),
+	withStyles(styles)
 )(Login);
