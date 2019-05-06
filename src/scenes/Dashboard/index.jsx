@@ -17,6 +17,11 @@ import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
+import Grid from '@material-ui/core/Grid';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
 
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
@@ -26,14 +31,47 @@ import LayersIcon from '@material-ui/icons/Layers';
 
 const styles = theme => ({
 	appBar: {
+		width: '100%',
 		transition: theme.transitions.create(['margin', 'width'], {
 			easing: theme.transitions.easing.easeOut,
 			duration: theme.transitions.duration.enteringScreen
-		})
+		}),
+		zIndex: theme.zIndex.drawer + 1
 	},
 	appBarShift: {
 		width: '80%',
-		marginLeft: '20%'
+		marginLeft: '20%',
+	},
+	menuButton: {
+		marginRight: 36
+	},
+	toolbar: {
+		paddingLeft: 8
+	},
+	menuButtonClosed: {
+		display: 'none'
+	},
+	title: {
+		color: theme.palette.primary.contrastText
+	},
+	drawer: {
+		width: theme.spacing.unit*7 +1,
+		overflow: 'hidden',
+		transition: theme.transitions.create(['width'], {
+			easing: theme.transitions.easing.easeOut,
+			duration: theme.transitions.duration.enteringScreen
+		}),
+		whiteSpace: 'nowrap'
+	},
+	drawerOpen: {
+		width: '20%'
+	},
+	drawerHeader: {
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: 'flex-end',
+		padding: '0 8px',
+		...theme.mixins.toolbar
 	}
 });
 
@@ -53,8 +91,59 @@ const Dashboard = ({
 					[classes.appBarShift]: isDrawerOpen
 				})}
 			>
-				<IconButton onClick={toggleDrawerOpen}>Toggle</IconButton>
+				<Toolbar className={classes.toolbar}>
+					<IconButton
+						className={classNames({
+							[classes.menuButton]: true,
+							[classes.menuButtonClosed]: isDrawerOpen
+						})}
+						onClick={toggleDrawerOpen}
+					>
+						<MenuIcon />
+					</IconButton>
+					<Typography variant="h4" className={classes.title}>
+						KEECO Client
+					</Typography>
+				</Toolbar>
 			</AppBar>
+			<Drawer
+				className={classNames({
+					[classes.drawer]: true,
+					[classes.drawerOpen]: isDrawerOpen
+				})}
+				variant="permanent"
+				anchor="left"
+				open={isDrawerOpen}
+				classes={{
+					paper: classNames({
+						[classes.drawer]: true,
+						[classes.drawerOpen]: isDrawerOpen
+					})
+				}}
+			>
+				<div className={classes.drawerHeader}>
+					<IconButton onClick={toggleDrawerOpen}>
+						<ChevronLeftIcon />
+					</IconButton>
+				</div>
+				<List>
+					<ListItem button key="dashboard">
+						<ListItemIcon>
+							<DashboardIcon />
+						</ListItemIcon>
+						<ListItemText>Dashboard</ListItemText>
+					</ListItem>
+				</List>
+				<Divider />
+				<List>
+					<ListItem button key="logOut">
+						<ListItemIcon>
+							<PowerSettingsNewIcon />
+						</ListItemIcon>
+						<ListItemText>Log out</ListItemText>
+					</ListItem>
+				</List>
+			</Drawer>
 		</React.Fragment>
 	);
 };
