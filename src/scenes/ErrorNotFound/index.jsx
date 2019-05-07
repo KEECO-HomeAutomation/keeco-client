@@ -13,7 +13,7 @@ const styles = theme => ({
 		width: '50%',
 		margin: 'auto',
 		marginTop: theme.spacing.unit * 10,
-		padding: theme.spacing.unit*3
+		padding: theme.spacing.unit * 3
 	}
 });
 
@@ -31,6 +31,11 @@ const ErrorNotFound = ({ onGoToHomeClick, classes }) => {
 			</Button>
 		</Paper>
 	);
+};
+
+ErrorNotFound.propTypes = {
+	onGoToHomeClick: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export default compose(

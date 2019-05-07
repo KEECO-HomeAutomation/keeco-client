@@ -72,11 +72,12 @@ const Login = ({
 };
 
 Login.propTypes = {
-	username: PropTypes.string.isRequired,
-	password: PropTypes.string.isRequired,
-	setUsername: PropTypes.func.isRequired,
-	setPassword: PropTypes.func.isRequired,
-	onLoginClick: PropTypes.func.isRequired
+	username: PropTypes.string,
+	password: PropTypes.string,
+	setUsername: PropTypes.func,
+	setPassword: PropTypes.func,
+	onLoginClick: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export default compose(

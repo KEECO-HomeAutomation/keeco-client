@@ -20,7 +20,6 @@ import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
-import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -190,6 +189,14 @@ const Dashboard = ({
 			</div>
 		</React.Fragment>
 	);
+};
+
+Dashboard.propTypes = {
+	isDrawerOpen: PropTypes.bool,
+	toggleDrawerOpen: PropTypes.func,
+	goTo: PropTypes.func,
+	onLogoutClick: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export default compose(

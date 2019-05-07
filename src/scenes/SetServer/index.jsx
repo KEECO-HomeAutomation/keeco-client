@@ -46,9 +46,10 @@ const SetServer = ({ path, setPath, onSubmitClick, classes }) => {
 };
 
 SetServer.propTypes = {
-	path: PropTypes.string.isRequired,
-	setPath: PropTypes.func.isRequired,
-	onSubmitClick: PropTypes.func.isRequired
+	path: PropTypes.string,
+	setPath: PropTypes.func,
+	onSubmitClick: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export default compose(
