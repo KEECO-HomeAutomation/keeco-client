@@ -1,15 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { compose, branch, renderComponent, lifecycle } from 'recompose';
+import { compose, branch, renderComponent, withHandlers } from 'recompose';
 import { connect } from 'react-redux';
-import { Redirect } from 'react-router-dom';
-import { graphql } from 'react-apollo';
+import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import classNames from 'classnames';
 import { toggleDrawer } from './data/duck';
+import { clearAuthToken } from '../../data/duck';
 
-import NODES_QUERY from './data/nodesQuery.graphql';
-import NODE_SUBSCRIPTION from './data/nodeSubscription.graphql';
+import DashboardView from './components/Dashboard';
+import Nodes from '../Nodes';
+import Groups from '../Groups';
+import Charts from '../Charts';
+import Users from '../Users';
 
 import AppBar from '@material-ui/core/AppBar';
 import Drawer from '@material-ui/core/Drawer';
@@ -28,6 +31,9 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import LayersIcon from '@material-ui/icons/Layers';
+import DeviceHubIcon from '@material-ui/icons/DeviceHub';
+import BarChartIcon from '@material-ui/icons/BarChart';
+import GroupIcon from '@material-ui/icons/Group';
 
 const styles = theme => ({
 	appBar: {
@@ -40,7 +46,7 @@ const styles = theme => ({
 	},
 	appBarShift: {
 		width: '80%',
-		marginLeft: '20%',
+		marginLeft: '20%'
 	},
 	menuButton: {
 		marginRight: 36
@@ -55,7 +61,7 @@ const styles = theme => ({
 		color: theme.palette.primary.contrastText
 	},
 	drawer: {
-		width: theme.spacing.unit*7 +1,
+		width: theme.spacing.unit * 7 + 1,
 		overflow: 'hidden',
 		transition: theme.transitions.create(['width'], {
 			easing: theme.transitions.easing.easeOut,
@@ -72,14 +78,19 @@ const styles = theme => ({
 		justifyContent: 'flex-end',
 		padding: '0 8px',
 		...theme.mixins.toolbar
+	},
+	content: {
+		flexGrow: 1,
+		marginTop: theme.mixins.toolbar.minHeight,
+		padding: theme.spacing.unit * 3
 	}
 });
 
 const Dashboard = ({
-	loading,
-	nodes,
 	isDrawerOpen,
 	toggleDrawerOpen,
+	goTo,
+	onLogoutClick,
 	classes
 }) => {
 	return (
@@ -127,16 +138,40 @@ const Dashboard = ({
 					</IconButton>
 				</div>
 				<List>
-					<ListItem button key="dashboard">
+					<ListItem button onClick={() => goTo('/')}>
 						<ListItemIcon>
 							<DashboardIcon />
 						</ListItemIcon>
 						<ListItemText>Dashboard</ListItemText>
 					</ListItem>
+					<ListItem button onClick={() => goTo('/nodes')}>
+						<ListItemIcon>
+							<DeviceHubIcon />
+						</ListItemIcon>
+						<ListItemText>Nodes</ListItemText>
+					</ListItem>
+					<ListItem button onClick={() => goTo('/groups')}>
+						<ListItemIcon>
+							<LayersIcon />
+						</ListItemIcon>
+						<ListItemText>Groups</ListItemText>
+					</ListItem>
+					<ListItem button onClick={() => goTo('/charts')}>
+						<ListItemIcon>
+							<BarChartIcon />
+						</ListItemIcon>
+						<ListItemText>Charts</ListItemText>
+					</ListItem>
+					<ListItem button onClick={() => goTo('/users')}>
+						<ListItemIcon>
+							<GroupIcon />
+						</ListItemIcon>
+						<ListItemText>Users</ListItemText>
+					</ListItem>
 				</List>
 				<Divider />
 				<List>
-					<ListItem button key="logOut">
+					<ListItem button onClick={onLogoutClick}>
 						<ListItemIcon>
 							<PowerSettingsNewIcon />
 						</ListItemIcon>
@@ -144,13 +179,17 @@ const Dashboard = ({
 					</ListItem>
 				</List>
 			</Drawer>
+			<div className={classes.content}>
+				<Switch>
+					<Route path="/nodes" component={Nodes} />
+					<Route path="/groups" component={Groups} />
+					<Route path="/charts" component={Charts} />
+					<Route path="/users" component={Users} />
+					<Route path="/" component={DashboardView} />
+				</Switch>
+			</div>
 		</React.Fragment>
 	);
-};
-
-Dashboard.propTypes = {
-	loading: PropTypes.bool,
-	nodes: PropTypes.array
 };
 
 export default compose(
@@ -161,9 +200,11 @@ export default compose(
 			isDrawerOpen: state.dashboard.drawer.open
 		}),
 		dispatch => ({
-			toggleDrawerOpen: () => dispatch(toggleDrawer())
+			toggleDrawerOpen: () => dispatch(toggleDrawer()),
+			logOut: () => dispatch(clearAuthToken())
 		})
 	),
+	withRouter,
 	branch(
 		({ isServerPath }) => !isServerPath,
 		renderComponent(() => <Redirect to="/setServer" />)
@@ -172,49 +213,12 @@ export default compose(
 		({ isAuthToken }) => !isAuthToken,
 		renderComponent(() => <Redirect to="/login" />)
 	),
-	graphql(NODES_QUERY, {
-		props: ({ data: { loading, nodes, subscribeToMore } }) => ({
-			loading,
-			nodes,
-			subscribe: () =>
-				subscribeToMore({
-					document: NODE_SUBSCRIPTION,
-					updateQuery: (prev, { subscriptionData }) => {
-						if (!subscriptionData.data) {
-							return prev;
-						}
-
-						const { mutation, node } = subscriptionData.data.nodeSubscription;
-
-						if (mutation === 'CREATED') {
-							return {
-								...prev,
-								nodes: [...prev.nodes, node]
-							};
-						}
-						//UPDATED handled automatically
-						if (mutation === 'DELETED') {
-							return {
-								...prev,
-								nodes: prev.nodes.filter(p => p.id !== node.id)
-							};
-						}
-
-						return prev;
-					}
-				})
-		})
-	}),
-	lifecycle({
-		componentDidMount() {
-			if (!this.cancelSubscription) {
-				this.cancelSubscription = this.props.subscribe();
-			}
+	withHandlers({
+		goTo: ({ history }) => url => {
+			history.push(url);
 		},
-		componentWillUnmount() {
-			if (this.cancelSubscription) {
-				this.cancelSubscription();
-			}
+		onLogoutClick: ({ logOut }) => () => {
+			logOut();
 		}
 	}),
 	withStyles(styles)
