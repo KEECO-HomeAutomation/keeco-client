@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorNotFound /> Should match snapshot 1`] = `
+<WithStyles(Paper)
+  className=""
+>
+  <WithStyles(Typography)
+    gutterBottom={true}
+    variant="h6"
+  >
+    Error 404
+  </WithStyles(Typography)>
+  <WithStyles(Typography)>
+    The requested page is not available. Sorry for that.
+  </WithStyles(Typography)>
+  <WithStyles(Button)
+    color="primary"
+  >
+    Go to home!
+  </WithStyles(Button)>
+</WithStyles(Paper)>
+`;

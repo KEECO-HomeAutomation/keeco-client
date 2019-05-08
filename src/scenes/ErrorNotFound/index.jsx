@@ -17,7 +17,7 @@ const styles = theme => ({
 	}
 });
 
-const ErrorNotFound = ({ onGoToHomeClick, classes }) => {
+export const ErrorNotFound = ({ onGoToHomeClick, classes }) => {
 	return (
 		<Paper className={classes.centerPanel}>
 			<Typography variant="h6" gutterBottom>
