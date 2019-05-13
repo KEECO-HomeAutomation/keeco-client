@@ -38,7 +38,7 @@ ErrorNotFound.propTypes = {
 	classes: PropTypes.object
 };
 
-export default compose(
+export const enhancer = compose(
 	withRouter,
 	withHandlers({
 		onGoToHomeClick: ({ history }) => () => {
@@ -46,4 +46,6 @@ export default compose(
 		}
 	}),
 	withStyles(styles)
-)(ErrorNotFound);
+);
+
+export default enhancer(ErrorNotFound);

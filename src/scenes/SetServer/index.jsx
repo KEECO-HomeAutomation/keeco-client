@@ -23,7 +23,7 @@ const styles = theme => ({
 	}
 });
 
-const SetServer = ({ path, setPath, onSubmitClick, classes }) => {
+export const SetServer = ({ path, setPath, onSubmitClick, classes }) => {
 	return (
 		<Paper className={classes.centerForm}>
 			<Typography variant="h6" gutterBottom>
@@ -52,7 +52,7 @@ SetServer.propTypes = {
 	classes: PropTypes.object
 };
 
-export default compose(
+export const enhancer = compose(
 	withRouter,
 	connect(
 		state => ({
@@ -70,4 +70,6 @@ export default compose(
 		}
 	}),
 	withStyles(styles)
-)(SetServer);
+);
+
+export default enhancer(SetServer);

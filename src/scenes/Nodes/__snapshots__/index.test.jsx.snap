@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Nodes /> Should match snapshot 1`] = `
-<p>
-  Nodes
-</p>
+<Nodes>
+  <p>
+    Nodes
+  </p>
+</Nodes>
 `;

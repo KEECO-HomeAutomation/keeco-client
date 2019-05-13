@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Charts = () => {
+export const Charts = () => {
 	return <p>Charts</p>;
 };
 

@@ -1,15 +1,15 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 
 import Nodes from './index';
 
 describe('<Nodes />', () => {
 	test('Should render without errors', () => {
-		const comp = shallow(<Nodes />);
+		const comp = mount(<Nodes />);
 		expect(comp.length).toBe(1);
 	});
 
 	test('Should match snapshot', () => {
-		expect(shallow(<Nodes />)).toMatchSnapshot();
+		expect(mount(<Nodes />)).toMatchSnapshot();
 	});
 });

@@ -1,15 +1,15 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 
 import Groups from './index';
 
 describe('<Groups />', () => {
 	test('Should render without errors', () => {
-		const comp = shallow(<Groups />);
+		const comp = mount(<Groups />);
 		expect(comp.length).toBe(1);
 	});
 
 	test('Should match snapshot', () => {
-		expect(shallow(<Groups />)).toMatchSnapshot();
+		expect(mount(<Groups />)).toMatchSnapshot();
 	});
 });
