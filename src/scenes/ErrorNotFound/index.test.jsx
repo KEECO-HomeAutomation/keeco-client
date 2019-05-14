@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 
 jest.mock('react-router-dom', () => ({
 	__esModule: true,
-	withRouter: Comp => props => <Comp {...props} history={props.mockedHistory} />
+	withRouter: Comp => props => <Comp {...props} {...props.mocks} />
 }));
 
 import ErrorNotFound, { ErrorNotFound as Base, enhancer } from './index';
@@ -29,7 +29,7 @@ describe('<ErrorNotFound />', () => {
 		const mockedHistory = {
 			push: jest.fn()
 		};
-		const comp = mount(<ErrorNotFound mockedHistory={mockedHistory} />);
+		const comp = mount(<ErrorNotFound mocks={{ history: mockedHistory }} />);
 		comp.find(Button).simulate('click');
 		expect(mockedHistory.push).toBeCalledTimes(1);
 		expect(mockedHistory.push).toBeCalledWith('/');

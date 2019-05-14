@@ -8,7 +8,7 @@ import {
 	renderComponent
 } from 'recompose';
 import { connect } from 'react-redux';
-import { withRouter, Redirect } from 'react-router';
+import { withRouter, Redirect } from 'react-router-dom';
 import { graphql } from 'react-apollo';
 import { withStyles } from '@material-ui/core/styles';
 import { setAuthToken } from '../../data/duck';
@@ -32,7 +32,7 @@ const styles = theme => ({
 	}
 });
 
-const Login = ({
+export const Login = ({
 	username,
 	password,
 	setUsername,
@@ -80,7 +80,7 @@ Login.propTypes = {
 	classes: PropTypes.object
 };
 
-export default compose(
+export const enhancer = compose(
 	withRouter,
 	connect(
 		state => ({
@@ -91,7 +91,7 @@ export default compose(
 		})
 	),
 	branch(
-		({ authToken }) => authToken !== null,
+		({ authToken }) => authToken != null,
 		renderComponent(() => <Redirect to="/" />)
 	),
 	withState('username', 'setUsername', ''),
@@ -118,4 +118,6 @@ export default compose(
 		}
 	}),
 	withStyles(styles)
-)(Login);
+);
+
+export default enhancer(Login);

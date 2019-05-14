@@ -1,15 +1,17 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
+
+jest.mock('./scenes', () => () => <p>Scenes</p>);
 
 import App from './App';
 
 describe('<App />', () => {
 	test('Renders without crashing', () => {
-		const comp = shallow(<App />);
+		const comp = mount(<App />);
 		expect(comp.length).toBe(1);
 	});
 
 	test('Should match snapshot', () => {
-		expect(shallow(<App />)).toMatchSnapshot();
+		expect(mount(<App />)).toMatchSnapshot();
 	});
 });

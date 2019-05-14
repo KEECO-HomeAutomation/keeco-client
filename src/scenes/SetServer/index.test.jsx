@@ -8,11 +8,12 @@ jest.mock('react-router-dom', () => ({
 
 jest.mock('react-redux', () => ({
 	__esModule: true,
-	connect: () => Comp => props => <Comp {...props} {...props.mocks} />
+	connect: jest.fn(() => Comp => props => <Comp {...props} {...props.mocks} />)
 }));
 
 import SetServer, { SetServer as Base, enhancer } from './index';
 
+import { connect } from 'react-redux';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
@@ -33,10 +34,10 @@ describe('<SetServer />', () => {
 
 	test('Tiping into text field should update its content', () => {
 		const comp = mount(<SetServer />);
-		const textField = comp.find(TextField);
-		textField.simulate('change', { target: { name: 'serverAddress', value: 'server.path:port' } });
-		comp.update();
-		expect(textField).toHaveValue('server.path:port');
+		comp
+			.find('input#serverAddress')
+			.simulate('change', { target: { value: 'server.path:port' } });
+		expect(comp.find(TextField)).toHaveValue('server.path:port');
 	});
 
 	test('Should have the value from the redux store', () => {
@@ -61,11 +62,25 @@ describe('<SetServer />', () => {
 				}}
 			/>
 		);
-		const button = comp.find(Button);
-		button.simulate('click');
+		comp.find(Button).simulate('click');
 		expect(mockedHistory.push).toBeCalledTimes(1);
 		expect(mockedHistory.push).toBeCalledWith('/');
 		expect(mockedSavePath).toBeCalledTimes(1);
 		expect(mockedSavePath).toBeCalledWith('server.path:port');
+	});
+
+	test('Redux connect should be called, should map state and dispatch', () => {
+		expect(connect).toBeCalled();
+		expect(connect).toBeCalledWith(expect.any(Function), expect.any(Function));
+		expect(
+			connect.mock.calls[0][0]({ app: { server: { path: 'test' } } })
+		).toEqual({ serverPath: 'test' });
+		const mockedDispatch = jest.fn();
+		connect.mock.calls[0][1](mockedDispatch).saveServerPath('path');
+		expect(mockedDispatch).toBeCalled();
+		expect(mockedDispatch).toBeCalledWith({
+			type: 'SERVER@SET',
+			payload: 'path'
+		});
 	});
 });
