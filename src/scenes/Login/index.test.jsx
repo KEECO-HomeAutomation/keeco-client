@@ -4,7 +4,7 @@ import { mount } from 'enzyme';
 jest.mock('react-router-dom', () => ({
 	__esModule: true,
 	withRouter: Comp => props => <Comp {...props} {...props.mocks} />,
-	Redirect: Comp => jest.fn(props => <Comp {...props} />)
+	Redirect: () => <p>Redirect</p>
 }));
 
 jest.mock('react-redux', () => ({
@@ -21,6 +21,7 @@ import Login, { Login as Base, enhancer } from './index';
 
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
+import { graphql } from 'react-apollo';
 import Button from '@material-ui/core/Button';
 
 describe('<Login />', () => {
@@ -71,12 +72,59 @@ describe('<Login />', () => {
 	});
 
 	test('When already logged in, should redirect', () => {
-		const comp=mount(<Login mocks={{authToken: 'token'}} />);
+		const comp = mount(<Login mocks={{ authToken: 'token' }} />);
 		expect(comp).toMatchSnapshot();
 		expect(comp).toContainReact(<Redirect to="/" />);
 	});
 
 	test('Should connect state and dispatch', () => {
-		
-	})
+		expect(connect).toBeCalled();
+		expect(connect).toBeCalledWith(expect.any(Function), expect.any(Function));
+		expect(
+			connect.mock.calls[0][0]({ app: { login: { token: 'token' } } })
+		).toEqual({ authToken: 'token' });
+		const mockedDispatch = jest.fn();
+		connect.mock.calls[0][1](mockedDispatch).setAuthToken('token');
+		expect(mockedDispatch).toBeCalledTimes(1);
+		expect(mockedDispatch).toBeCalledWith({
+			type: 'LOGIN@SET_TOKEN',
+			payload: 'token'
+		});
+	});
+
+	test('graphql should be called', () => {
+		expect(graphql).toBeCalled();
+		expect(graphql).toBeCalledWith(expect.any(Object), expect.any(Object));
+	});
+
+	test('graphql should map props', () => {
+		const gconf = graphql.mock.calls[0][1];
+		expect(gconf.props({ mutate: 'mockedMutate' })).toEqual({
+			login: 'mockedMutate'
+		});
+
+		const mockedHistory = { push: jest.fn() };
+		const mockedSetToken = jest.fn();
+		const goptions = gconf.options({
+			history: mockedHistory,
+			setAuthToken: mockedSetToken
+		});
+		expect(goptions).toEqual(
+			expect.objectContaining({
+				onCompleted: expect.any(Function),
+				onError: expect.any(Function)
+			})
+		);
+
+		goptions.onCompleted({ login: { token: 'token' } });
+		expect(mockedHistory.push).toBeCalledTimes(1);
+		expect(mockedHistory.push).toBeCalledWith('/');
+		expect(mockedSetToken).toBeCalledTimes(1);
+		expect(mockedSetToken).toBeCalledWith('token');
+
+		global.alert = jest.fn();
+		goptions.onError();
+		expect(alert).toBeCalledTimes(1);
+		expect(alert).toBeCalledWith('Wrong username or password');
+	});
 });

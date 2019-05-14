@@ -85,7 +85,7 @@ const styles = theme => ({
 	}
 });
 
-const Dashboard = ({
+export const Dashboard = ({
 	isDrawerOpen,
 	toggleDrawerOpen,
 	goTo,
@@ -103,6 +103,7 @@ const Dashboard = ({
 			>
 				<Toolbar className={classes.toolbar}>
 					<IconButton
+						id="openDrawerBtn"
 						className={classNames({
 							[classes.menuButton]: true,
 							[classes.menuButtonClosed]: isDrawerOpen
@@ -132,36 +133,36 @@ const Dashboard = ({
 				}}
 			>
 				<div className={classes.drawerHeader}>
-					<IconButton onClick={toggleDrawerOpen}>
+					<IconButton id="closeDrawerBtn" onClick={toggleDrawerOpen}>
 						<ChevronLeftIcon />
 					</IconButton>
 				</div>
 				<List>
-					<ListItem button onClick={() => goTo('/')}>
+					<ListItem id="goToDashboardBtn" button onClick={() => goTo('/')}>
 						<ListItemIcon>
 							<DashboardIcon />
 						</ListItemIcon>
 						<ListItemText>Dashboard</ListItemText>
 					</ListItem>
-					<ListItem button onClick={() => goTo('/nodes')}>
+					<ListItem id="goToNodesBtn" button onClick={() => goTo('/nodes')}>
 						<ListItemIcon>
 							<DeviceHubIcon />
 						</ListItemIcon>
 						<ListItemText>Nodes</ListItemText>
 					</ListItem>
-					<ListItem button onClick={() => goTo('/groups')}>
+					<ListItem id="goToGroupsBtn" button onClick={() => goTo('/groups')}>
 						<ListItemIcon>
 							<LayersIcon />
 						</ListItemIcon>
 						<ListItemText>Groups</ListItemText>
 					</ListItem>
-					<ListItem button onClick={() => goTo('/charts')}>
+					<ListItem id="goToChartsBtn" button onClick={() => goTo('/charts')}>
 						<ListItemIcon>
 							<BarChartIcon />
 						</ListItemIcon>
 						<ListItemText>Charts</ListItemText>
 					</ListItem>
-					<ListItem button onClick={() => goTo('/users')}>
+					<ListItem id="goToUsersBtn" button onClick={() => goTo('/users')}>
 						<ListItemIcon>
 							<GroupIcon />
 						</ListItemIcon>
@@ -170,7 +171,7 @@ const Dashboard = ({
 				</List>
 				<Divider />
 				<List>
-					<ListItem button onClick={onLogoutClick}>
+					<ListItem id="logOutBtn" button onClick={onLogoutClick}>
 						<ListItemIcon>
 							<PowerSettingsNewIcon />
 						</ListItemIcon>
@@ -199,11 +200,11 @@ Dashboard.propTypes = {
 	classes: PropTypes.object
 };
 
-export default compose(
+export const enhancer = compose(
 	connect(
 		state => ({
-			isServerPath: state.app.server.path !== null,
-			isAuthToken: state.app.login.token !== null,
+			isServerPath: state.app.server.path != null,
+			isAuthToken: state.app.login.token != null,
 			isDrawerOpen: state.dashboard.drawer.open
 		}),
 		dispatch => ({
@@ -229,4 +230,6 @@ export default compose(
 		}
 	}),
 	withStyles(styles)
-)(Dashboard);
+);
+
+export default enhancer(Dashboard);

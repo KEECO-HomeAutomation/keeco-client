@@ -1381,7 +1381,11 @@ exports[`<Login /> When already logged in, should redirect 1`] = `
         >
           <Redirect
             to="/"
-          />
+          >
+            <p>
+              Redirect
+            </p>
+          </Redirect>
         </Component>
       </renderComponent(Component)>
     </branch(withState(withState(Component)))>
