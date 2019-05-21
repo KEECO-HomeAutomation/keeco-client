@@ -1,3 +1,5 @@
+/* eslint-disable react/display-name */
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { mount } from 'enzyme';
 
@@ -27,7 +29,7 @@ jest.mock('react-redux', () => ({
 
 import Dashboard, { Dashboard as Base, enhancer } from './index';
 
-import { withRouter, Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 describe('<Dashboard />', () => {
