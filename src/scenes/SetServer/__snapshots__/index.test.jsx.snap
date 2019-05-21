@@ -1,0 +1,989 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SetServer /> Should match snapshot 1`] = `
+<Component>
+  <Component>
+    <withState(withHandlers(WithStyles(SetServer)))>
+      <withHandlers(WithStyles(SetServer))
+        path=""
+        setPath={[Function]}
+      >
+        <WithStyles(SetServer)
+          onSubmitClick={[Function]}
+          path=""
+          setPath={[Function]}
+        >
+          <SetServer
+            classes={
+              Object {
+                "centerForm": "SetServer-centerForm-1",
+                "textField": "SetServer-textField-2",
+              }
+            }
+            onSubmitClick={[Function]}
+            path=""
+            setPath={[Function]}
+          >
+            <WithStyles(Paper)
+              className="SetServer-centerForm-1"
+            >
+              <Paper
+                className="SetServer-centerForm-1"
+                classes={
+                  Object {
+                    "elevation0": "MuiPaper-elevation0-5",
+                    "elevation1": "MuiPaper-elevation1-6",
+                    "elevation10": "MuiPaper-elevation10-15",
+                    "elevation11": "MuiPaper-elevation11-16",
+                    "elevation12": "MuiPaper-elevation12-17",
+                    "elevation13": "MuiPaper-elevation13-18",
+                    "elevation14": "MuiPaper-elevation14-19",
+                    "elevation15": "MuiPaper-elevation15-20",
+                    "elevation16": "MuiPaper-elevation16-21",
+                    "elevation17": "MuiPaper-elevation17-22",
+                    "elevation18": "MuiPaper-elevation18-23",
+                    "elevation19": "MuiPaper-elevation19-24",
+                    "elevation2": "MuiPaper-elevation2-7",
+                    "elevation20": "MuiPaper-elevation20-25",
+                    "elevation21": "MuiPaper-elevation21-26",
+                    "elevation22": "MuiPaper-elevation22-27",
+                    "elevation23": "MuiPaper-elevation23-28",
+                    "elevation24": "MuiPaper-elevation24-29",
+                    "elevation3": "MuiPaper-elevation3-8",
+                    "elevation4": "MuiPaper-elevation4-9",
+                    "elevation5": "MuiPaper-elevation5-10",
+                    "elevation6": "MuiPaper-elevation6-11",
+                    "elevation7": "MuiPaper-elevation7-12",
+                    "elevation8": "MuiPaper-elevation8-13",
+                    "elevation9": "MuiPaper-elevation9-14",
+                    "root": "MuiPaper-root-3",
+                    "rounded": "MuiPaper-rounded-4",
+                  }
+                }
+                component="div"
+                elevation={2}
+                square={false}
+              >
+                <div
+                  className="MuiPaper-root-3 MuiPaper-elevation2-7 MuiPaper-rounded-4 SetServer-centerForm-1"
+                >
+                  <WithStyles(Typography)
+                    gutterBottom={true}
+                    variant="h6"
+                  >
+                    <Typography
+                      align="inherit"
+                      classes={
+                        Object {
+                          "alignCenter": "MuiTypography-alignCenter-53",
+                          "alignJustify": "MuiTypography-alignJustify-55",
+                          "alignLeft": "MuiTypography-alignLeft-52",
+                          "alignRight": "MuiTypography-alignRight-54",
+                          "body1": "MuiTypography-body1-39",
+                          "body2": "MuiTypography-body2-38",
+                          "button": "MuiTypography-button-41",
+                          "caption": "MuiTypography-caption-40",
+                          "colorError": "MuiTypography-colorError-64",
+                          "colorInherit": "MuiTypography-colorInherit-59",
+                          "colorPrimary": "MuiTypography-colorPrimary-60",
+                          "colorSecondary": "MuiTypography-colorSecondary-61",
+                          "colorTextPrimary": "MuiTypography-colorTextPrimary-62",
+                          "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
+                          "display1": "MuiTypography-display1-34",
+                          "display2": "MuiTypography-display2-33",
+                          "display3": "MuiTypography-display3-32",
+                          "display4": "MuiTypography-display4-31",
+                          "gutterBottom": "MuiTypography-gutterBottom-57",
+                          "h1": "MuiTypography-h1-42",
+                          "h2": "MuiTypography-h2-43",
+                          "h3": "MuiTypography-h3-44",
+                          "h4": "MuiTypography-h4-45",
+                          "h5": "MuiTypography-h5-46",
+                          "h6": "MuiTypography-h6-47",
+                          "headline": "MuiTypography-headline-35",
+                          "inline": "MuiTypography-inline-65",
+                          "noWrap": "MuiTypography-noWrap-56",
+                          "overline": "MuiTypography-overline-50",
+                          "paragraph": "MuiTypography-paragraph-58",
+                          "root": "MuiTypography-root-30",
+                          "srOnly": "MuiTypography-srOnly-51",
+                          "subheading": "MuiTypography-subheading-37",
+                          "subtitle1": "MuiTypography-subtitle1-48",
+                          "subtitle2": "MuiTypography-subtitle2-49",
+                          "title": "MuiTypography-title-36",
+                        }
+                      }
+                      color="default"
+                      gutterBottom={true}
+                      headlineMapping={
+                        Object {
+                          "body1": "p",
+                          "body2": "p",
+                          "display1": "h1",
+                          "display2": "h1",
+                          "display3": "h1",
+                          "display4": "h1",
+                          "h1": "h1",
+                          "h2": "h2",
+                          "h3": "h3",
+                          "h4": "h4",
+                          "h5": "h5",
+                          "h6": "h6",
+                          "headline": "h1",
+                          "subheading": "h3",
+                          "subtitle1": "h6",
+                          "subtitle2": "h6",
+                          "title": "h2",
+                        }
+                      }
+                      inline={false}
+                      noWrap={false}
+                      paragraph={false}
+                      theme={
+                        Object {
+                          "breakpoints": Object {
+                            "between": [Function],
+                            "down": [Function],
+                            "keys": Array [
+                              "xs",
+                              "sm",
+                              "md",
+                              "lg",
+                              "xl",
+                            ],
+                            "only": [Function],
+                            "up": [Function],
+                            "values": Object {
+                              "lg": 1280,
+                              "md": 960,
+                              "sm": 600,
+                              "xl": 1920,
+                              "xs": 0,
+                            },
+                            "width": [Function],
+                          },
+                          "direction": "ltr",
+                          "mixins": Object {
+                            "gutters": [Function],
+                            "toolbar": Object {
+                              "@media (min-width:0px) and (orientation: landscape)": Object {
+                                "minHeight": 48,
+                              },
+                              "@media (min-width:600px)": Object {
+                                "minHeight": 64,
+                              },
+                              "minHeight": 56,
+                            },
+                          },
+                          "overrides": Object {},
+                          "palette": Object {
+                            "action": Object {
+                              "active": "rgba(0, 0, 0, 0.54)",
+                              "disabled": "rgba(0, 0, 0, 0.26)",
+                              "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                              "hover": "rgba(0, 0, 0, 0.08)",
+                              "hoverOpacity": 0.08,
+                              "selected": "rgba(0, 0, 0, 0.14)",
+                            },
+                            "augmentColor": [Function],
+                            "background": Object {
+                              "default": "#fafafa",
+                              "paper": "#fff",
+                            },
+                            "common": Object {
+                              "black": "#000",
+                              "white": "#fff",
+                            },
+                            "contrastThreshold": 3,
+                            "divider": "rgba(0, 0, 0, 0.12)",
+                            "error": Object {
+                              "contrastText": "#fff",
+                              "dark": "#d32f2f",
+                              "light": "#e57373",
+                              "main": "#f44336",
+                            },
+                            "getContrastText": [Function],
+                            "grey": Object {
+                              "100": "#f5f5f5",
+                              "200": "#eeeeee",
+                              "300": "#e0e0e0",
+                              "400": "#bdbdbd",
+                              "50": "#fafafa",
+                              "500": "#9e9e9e",
+                              "600": "#757575",
+                              "700": "#616161",
+                              "800": "#424242",
+                              "900": "#212121",
+                              "A100": "#d5d5d5",
+                              "A200": "#aaaaaa",
+                              "A400": "#303030",
+                              "A700": "#616161",
+                            },
+                            "primary": Object {
+                              "contrastText": "#fff",
+                              "dark": "#303f9f",
+                              "light": "#7986cb",
+                              "main": "#3f51b5",
+                            },
+                            "secondary": Object {
+                              "contrastText": "#fff",
+                              "dark": "#c51162",
+                              "light": "#ff4081",
+                              "main": "#f50057",
+                            },
+                            "text": Object {
+                              "disabled": "rgba(0, 0, 0, 0.38)",
+                              "hint": "rgba(0, 0, 0, 0.38)",
+                              "primary": "rgba(0, 0, 0, 0.87)",
+                              "secondary": "rgba(0, 0, 0, 0.54)",
+                            },
+                            "tonalOffset": 0.2,
+                            "type": "light",
+                          },
+                          "props": Object {},
+                          "shadows": Array [
+                            "none",
+                            "0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12)",
+                            "0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12)",
+                            "0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12)",
+                            "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                            "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                            "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                            "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                            "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                            "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                            "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                            "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                            "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                            "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                            "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                            "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                            "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                            "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                            "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                            "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                            "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                            "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                            "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                            "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                            "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                          ],
+                          "shape": Object {
+                            "borderRadius": 4,
+                          },
+                          "spacing": Object {
+                            "unit": 8,
+                          },
+                          "transitions": Object {
+                            "create": [Function],
+                            "duration": Object {
+                              "complex": 375,
+                              "enteringScreen": 225,
+                              "leavingScreen": 195,
+                              "short": 250,
+                              "shorter": 200,
+                              "shortest": 150,
+                              "standard": 300,
+                            },
+                            "easing": Object {
+                              "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                              "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                              "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                              "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                            },
+                            "getAutoHeightDuration": [Function],
+                          },
+                          "typography": Object {
+                            "body1": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.875rem",
+                              "fontWeight": 400,
+                              "lineHeight": "1.46429em",
+                            },
+                            "body1Next": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0.00938em",
+                              "lineHeight": 1.5,
+                            },
+                            "body2": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.875rem",
+                              "fontWeight": 500,
+                              "lineHeight": "1.71429em",
+                            },
+                            "body2Next": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.875rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0.01071em",
+                              "lineHeight": 1.5,
+                            },
+                            "button": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.875rem",
+                              "fontWeight": 500,
+                              "textTransform": "uppercase",
+                            },
+                            "buttonNext": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.875rem",
+                              "fontWeight": 500,
+                              "letterSpacing": "0.02857em",
+                              "lineHeight": 1.75,
+                              "textTransform": "uppercase",
+                            },
+                            "caption": Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.75rem",
+                              "fontWeight": 400,
+                              "lineHeight": "1.375em",
+                            },
+                            "captionNext": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.75rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0.03333em",
+                              "lineHeight": 1.66,
+                            },
+                            "display1": Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "2.125rem",
+                              "fontWeight": 400,
+                              "lineHeight": "1.20588em",
+                            },
+                            "display2": Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "2.8125rem",
+                              "fontWeight": 400,
+                              "lineHeight": "1.13333em",
+                              "marginLeft": "-.02em",
+                            },
+                            "display3": Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "3.5rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "-.02em",
+                              "lineHeight": "1.30357em",
+                              "marginLeft": "-.02em",
+                            },
+                            "display4": Object {
+                              "color": "rgba(0, 0, 0, 0.54)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "7rem",
+                              "fontWeight": 300,
+                              "letterSpacing": "-.04em",
+                              "lineHeight": "1.14286em",
+                              "marginLeft": "-.04em",
+                            },
+                            "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                            "fontSize": 14,
+                            "fontWeightLight": 300,
+                            "fontWeightMedium": 500,
+                            "fontWeightRegular": 400,
+                            "h1": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "6rem",
+                              "fontWeight": 300,
+                              "letterSpacing": "-0.01562em",
+                              "lineHeight": 1,
+                            },
+                            "h2": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "3.75rem",
+                              "fontWeight": 300,
+                              "letterSpacing": "-0.00833em",
+                              "lineHeight": 1,
+                            },
+                            "h3": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "3rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0em",
+                              "lineHeight": 1.04,
+                            },
+                            "h4": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "2.125rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0.00735em",
+                              "lineHeight": 1.17,
+                            },
+                            "h5": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1.5rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0em",
+                              "lineHeight": 1.33,
+                            },
+                            "h6": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1.25rem",
+                              "fontWeight": 500,
+                              "letterSpacing": "0.0075em",
+                              "lineHeight": 1.6,
+                            },
+                            "headline": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1.5rem",
+                              "fontWeight": 400,
+                              "lineHeight": "1.35417em",
+                            },
+                            "overline": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.75rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0.08333em",
+                              "lineHeight": 2.66,
+                              "textTransform": "uppercase",
+                            },
+                            "pxToRem": [Function],
+                            "round": [Function],
+                            "subheading": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1rem",
+                              "fontWeight": 400,
+                              "lineHeight": "1.5em",
+                            },
+                            "subtitle1": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1rem",
+                              "fontWeight": 400,
+                              "letterSpacing": "0.00938em",
+                              "lineHeight": 1.75,
+                            },
+                            "subtitle2": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "0.875rem",
+                              "fontWeight": 500,
+                              "letterSpacing": "0.00714em",
+                              "lineHeight": 1.57,
+                            },
+                            "title": Object {
+                              "color": "rgba(0, 0, 0, 0.87)",
+                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                              "fontSize": "1.3125rem",
+                              "fontWeight": 500,
+                              "lineHeight": "1.16667em",
+                            },
+                            "useNextVariants": false,
+                          },
+                          "zIndex": Object {
+                            "appBar": 1100,
+                            "drawer": 1200,
+                            "mobileStepper": 1000,
+                            "modal": 1300,
+                            "snackbar": 1400,
+                            "tooltip": 1500,
+                          },
+                        }
+                      }
+                      variant="h6"
+                    >
+                      <h6
+                        className="MuiTypography-root-30 MuiTypography-h6-47 MuiTypography-gutterBottom-57"
+                      >
+                        Set server address
+                      </h6>
+                    </Typography>
+                  </WithStyles(Typography)>
+                  <TextField
+                    className="SetServer-textField-2"
+                    id="serverAddress"
+                    label="Server address"
+                    onChange={[Function]}
+                    required={true}
+                    select={false}
+                    value=""
+                    variant="standard"
+                  >
+                    <WithStyles(FormControl)
+                      className="SetServer-textField-2"
+                      required={true}
+                      variant="standard"
+                    >
+                      <FormControl
+                        className="SetServer-textField-2"
+                        classes={
+                          Object {
+                            "fullWidth": "MuiFormControl-fullWidth-69",
+                            "marginDense": "MuiFormControl-marginDense-68",
+                            "marginNormal": "MuiFormControl-marginNormal-67",
+                            "root": "MuiFormControl-root-66",
+                          }
+                        }
+                        component="div"
+                        disabled={false}
+                        error={false}
+                        fullWidth={false}
+                        margin="none"
+                        required={true}
+                        variant="standard"
+                      >
+                        <div
+                          className="MuiFormControl-root-66 SetServer-textField-2"
+                        >
+                          <WithStyles(WithFormControlContext(InputLabel))
+                            htmlFor="serverAddress"
+                          >
+                            <WithFormControlContext(InputLabel)
+                              classes={
+                                Object {
+                                  "animated": "MuiInputLabel-animated-78",
+                                  "disabled": "MuiInputLabel-disabled-72",
+                                  "error": "MuiInputLabel-error-73",
+                                  "filled": "MuiInputLabel-filled-79",
+                                  "focused": "MuiInputLabel-focused-71",
+                                  "formControl": "MuiInputLabel-formControl-75",
+                                  "marginDense": "MuiInputLabel-marginDense-76",
+                                  "outlined": "MuiInputLabel-outlined-80",
+                                  "required": "MuiInputLabel-required-74",
+                                  "root": "MuiInputLabel-root-70",
+                                  "shrink": "MuiInputLabel-shrink-77",
+                                }
+                              }
+                              htmlFor="serverAddress"
+                            >
+                              <InputLabel
+                                classes={
+                                  Object {
+                                    "animated": "MuiInputLabel-animated-78",
+                                    "disabled": "MuiInputLabel-disabled-72",
+                                    "error": "MuiInputLabel-error-73",
+                                    "filled": "MuiInputLabel-filled-79",
+                                    "focused": "MuiInputLabel-focused-71",
+                                    "formControl": "MuiInputLabel-formControl-75",
+                                    "marginDense": "MuiInputLabel-marginDense-76",
+                                    "outlined": "MuiInputLabel-outlined-80",
+                                    "required": "MuiInputLabel-required-74",
+                                    "root": "MuiInputLabel-root-70",
+                                    "shrink": "MuiInputLabel-shrink-77",
+                                  }
+                                }
+                                disableAnimation={false}
+                                htmlFor="serverAddress"
+                                muiFormControl={
+                                  Object {
+                                    "adornedStart": false,
+                                    "disabled": false,
+                                    "error": false,
+                                    "filled": false,
+                                    "focused": false,
+                                    "margin": "none",
+                                    "onBlur": [Function],
+                                    "onEmpty": [Function],
+                                    "onFilled": [Function],
+                                    "onFocus": [Function],
+                                    "required": true,
+                                    "variant": "standard",
+                                  }
+                                }
+                              >
+                                <WithStyles(WithFormControlContext(FormLabel))
+                                  className="MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                  classes={
+                                    Object {
+                                      "disabled": "MuiInputLabel-disabled-72",
+                                      "error": "MuiInputLabel-error-73",
+                                      "focused": "MuiInputLabel-focused-71",
+                                      "required": "MuiInputLabel-required-74",
+                                    }
+                                  }
+                                  data-shrink={false}
+                                  htmlFor="serverAddress"
+                                >
+                                  <WithFormControlContext(FormLabel)
+                                    className="MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                    classes={
+                                      Object {
+                                        "asterisk": "MuiFormLabel-asterisk-87",
+                                        "disabled": "MuiFormLabel-disabled-83 MuiInputLabel-disabled-72",
+                                        "error": "MuiFormLabel-error-84 MuiInputLabel-error-73",
+                                        "filled": "MuiFormLabel-filled-85",
+                                        "focused": "MuiFormLabel-focused-82 MuiInputLabel-focused-71",
+                                        "required": "MuiFormLabel-required-86 MuiInputLabel-required-74",
+                                        "root": "MuiFormLabel-root-81",
+                                      }
+                                    }
+                                    data-shrink={false}
+                                    htmlFor="serverAddress"
+                                  >
+                                    <FormLabel
+                                      className="MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                      classes={
+                                        Object {
+                                          "asterisk": "MuiFormLabel-asterisk-87",
+                                          "disabled": "MuiFormLabel-disabled-83 MuiInputLabel-disabled-72",
+                                          "error": "MuiFormLabel-error-84 MuiInputLabel-error-73",
+                                          "filled": "MuiFormLabel-filled-85",
+                                          "focused": "MuiFormLabel-focused-82 MuiInputLabel-focused-71",
+                                          "required": "MuiFormLabel-required-86 MuiInputLabel-required-74",
+                                          "root": "MuiFormLabel-root-81",
+                                        }
+                                      }
+                                      component="label"
+                                      data-shrink={false}
+                                      htmlFor="serverAddress"
+                                      muiFormControl={
+                                        Object {
+                                          "adornedStart": false,
+                                          "disabled": false,
+                                          "error": false,
+                                          "filled": false,
+                                          "focused": false,
+                                          "margin": "none",
+                                          "onBlur": [Function],
+                                          "onEmpty": [Function],
+                                          "onFilled": [Function],
+                                          "onFocus": [Function],
+                                          "required": true,
+                                          "variant": "standard",
+                                        }
+                                      }
+                                    >
+                                      <label
+                                        className="MuiFormLabel-root-81 MuiFormLabel-required-86 MuiInputLabel-required-74 MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                        data-shrink={false}
+                                        htmlFor="serverAddress"
+                                      >
+                                        Server address
+                                        <span
+                                          className="MuiFormLabel-asterisk-87"
+                                        >
+                                           *
+                                        </span>
+                                      </label>
+                                    </FormLabel>
+                                  </WithFormControlContext(FormLabel)>
+                                </WithStyles(WithFormControlContext(FormLabel))>
+                              </InputLabel>
+                            </WithFormControlContext(InputLabel)>
+                          </WithStyles(WithFormControlContext(InputLabel))>
+                          <WithStyles(Input)
+                            id="serverAddress"
+                            onChange={[Function]}
+                            value=""
+                          >
+                            <Input
+                              classes={
+                                Object {
+                                  "disabled": "MuiInput-disabled-91",
+                                  "error": "MuiInput-error-93",
+                                  "focused": "MuiInput-focused-90",
+                                  "formControl": "MuiInput-formControl-89",
+                                  "fullWidth": "MuiInput-fullWidth-95",
+                                  "input": "MuiInput-input-96",
+                                  "inputMarginDense": "MuiInput-inputMarginDense-97",
+                                  "inputMultiline": "MuiInput-inputMultiline-98",
+                                  "inputType": "MuiInput-inputType-99",
+                                  "inputTypeSearch": "MuiInput-inputTypeSearch-100",
+                                  "multiline": "MuiInput-multiline-94",
+                                  "root": "MuiInput-root-88",
+                                  "underline": "MuiInput-underline-92",
+                                }
+                              }
+                              id="serverAddress"
+                              onChange={[Function]}
+                              value=""
+                            >
+                              <WithStyles(WithFormControlContext(InputBase))
+                                classes={
+                                  Object {
+                                    "disabled": "MuiInput-disabled-91",
+                                    "error": "MuiInput-error-93",
+                                    "focused": "MuiInput-focused-90",
+                                    "formControl": "MuiInput-formControl-89",
+                                    "fullWidth": "MuiInput-fullWidth-95",
+                                    "input": "MuiInput-input-96",
+                                    "inputMarginDense": "MuiInput-inputMarginDense-97",
+                                    "inputMultiline": "MuiInput-inputMultiline-98",
+                                    "inputType": "MuiInput-inputType-99",
+                                    "inputTypeSearch": "MuiInput-inputTypeSearch-100",
+                                    "multiline": "MuiInput-multiline-94",
+                                    "root": "MuiInput-root-88 MuiInput-underline-92",
+                                    "underline": null,
+                                  }
+                                }
+                                fullWidth={false}
+                                id="serverAddress"
+                                inputComponent="input"
+                                multiline={false}
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                              >
+                                <WithFormControlContext(InputBase)
+                                  classes={
+                                    Object {
+                                      "adornedEnd": "MuiInputBase-adornedEnd-106",
+                                      "adornedStart": "MuiInputBase-adornedStart-105",
+                                      "disabled": "MuiInputBase-disabled-104 MuiInput-disabled-91",
+                                      "error": "MuiInputBase-error-107 MuiInput-error-93",
+                                      "focused": "MuiInputBase-focused-103 MuiInput-focused-90",
+                                      "formControl": "MuiInputBase-formControl-102 MuiInput-formControl-89",
+                                      "fullWidth": "MuiInputBase-fullWidth-110 MuiInput-fullWidth-95",
+                                      "input": "MuiInputBase-input-111 MuiInput-input-96",
+                                      "inputAdornedEnd": "MuiInputBase-inputAdornedEnd-117",
+                                      "inputAdornedStart": "MuiInputBase-inputAdornedStart-116",
+                                      "inputMarginDense": "MuiInputBase-inputMarginDense-112 MuiInput-inputMarginDense-97",
+                                      "inputMultiline": "MuiInputBase-inputMultiline-113 MuiInput-inputMultiline-98",
+                                      "inputType": "MuiInputBase-inputType-114 MuiInput-inputType-99",
+                                      "inputTypeSearch": "MuiInputBase-inputTypeSearch-115 MuiInput-inputTypeSearch-100",
+                                      "marginDense": "MuiInputBase-marginDense-108",
+                                      "multiline": "MuiInputBase-multiline-109 MuiInput-multiline-94",
+                                      "root": "MuiInputBase-root-101 MuiInput-root-88 MuiInput-underline-92",
+                                    }
+                                  }
+                                  fullWidth={false}
+                                  id="serverAddress"
+                                  inputComponent="input"
+                                  multiline={false}
+                                  onChange={[Function]}
+                                  type="text"
+                                  value=""
+                                >
+                                  <InputBase
+                                    classes={
+                                      Object {
+                                        "adornedEnd": "MuiInputBase-adornedEnd-106",
+                                        "adornedStart": "MuiInputBase-adornedStart-105",
+                                        "disabled": "MuiInputBase-disabled-104 MuiInput-disabled-91",
+                                        "error": "MuiInputBase-error-107 MuiInput-error-93",
+                                        "focused": "MuiInputBase-focused-103 MuiInput-focused-90",
+                                        "formControl": "MuiInputBase-formControl-102 MuiInput-formControl-89",
+                                        "fullWidth": "MuiInputBase-fullWidth-110 MuiInput-fullWidth-95",
+                                        "input": "MuiInputBase-input-111 MuiInput-input-96",
+                                        "inputAdornedEnd": "MuiInputBase-inputAdornedEnd-117",
+                                        "inputAdornedStart": "MuiInputBase-inputAdornedStart-116",
+                                        "inputMarginDense": "MuiInputBase-inputMarginDense-112 MuiInput-inputMarginDense-97",
+                                        "inputMultiline": "MuiInputBase-inputMultiline-113 MuiInput-inputMultiline-98",
+                                        "inputType": "MuiInputBase-inputType-114 MuiInput-inputType-99",
+                                        "inputTypeSearch": "MuiInputBase-inputTypeSearch-115 MuiInput-inputTypeSearch-100",
+                                        "marginDense": "MuiInputBase-marginDense-108",
+                                        "multiline": "MuiInputBase-multiline-109 MuiInput-multiline-94",
+                                        "root": "MuiInputBase-root-101 MuiInput-root-88 MuiInput-underline-92",
+                                      }
+                                    }
+                                    fullWidth={false}
+                                    id="serverAddress"
+                                    inputComponent="input"
+                                    muiFormControl={
+                                      Object {
+                                        "adornedStart": false,
+                                        "disabled": false,
+                                        "error": false,
+                                        "filled": false,
+                                        "focused": false,
+                                        "margin": "none",
+                                        "onBlur": [Function],
+                                        "onEmpty": [Function],
+                                        "onFilled": [Function],
+                                        "onFocus": [Function],
+                                        "required": true,
+                                        "variant": "standard",
+                                      }
+                                    }
+                                    multiline={false}
+                                    onChange={[Function]}
+                                    type="text"
+                                    value=""
+                                  >
+                                    <div
+                                      className="MuiInputBase-root-101 MuiInput-root-88 MuiInput-underline-92 MuiInputBase-formControl-102 MuiInput-formControl-89"
+                                      onClick={[Function]}
+                                    >
+                                      <input
+                                        aria-invalid={false}
+                                        className="MuiInputBase-input-111 MuiInput-input-96"
+                                        disabled={false}
+                                        id="serverAddress"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        required={true}
+                                        type="text"
+                                        value=""
+                                      />
+                                    </div>
+                                  </InputBase>
+                                </WithFormControlContext(InputBase)>
+                              </WithStyles(WithFormControlContext(InputBase))>
+                            </Input>
+                          </WithStyles(Input)>
+                        </div>
+                      </FormControl>
+                    </WithStyles(FormControl)>
+                  </TextField>
+                  <br />
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                  >
+                    <Button
+                      classes={
+                        Object {
+                          "colorInherit": "MuiButton-colorInherit-139",
+                          "contained": "MuiButton-contained-129",
+                          "containedPrimary": "MuiButton-containedPrimary-130",
+                          "containedSecondary": "MuiButton-containedSecondary-131",
+                          "disabled": "MuiButton-disabled-138",
+                          "extendedFab": "MuiButton-extendedFab-136",
+                          "fab": "MuiButton-fab-135",
+                          "flat": "MuiButton-flat-123",
+                          "flatPrimary": "MuiButton-flatPrimary-124",
+                          "flatSecondary": "MuiButton-flatSecondary-125",
+                          "focusVisible": "MuiButton-focusVisible-137",
+                          "fullWidth": "MuiButton-fullWidth-143",
+                          "label": "MuiButton-label-119",
+                          "mini": "MuiButton-mini-140",
+                          "outlined": "MuiButton-outlined-126",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary-127",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary-128",
+                          "raised": "MuiButton-raised-132",
+                          "raisedPrimary": "MuiButton-raisedPrimary-133",
+                          "raisedSecondary": "MuiButton-raisedSecondary-134",
+                          "root": "MuiButton-root-118",
+                          "sizeLarge": "MuiButton-sizeLarge-142",
+                          "sizeSmall": "MuiButton-sizeSmall-141",
+                          "text": "MuiButton-text-120",
+                          "textPrimary": "MuiButton-textPrimary-121",
+                          "textSecondary": "MuiButton-textSecondary-122",
+                        }
+                      }
+                      color="primary"
+                      component="button"
+                      disableFocusRipple={false}
+                      disabled={false}
+                      fullWidth={false}
+                      mini={false}
+                      onClick={[Function]}
+                      size="medium"
+                      type="button"
+                      variant="text"
+                    >
+                      <WithStyles(ButtonBase)
+                        className="MuiButton-root-118 MuiButton-text-120 MuiButton-textPrimary-121 MuiButton-flat-123 MuiButton-flatPrimary-124"
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="MuiButton-focusVisible-137"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <ButtonBase
+                          centerRipple={false}
+                          className="MuiButton-root-118 MuiButton-text-120 MuiButton-textPrimary-121 MuiButton-flat-123 MuiButton-flatPrimary-124"
+                          classes={
+                            Object {
+                              "disabled": "MuiButtonBase-disabled-145",
+                              "focusVisible": "MuiButtonBase-focusVisible-146",
+                              "root": "MuiButtonBase-root-144",
+                            }
+                          }
+                          component="button"
+                          disableRipple={false}
+                          disableTouchRipple={false}
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="MuiButton-focusVisible-137"
+                          onClick={[Function]}
+                          tabIndex="0"
+                          type="button"
+                        >
+                          <button
+                            className="MuiButtonBase-root-144 MuiButton-root-118 MuiButton-text-120 MuiButton-textPrimary-121 MuiButton-flat-123 MuiButton-flatPrimary-124"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onContextMenu={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex="0"
+                            type="button"
+                          >
+                            <span
+                              className="MuiButton-label-119"
+                            >
+                              Submit
+                            </span>
+                            <NoSsr
+                              defer={false}
+                              fallback={null}
+                            >
+                              <WithStyles(TouchRipple)
+                                center={false}
+                                innerRef={[Function]}
+                              >
+                                <TouchRipple
+                                  center={false}
+                                  classes={
+                                    Object {
+                                      "child": "MuiTouchRipple-child-151",
+                                      "childLeaving": "MuiTouchRipple-childLeaving-152",
+                                      "childPulsate": "MuiTouchRipple-childPulsate-153",
+                                      "ripple": "MuiTouchRipple-ripple-148",
+                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate-150",
+                                      "rippleVisible": "MuiTouchRipple-rippleVisible-149",
+                                      "root": "MuiTouchRipple-root-147",
+                                    }
+                                  }
+                                >
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    className="MuiTouchRipple-root-147"
+                                    component="span"
+                                    enter={true}
+                                    exit={true}
+                                  >
+                                    <span
+                                      className="MuiTouchRipple-root-147"
+                                    />
+                                  </TransitionGroup>
+                                </TouchRipple>
+                              </WithStyles(TouchRipple)>
+                            </NoSsr>
+                          </button>
+                        </ButtonBase>
+                      </WithStyles(ButtonBase)>
+                    </Button>
+                  </WithStyles(Button)>
+                </div>
+              </Paper>
+            </WithStyles(Paper)>
+          </SetServer>
+        </WithStyles(SetServer)>
+      </withHandlers(WithStyles(SetServer))>
+    </withState(withHandlers(WithStyles(SetServer)))>
+  </Component>
+</Component>
+`;

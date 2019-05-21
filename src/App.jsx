@@ -9,8 +9,10 @@ import {
 import { ApolloProvider } from 'react-apollo';
 import { Provider, connect } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 import getApolloClient from './data/apolloClient';
 import getReduxStore from './data/reduxStore';
+import theme from './style/theme';
 
 import Scenes from './scenes';
 
@@ -42,7 +44,9 @@ const App = () => {
 					if (bootstrapped) {
 						return (
 							<EnhancedApolloProvider>
-								<Scenes />
+								<MuiThemeProvider theme={theme}>
+									<Scenes />
+								</MuiThemeProvider>
 							</EnhancedApolloProvider>
 						);
 					} else {
