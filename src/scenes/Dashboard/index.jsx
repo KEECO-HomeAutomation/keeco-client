@@ -6,13 +6,13 @@ import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import { withStyles } from '@material-ui/core/styles';
 import classNames from 'classnames';
 import { toggleDrawer } from './data/duck';
-import { clearAuthToken } from '../../data/duck';
 
 import DashboardView from './components/Dashboard';
 import Nodes from '../Nodes';
 import Groups from '../Groups';
 import Charts from '../Charts';
 import Users from '../Users';
+import LogoutButton from './components/LogoutButton';
 
 import AppBar from '@material-ui/core/AppBar';
 import Drawer from '@material-ui/core/Drawer';
@@ -27,7 +27,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import LayersIcon from '@material-ui/icons/Layers';
 import DeviceHubIcon from '@material-ui/icons/DeviceHub';
@@ -89,7 +88,6 @@ export const Dashboard = ({
 	isDrawerOpen,
 	toggleDrawerOpen,
 	goTo,
-	onLogoutClick,
 	classes
 }) => {
 	return (
@@ -171,12 +169,7 @@ export const Dashboard = ({
 				</List>
 				<Divider />
 				<List>
-					<ListItem id="logOutBtn" button onClick={onLogoutClick}>
-						<ListItemIcon>
-							<PowerSettingsNewIcon />
-						</ListItemIcon>
-						<ListItemText>Log out</ListItemText>
-					</ListItem>
+					<LogoutButton />
 				</List>
 			</Drawer>
 			<div className={classes.content}>
@@ -196,7 +189,6 @@ Dashboard.propTypes = {
 	isDrawerOpen: PropTypes.bool,
 	toggleDrawerOpen: PropTypes.func,
 	goTo: PropTypes.func,
-	onLogoutClick: PropTypes.func,
 	classes: PropTypes.object
 };
 
@@ -208,8 +200,7 @@ export const enhancer = compose(
 			isDrawerOpen: state.dashboard.drawer.open
 		}),
 		dispatch => ({
-			toggleDrawerOpen: () => dispatch(toggleDrawer()),
-			logOut: () => dispatch(clearAuthToken())
+			toggleDrawerOpen: () => dispatch(toggleDrawer())
 		})
 	),
 	withRouter,
@@ -224,9 +215,6 @@ export const enhancer = compose(
 	withHandlers({
 		goTo: ({ history }) => url => {
 			history.push(url);
-		},
-		onLogoutClick: ({ logOut }) => () => {
-			logOut();
 		}
 	}),
 	withStyles(styles)

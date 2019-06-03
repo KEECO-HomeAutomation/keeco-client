@@ -13,21 +13,30 @@ import { getMainDefinition } from 'apollo-utilities';
 
 import fragmentTypes from './fragmentTypes.json';
 
-const getClient = (gqlEndpoint, getToken) => {
+const getClient = (gqlEndpoint, getToken, clearAuth) => {
 	return new ApolloClient({
 		link: ApolloLink.from([
 			onError(({ graphQLErrors, networkError }) => {
 				if (graphQLErrors) {
-					graphQLErrors.map(({ message, locations, path }) => {
+					graphQLErrors.map(({ message, locations, path, extensions }) => {
 						// eslint-disable-next-line no-console
 						console.error(
-							`[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`
+							`[GraphQL error]: Code: ${
+								extensions.code
+							}, Message: ${message}, Location: ${JSON.stringify(
+								locations
+							)}, Path: ${path}`
 						);
+						if (extensions.code === 'UNAUTHENTICATED' && path !== 'login') {
+							clearAuth();
+						}
 					});
 				}
 				if (networkError) {
 					// eslint-disable-next-line no-console
-					console.error(`[GraphQL network error]: ${networkError}`);
+					console.error(
+						`[GraphQL network error]: ${JSON.stringify(networkError)}`
+					);
 				}
 			}),
 			split(

@@ -30,7 +30,8 @@ const EnhancedApolloProvider = compose(
 	mapProps(({ serverPath, children }) => ({
 		client: getApolloClient(
 			serverPath,
-			() => redux.store.getState().app.login.token
+			() => redux.store.getState().app.login.token,
+			() => redux.store.dispatch({ type: 'LOGIN@CLEAR_TOKEN' })
 		),
 		children
 	}))
