@@ -4,6 +4,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 
 jest.mock('./components/Dashboard', () => () => <p>Dashboard</p>);
+jest.mock('./components/LogoutButton', () => () => <p>LogoutButton</p>);
 jest.mock('../Nodes', () => () => <p>Nodes</p>);
 jest.mock('../Groups', () => () => <p>Groups</p>);
 jest.mock('../Charts', () => () => <p>Charts</p>);
@@ -146,24 +147,6 @@ describe('<Dashboard />', () => {
 				});
 			});
 		});
-
-		test('Should logOut when #logOutBtn is pressed', () => {
-			const mockedLogOut = jest.fn();
-			const comp = mount(
-				<Dashboard
-					mocks={{
-						isServerPath: true,
-						isAuthToken: true,
-						logOut: mockedLogOut
-					}}
-				/>
-			);
-			comp
-				.find('#logOutBtn')
-				.hostNodes()
-				.simulate('click');
-			expect(mockedLogOut).toBeCalledTimes(1);
-		});
 	});
 
 	describe('Should map state and props using connect', () => {
@@ -224,13 +207,6 @@ describe('<Dashboard />', () => {
 				connect.mock.calls[0][1](mockedDispatch).toggleDrawerOpen();
 				expect(mockedDispatch).toBeCalledTimes(1);
 				expect(mockedDispatch).toBeCalledWith({ type: 'DRAWER@TOGGLE' });
-			});
-
-			test('Should map logOut', () => {
-				const mockedDispatch = jest.fn();
-				connect.mock.calls[0][1](mockedDispatch).logOut();
-				expect(mockedDispatch).toBeCalledTimes(1);
-				expect(mockedDispatch).toBeCalledWith({ type: 'LOGIN@CLEAR_TOKEN' });
 			});
 		});
 	});
