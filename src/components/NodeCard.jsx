@@ -1,0 +1,85 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import { compose } from 'recompose';
+import { withStyles } from '@material-ui/core/styles';
+
+import TemplateIcon from './TemplateIcon';
+
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import CardActions from '@material-ui/core/CardActions';
+import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
+
+import DeviceHubIcon from '@material-ui/icons/DeviceHub';
+
+const styles = theme => ({
+	card: {
+		width: '100%',
+		margin: '15px'
+	},
+	titleBar: {
+		padding: '15px',
+		background: theme.palette.primary.main,
+		display: 'flex'
+	},
+	title: {
+		color: theme.palette.text.primary
+	},
+	secondaryTitle: {
+		color: theme.palette.text.secondary
+	},
+	cardContent: {
+		textAlign: 'center'
+	},
+	coverIcon: {
+		height: '200px',
+		width: '200px',
+		objectFit: 'contain'
+	}
+});
+
+export const NodeCard = ({ data, actions, classes }) => {
+	return (
+		<Card className={classes.card}>
+			<div className={classes.titleBar}>
+				<Typography variant="h6" className={classes.title}>
+					{data.name}
+				</Typography>
+				{data.template && (
+					<Typography variant="h6" className={classes.secondaryTitle}>
+						&nbsp;-&nbsp;{data.template.name}
+					</Typography>
+				)}
+			</div>
+			<CardContent className={classes.cardContent}>
+				{data.template ? (
+					<TemplateIcon
+						className={classes.coverIcon}
+						template={data.template.name}
+						templateData={data.template.data}
+					/>
+				) : (
+					<DeviceHubIcon className={classes.coverIcon} />
+				)}
+			</CardContent>
+			<CardActions />
+		</Card>
+	);
+};
+
+NodeCard.propTypes = {
+	data: PropTypes.shape({
+		id: PropTypes.number,
+		name: PropTypes.string,
+		template: PropTypes.shape({
+			id: PropTypes.numer,
+			name: PropTypes.string,
+			data: PropTypes.object
+		})
+	})
+};
+
+export const enhancer = compose(withStyles(styles));
+
+export default enhancer(NodeCard);
