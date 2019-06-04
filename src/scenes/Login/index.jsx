@@ -24,11 +24,11 @@ const styles = theme => ({
 	centerForm: {
 		width: '33%',
 		margin: 'auto',
-		marginTop: theme.spacing.unit * 10,
-		padding: theme.spacing.unit * 3
+		marginTop: theme.spacing(10),
+		padding: theme.spacing(3)
 	},
 	textField: {
-		marginBottom: theme.spacing.unit * 3
+		marginBottom: theme.spacing(3)
 	}
 });
 

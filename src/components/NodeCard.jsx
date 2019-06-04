@@ -4,12 +4,13 @@ import { compose } from 'recompose';
 import { withStyles } from '@material-ui/core/styles';
 
 import TemplateIcon from './TemplateIcon';
+import TemplateControls from './TemplateControls';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 import DeviceHubIcon from '@material-ui/icons/DeviceHub';
 
@@ -39,7 +40,7 @@ const styles = theme => ({
 	}
 });
 
-export const NodeCard = ({ data, actions, classes }) => {
+export const NodeCard = ({ data, actions, onTemplateDataChange, classes }) => {
 	return (
 		<Card className={classes.card}>
 			<div className={classes.titleBar}>
@@ -62,8 +63,22 @@ export const NodeCard = ({ data, actions, classes }) => {
 				) : (
 					<DeviceHubIcon className={classes.coverIcon} />
 				)}
+				{data.template && onTemplateDataChange ? (
+					<TemplateControls
+						template={data.template.name}
+						templateData={data.template.data}
+						onTemplateDataChange={onTemplateDataChange}
+					/>
+				) : null}
 			</CardContent>
-			<CardActions />
+			<CardActions>
+				{actions &&
+					actions.map(action => (
+						<Button key={action.name} onClick={action.onClick} color="primary">
+							{action.name}
+						</Button>
+					))}
+			</CardActions>
 		</Card>
 	);
 };
@@ -77,7 +92,14 @@ NodeCard.propTypes = {
 			name: PropTypes.string,
 			data: PropTypes.object
 		})
-	})
+	}),
+	actions: PropTypes.arrayOf(
+		PropTypes.shape({
+			name: PropTypes.string,
+			onClick: PropTypes.func
+		})
+	),
+	onTemplateDataChange: PropTypes.func
 };
 
 export const enhancer = compose(withStyles(styles));

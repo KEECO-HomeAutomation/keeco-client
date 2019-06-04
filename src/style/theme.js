@@ -6,9 +6,6 @@ const theme = createMuiTheme({
 	palette: {
 		primary: teal,
 		secondary: blue
-	},
-	typography: {
-		useNextVariants: true
 	}
 });
 

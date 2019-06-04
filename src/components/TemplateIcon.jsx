@@ -5,9 +5,7 @@ import { compose, mapProps } from 'recompose';
 import DeviceHubIcon from '@material-ui/icons/DeviceHub';
 
 export const TemplateIcon = ({ Icon, ...rest }) => {
-	return (
-		<Icon {...rest} />
-	);
+	return <Icon {...rest} />;
 };
 
 export const enhancer = compose(
@@ -15,12 +13,16 @@ export const enhancer = compose(
 		let icon;
 		switch (template) {
 			case 'switch':
-				icon = DeviceHubIcon;
+				if (templateData.on) {
+					icon = DeviceHubIcon;
+				} else {
+					icon = DeviceHubIcon;
+				}
 				break;
 			case 'lamp':
 				icon = DeviceHubIcon;
 				break;
-			case 'thermometer':
+			case 'thermostat':
 				icon = DeviceHubIcon;
 				break;
 			default:
