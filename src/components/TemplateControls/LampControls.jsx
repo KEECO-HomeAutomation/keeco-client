@@ -62,7 +62,7 @@ const styles = theme => ({
 	}
 });
 
-export const SwitchControls = ({
+export const LampControls = ({
 	data,
 	onOnChange,
 	onRChange,
@@ -80,8 +80,12 @@ export const SwitchControls = ({
 			</Grid>
 			<Grid item className={classes.action}>
 				<ToggleButtonGroup value={['on', 'off']} onChange={onOnChange}>
-					<ToggleButton value={'on'} selected={!data.on}>Off</ToggleButton>
-					<ToggleButton value={'off'} selected={data.on}>On</ToggleButton>
+					<ToggleButton value={'on'} selected={!data.on}>
+						Off
+					</ToggleButton>
+					<ToggleButton value={'off'} selected={data.on}>
+						On
+					</ToggleButton>
 				</ToggleButtonGroup>
 			</Grid>
 			<Grid item className={classes.option}>
@@ -160,15 +164,30 @@ export const SwitchControls = ({
 	);
 };
 
+LampControls.propTypes = {
+	data: PropTypes.object,
+	onOnChange: PropTypes.func,
+	onRChange: PropTypes.func,
+	onGChange: PropTypes.func,
+	onBChange: PropTypes.func,
+	onDimChange: PropTypes.func,
+	classes: PropTypes.object
+};
+
 export const enhancer = compose(
 	withStyles(styles),
 	withHandlers({
-		onOnChange: ({ onChange }) => (e, value) => onChange({ on: value[0]==='on' }),
-		onRChange: ({ onChange }) => (e, value) => onChange({ r: Math.floor(value) }),
-		onGChange: ({ onChange }) => (e, value) => onChange({ g: Math.floor(value) }),
-		onBChange: ({ onChange }) => (e, value) => onChange({ b: Math.floor(value) }),
-		onDimChange: ({ onChange }) => (e, value) => onChange({ dim: Math.floor(value) })
+		onOnChange: ({ onChange }) => (e, value) =>
+			onChange({ on: value[0] === 'on' }),
+		onRChange: ({ onChange }) => (e, value) =>
+			onChange({ r: Math.floor(value) }),
+		onGChange: ({ onChange }) => (e, value) =>
+			onChange({ g: Math.floor(value) }),
+		onBChange: ({ onChange }) => (e, value) =>
+			onChange({ b: Math.floor(value) }),
+		onDimChange: ({ onChange }) => (e, value) =>
+			onChange({ dim: Math.floor(value) })
 	})
 );
 
-export default enhancer(SwitchControls);
+export default enhancer(LampControls);

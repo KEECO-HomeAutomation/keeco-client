@@ -35,8 +35,12 @@ export const SwitchControls = ({ data, onOnChange, classes }) => {
 			</Grid>
 			<Grid item className={classes.action}>
 				<ToggleButtonGroup value={['on', 'off']} onChange={onOnChange}>
-					<ToggleButton value={'on'} selected={!data.on}>Off</ToggleButton>
-					<ToggleButton value={'off'} selected={data.on}>On</ToggleButton>
+					<ToggleButton value={'on'} selected={!data.on}>
+						Off
+					</ToggleButton>
+					<ToggleButton value={'off'} selected={data.on}>
+						On
+					</ToggleButton>
 				</ToggleButtonGroup>
 			</Grid>
 		</Grid>
@@ -45,13 +49,15 @@ export const SwitchControls = ({ data, onOnChange, classes }) => {
 
 SwitchControls.propTypes = {
 	data: PropTypes.object,
-	onChange: PropTypes.func
+	onOnChange: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export const enhancer = compose(
 	withStyles(styles),
 	withHandlers({
-		onOnChange: ({ onChange }) => (e, value) => onChange({ on: value[0]==='on' })
+		onOnChange: ({ onChange }) => (e, value) =>
+			onChange({ on: value[0] === 'on' })
 	})
 );
 

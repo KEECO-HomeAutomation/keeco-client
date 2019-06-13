@@ -106,7 +106,8 @@ NodeCard.propTypes = {
 			onClick: PropTypes.func
 		})
 	),
-	onTemplateDataChange: PropTypes.func
+	onTemplateDataChange: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export const enhancer = compose(withStyles(styles));

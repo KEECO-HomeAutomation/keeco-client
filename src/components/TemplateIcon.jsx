@@ -8,6 +8,10 @@ export const TemplateIcon = ({ Icon, ...rest }) => {
 	return <Icon {...rest} />;
 };
 
+TemplateIcon.propTypes = {
+	Icon: PropTypes.node
+};
+
 export const enhancer = compose(
 	mapProps(({ template, templateData, ...rest }) => {
 		let icon;

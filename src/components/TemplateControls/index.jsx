@@ -32,7 +32,9 @@ export const TemplateControls = ({
 TemplateControls.propTypes = {
 	template: PropTypes.string,
 	templateData: PropTypes.object,
-	onTemplateDataChange: PropTypes.func
+	onTemplateDataChange: PropTypes.func,
+	classes: PropTypes.object,
+	Controls: PropTypes.node
 };
 
 export const enhancer = compose(

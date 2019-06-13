@@ -32,9 +32,8 @@ export const Nodes = ({ nodes, onTemplateDataChange }) => {
 		<GridList cellHeight="auto" cols={4} spacing={5}>
 			{nodes.map(node =>
 				node.templates.map(template => (
-					<GridListTile>
+					<GridListTile key={template.id}>
 						<NodeCard
-							key={template.id}
 							data={{ id: node.id, name: node.name, template: template }}
 							onTemplateDataChange={data =>
 								onTemplateDataChange(template, data)
@@ -45,6 +44,11 @@ export const Nodes = ({ nodes, onTemplateDataChange }) => {
 			)}
 		</GridList>
 	);
+};
+
+Nodes.propTypes = {
+	nodes: PropTypes.object,
+	onTemplateDataChange: PropTypes.func
 };
 
 export const enhancer = compose(

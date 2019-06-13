@@ -61,7 +61,9 @@ export const SwitchControls = ({ data, processedTemp, classes }) => {
 
 SwitchControls.propTypes = {
 	data: PropTypes.object,
-	onChange: PropTypes.func
+	onChange: PropTypes.func,
+	processedTemp: PropTypes.number,
+	classes: PropTypes.object
 };
 
 export const enhancer = compose(
