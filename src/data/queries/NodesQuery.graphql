@@ -1,0 +1,35 @@
+query Nodes {
+	nodes {
+		id
+		name
+		endpoints {
+			id
+			name
+			output
+			range
+			value
+		}
+		templates {
+			id
+			name
+			data {
+				... on TemplateDataSwitch {
+					id
+					on
+				}
+				... on TemplateDataLamp {
+					id
+					on
+					r
+					g
+					b
+					dim
+				}
+				... on TemplateDataThermostat {
+					id
+					temperature
+				}
+			}
+		}
+	}
+}

@@ -16,7 +16,7 @@ import DeviceHubIcon from '@material-ui/icons/DeviceHub';
 
 const styles = theme => ({
 	card: {
-		width: '100%',
+		width: '95%',
 		margin: '15px'
 	},
 	titleBar: {
@@ -85,10 +85,17 @@ export const NodeCard = ({ data, actions, onTemplateDataChange, classes }) => {
 
 NodeCard.propTypes = {
 	data: PropTypes.shape({
-		id: PropTypes.number,
+		id: PropTypes.string,
 		name: PropTypes.string,
+		endpoints: PropTypes.shape({
+			id: PropTypes.string,
+			name: PropTypes.string,
+			output: PropTypes.bool,
+			range: PropTypes.range,
+			value: PropTypes.number
+		}),
 		template: PropTypes.shape({
-			id: PropTypes.numer,
+			id: PropTypes.string,
 			name: PropTypes.string,
 			data: PropTypes.object
 		})

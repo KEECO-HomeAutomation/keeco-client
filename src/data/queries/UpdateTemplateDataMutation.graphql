@@ -1,0 +1,24 @@
+mutation UpdateTemplateData($id: ID!, $input: UpdateTemplateDataInput!) {
+	updateTemplateData(id: $id, input: $input) {
+		id
+		name
+		data {
+			... on TemplateDataSwitch {
+				id
+				on
+			}
+			... on TemplateDataLamp {
+				id
+				on
+				r
+				g
+				b
+				dim
+			}
+			... on TemplateDataThermostat {
+				id
+				temperature
+			}
+		}
+	}
+}

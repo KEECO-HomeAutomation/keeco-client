@@ -28,10 +28,11 @@ const styles = theme => ({
 	},
 	tempBar: {
 		width: '95%',
-		marginLeft: '5px',
+		marginLeft: '5px'
 	},
 	tempBarBack: {
-		background: 'linear-gradient(to right, rgba(95, 145, 226, 0.3) 0%, rgba(114, 186, 76, 0.3) 45%, rgba(114, 186, 76, 0.3) 55%, rgba(201, 145, 40, 0.3) 70%, rgba(183, 55, 44, 0.3) 100%)',
+		background:
+			'linear-gradient(to right, rgba(95, 145, 226, 0.3) 0%, rgba(114, 186, 76, 0.3) 45%, rgba(114, 186, 76, 0.3) 55%, rgba(201, 145, 40, 0.3) 70%, rgba(183, 55, 44, 0.3) 100%)'
 	}
 });
 
@@ -45,7 +46,7 @@ export const SwitchControls = ({ data, processedTemp, classes }) => {
 			</Grid>
 			<Grid item className={classes.action}>
 				<Typography variant="body1" className={classes.actionText}>
-					{data.temperature}&nbsp;&#8451;
+					{data.temperature || '-'}&nbsp;&#8451;
 				</Typography>
 				<LinearProgress
 					variant="determinate"

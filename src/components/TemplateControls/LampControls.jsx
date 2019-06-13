@@ -94,7 +94,7 @@ export const SwitchControls = ({
 					min={0}
 					max={255}
 					onChange={onRChange}
-					value={data.r}
+					value={data.r || 0}
 					className={classes.slider}
 					classes={{
 						thumb: classNames(classes.thumb, classes.thumbR),
@@ -112,7 +112,7 @@ export const SwitchControls = ({
 					min={0}
 					max={255}
 					onChange={onGChange}
-					value={data.g}
+					value={data.g || 0}
 					className={classes.slider}
 					classes={{
 						thumb: classNames(classes.thumb, classes.thumbG),
@@ -130,7 +130,7 @@ export const SwitchControls = ({
 					min={0}
 					max={255}
 					onChange={onBChange}
-					value={data.b}
+					value={data.b || 0}
 					className={classes.slider}
 					classes={{
 						thumb: classNames(classes.thumb, classes.thumbB),
@@ -148,7 +148,7 @@ export const SwitchControls = ({
 					min={0}
 					max={255}
 					onChange={onDimChange}
-					value={data.dim}
+					value={data.dim || 0}
 					className={classes.slider}
 					classes={{
 						thumb: classNames(classes.thumb),
@@ -164,10 +164,10 @@ export const enhancer = compose(
 	withStyles(styles),
 	withHandlers({
 		onOnChange: ({ onChange }) => (e, value) => onChange({ on: value[0]==='on' }),
-		onRChange: ({ onChange }) => (e, value) => onChange({ r: value }),
-		onGChange: ({ onChange }) => (e, value) => onChange({ g: value }),
-		onBChange: ({ onChange }) => (e, value) => onChange({ b: value }),
-		onDimChange: ({ onChange }) => (e, value) => onChange({ dim: value })
+		onRChange: ({ onChange }) => (e, value) => onChange({ r: Math.floor(value) }),
+		onGChange: ({ onChange }) => (e, value) => onChange({ g: Math.floor(value) }),
+		onBChange: ({ onChange }) => (e, value) => onChange({ b: Math.floor(value) }),
+		onDimChange: ({ onChange }) => (e, value) => onChange({ dim: Math.floor(value) })
 	})
 );
 

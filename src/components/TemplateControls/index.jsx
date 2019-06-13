@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 
 import SwitchControls from './SwitchControls';
 import LampControls from './LampControls';
-import ThermometerControls from './ThermometerControls';
+import ThermostatControls from './ThermostatControls';
 
 const styles = () => ({
 	container: {
@@ -47,7 +47,7 @@ export const enhancer = compose(
 				Controls = LampControls;
 				break;
 			case 'thermostat':
-				Controls = ThermometerControls;
+				Controls = ThermostatControls;
 				break;
 			default:
 				Controls = null;
