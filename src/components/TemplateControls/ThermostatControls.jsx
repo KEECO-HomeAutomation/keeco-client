@@ -69,7 +69,7 @@ SwitchControls.propTypes = {
 export const enhancer = compose(
 	withStyles(styles),
 	withProps(({ data }) => ({
-		processedTemp: data.temperature + 30
+		processedTemp: data.temperature + 40
 	}))
 );
 

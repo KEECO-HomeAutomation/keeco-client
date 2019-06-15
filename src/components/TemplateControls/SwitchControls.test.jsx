@@ -15,7 +15,7 @@ describe('<SwitchControls />', () => {
 		expect(Base).not.toBe(undefined);
 		expect(enhancer).not.toBe(undefined);
 	});
-
+ 
 	test('Should render without errors', () => {
 		const comp = mount(<SwitchControls data={{ on: true }} />);
 		expect(comp.length).toBe(1);
