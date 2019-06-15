@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateIcon /> Handle templateData template=switch on=false 1`] = `
+<mapProps(TemplateIcon)
+  template="switch"
+  templateData={
+    Object {
+      "on": false,
+    }
+  }
+>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;
+
+exports[`<TemplateIcon /> Handle templateData template=switch on=true 1`] = `
+<mapProps(TemplateIcon)
+  template="switch"
+  templateData={
+    Object {
+      "on": true,
+    }
+  }
+>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;
+
+exports[`<TemplateIcon /> Should match snapshot 1`] = `
+<mapProps(TemplateIcon)>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;
+
+exports[`<TemplateIcon /> Should render the matching icon When template=lamp should render the matching icon 1`] = `
+<mapProps(TemplateIcon)
+  template="lamp"
+  templateData={Object {}}
+>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;
+
+exports[`<TemplateIcon /> Should render the matching icon When template=switch should render the matching icon 1`] = `
+<mapProps(TemplateIcon)
+  template="switch"
+  templateData={Object {}}
+>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;
+
+exports[`<TemplateIcon /> Should render the matching icon When template=thermostat should render the matching icon 1`] = `
+<mapProps(TemplateIcon)
+  template="thermostat"
+  templateData={Object {}}
+>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;
+
+exports[`<TemplateIcon /> When passed a non handled template should render the standard icon 1`] = `
+<mapProps(TemplateIcon)
+  template="notExistingTemplateName"
+  templateData={Object {}}
+>
+  <TemplateIcon
+    Icon={[Function]}
+  >
+    <Component>
+      <p>
+        DeviceHubIcon
+      </p>
+    </Component>
+  </TemplateIcon>
+</mapProps(TemplateIcon)>
+`;

@@ -24,121 +24,86 @@ exports[`<SetServer /> Should match snapshot 1`] = `
             path=""
             setPath={[Function]}
           >
-            <WithStyles(Paper)
+            <WithStyles(ForwardRef(Paper))
               className="SetServer-centerForm-1"
             >
-              <Paper
+              <ForwardRef(Paper)
                 className="SetServer-centerForm-1"
                 classes={
                   Object {
-                    "elevation0": "MuiPaper-elevation0-5",
-                    "elevation1": "MuiPaper-elevation1-6",
-                    "elevation10": "MuiPaper-elevation10-15",
-                    "elevation11": "MuiPaper-elevation11-16",
-                    "elevation12": "MuiPaper-elevation12-17",
-                    "elevation13": "MuiPaper-elevation13-18",
-                    "elevation14": "MuiPaper-elevation14-19",
-                    "elevation15": "MuiPaper-elevation15-20",
-                    "elevation16": "MuiPaper-elevation16-21",
-                    "elevation17": "MuiPaper-elevation17-22",
-                    "elevation18": "MuiPaper-elevation18-23",
-                    "elevation19": "MuiPaper-elevation19-24",
-                    "elevation2": "MuiPaper-elevation2-7",
-                    "elevation20": "MuiPaper-elevation20-25",
-                    "elevation21": "MuiPaper-elevation21-26",
-                    "elevation22": "MuiPaper-elevation22-27",
-                    "elevation23": "MuiPaper-elevation23-28",
-                    "elevation24": "MuiPaper-elevation24-29",
-                    "elevation3": "MuiPaper-elevation3-8",
-                    "elevation4": "MuiPaper-elevation4-9",
-                    "elevation5": "MuiPaper-elevation5-10",
-                    "elevation6": "MuiPaper-elevation6-11",
-                    "elevation7": "MuiPaper-elevation7-12",
-                    "elevation8": "MuiPaper-elevation8-13",
-                    "elevation9": "MuiPaper-elevation9-14",
-                    "root": "MuiPaper-root-3",
-                    "rounded": "MuiPaper-rounded-4",
+                    "elevation0": "MuiPaper-elevation0",
+                    "elevation1": "MuiPaper-elevation1",
+                    "elevation10": "MuiPaper-elevation10",
+                    "elevation11": "MuiPaper-elevation11",
+                    "elevation12": "MuiPaper-elevation12",
+                    "elevation13": "MuiPaper-elevation13",
+                    "elevation14": "MuiPaper-elevation14",
+                    "elevation15": "MuiPaper-elevation15",
+                    "elevation16": "MuiPaper-elevation16",
+                    "elevation17": "MuiPaper-elevation17",
+                    "elevation18": "MuiPaper-elevation18",
+                    "elevation19": "MuiPaper-elevation19",
+                    "elevation2": "MuiPaper-elevation2",
+                    "elevation20": "MuiPaper-elevation20",
+                    "elevation21": "MuiPaper-elevation21",
+                    "elevation22": "MuiPaper-elevation22",
+                    "elevation23": "MuiPaper-elevation23",
+                    "elevation24": "MuiPaper-elevation24",
+                    "elevation3": "MuiPaper-elevation3",
+                    "elevation4": "MuiPaper-elevation4",
+                    "elevation5": "MuiPaper-elevation5",
+                    "elevation6": "MuiPaper-elevation6",
+                    "elevation7": "MuiPaper-elevation7",
+                    "elevation8": "MuiPaper-elevation8",
+                    "elevation9": "MuiPaper-elevation9",
+                    "root": "MuiPaper-root",
+                    "rounded": "MuiPaper-rounded",
                   }
                 }
-                component="div"
-                elevation={2}
-                square={false}
               >
                 <div
-                  className="MuiPaper-root-3 MuiPaper-elevation2-7 MuiPaper-rounded-4 SetServer-centerForm-1"
+                  className="MuiPaper-root MuiPaper-elevation1 SetServer-centerForm-1 MuiPaper-rounded"
                 >
-                  <WithStyles(Typography)
+                  <WithStyles(ForwardRef(Typography))
                     gutterBottom={true}
                     variant="h6"
                   >
-                    <Typography
-                      align="inherit"
+                    <ForwardRef(Typography)
                       classes={
                         Object {
-                          "alignCenter": "MuiTypography-alignCenter-53",
-                          "alignJustify": "MuiTypography-alignJustify-55",
-                          "alignLeft": "MuiTypography-alignLeft-52",
-                          "alignRight": "MuiTypography-alignRight-54",
-                          "body1": "MuiTypography-body1-39",
-                          "body2": "MuiTypography-body2-38",
-                          "button": "MuiTypography-button-41",
-                          "caption": "MuiTypography-caption-40",
-                          "colorError": "MuiTypography-colorError-64",
-                          "colorInherit": "MuiTypography-colorInherit-59",
-                          "colorPrimary": "MuiTypography-colorPrimary-60",
-                          "colorSecondary": "MuiTypography-colorSecondary-61",
-                          "colorTextPrimary": "MuiTypography-colorTextPrimary-62",
-                          "colorTextSecondary": "MuiTypography-colorTextSecondary-63",
-                          "display1": "MuiTypography-display1-34",
-                          "display2": "MuiTypography-display2-33",
-                          "display3": "MuiTypography-display3-32",
-                          "display4": "MuiTypography-display4-31",
-                          "gutterBottom": "MuiTypography-gutterBottom-57",
-                          "h1": "MuiTypography-h1-42",
-                          "h2": "MuiTypography-h2-43",
-                          "h3": "MuiTypography-h3-44",
-                          "h4": "MuiTypography-h4-45",
-                          "h5": "MuiTypography-h5-46",
-                          "h6": "MuiTypography-h6-47",
-                          "headline": "MuiTypography-headline-35",
-                          "inline": "MuiTypography-inline-65",
-                          "noWrap": "MuiTypography-noWrap-56",
-                          "overline": "MuiTypography-overline-50",
-                          "paragraph": "MuiTypography-paragraph-58",
-                          "root": "MuiTypography-root-30",
-                          "srOnly": "MuiTypography-srOnly-51",
-                          "subheading": "MuiTypography-subheading-37",
-                          "subtitle1": "MuiTypography-subtitle1-48",
-                          "subtitle2": "MuiTypography-subtitle2-49",
-                          "title": "MuiTypography-title-36",
+                          "alignCenter": "MuiTypography-alignCenter",
+                          "alignJustify": "MuiTypography-alignJustify",
+                          "alignLeft": "MuiTypography-alignLeft",
+                          "alignRight": "MuiTypography-alignRight",
+                          "body1": "MuiTypography-body1",
+                          "body2": "MuiTypography-body2",
+                          "button": "MuiTypography-button",
+                          "caption": "MuiTypography-caption",
+                          "colorError": "MuiTypography-colorError",
+                          "colorInherit": "MuiTypography-colorInherit",
+                          "colorPrimary": "MuiTypography-colorPrimary",
+                          "colorSecondary": "MuiTypography-colorSecondary",
+                          "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                          "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                          "displayBlock": "MuiTypography-displayBlock",
+                          "displayInline": "MuiTypography-displayInline",
+                          "gutterBottom": "MuiTypography-gutterBottom",
+                          "h1": "MuiTypography-h1",
+                          "h2": "MuiTypography-h2",
+                          "h3": "MuiTypography-h3",
+                          "h4": "MuiTypography-h4",
+                          "h5": "MuiTypography-h5",
+                          "h6": "MuiTypography-h6",
+                          "noWrap": "MuiTypography-noWrap",
+                          "overline": "MuiTypography-overline",
+                          "paragraph": "MuiTypography-paragraph",
+                          "root": "MuiTypography-root",
+                          "srOnly": "MuiTypography-srOnly",
+                          "subtitle1": "MuiTypography-subtitle1",
+                          "subtitle2": "MuiTypography-subtitle2",
                         }
                       }
-                      color="default"
                       gutterBottom={true}
-                      headlineMapping={
-                        Object {
-                          "body1": "p",
-                          "body2": "p",
-                          "display1": "h1",
-                          "display2": "h1",
-                          "display3": "h1",
-                          "display4": "h1",
-                          "h1": "h1",
-                          "h2": "h2",
-                          "h3": "h3",
-                          "h4": "h4",
-                          "h5": "h5",
-                          "h6": "h6",
-                          "headline": "h1",
-                          "subheading": "h3",
-                          "subtitle1": "h6",
-                          "subtitle2": "h6",
-                          "title": "h2",
-                        }
-                      }
-                      inline={false}
-                      noWrap={false}
-                      paragraph={false}
                       theme={
                         Object {
                           "breakpoints": Object {
@@ -271,9 +236,7 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                           "shape": Object {
                             "borderRadius": 4,
                           },
-                          "spacing": Object {
-                            "unit": 8,
-                          },
+                          "spacing": [Function],
                           "transitions": Object {
                             "create": [Function],
                             "duration": Object {
@@ -295,14 +258,6 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                           },
                           "typography": Object {
                             "body1": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "0.875rem",
-                              "fontWeight": 400,
-                              "lineHeight": "1.46429em",
-                            },
-                            "body1Next": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "1rem",
                               "fontWeight": 400,
@@ -310,29 +265,13 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1.5,
                             },
                             "body2": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "0.875rem",
-                              "fontWeight": 500,
-                              "lineHeight": "1.71429em",
-                            },
-                            "body2Next": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "0.875rem",
                               "fontWeight": 400,
                               "letterSpacing": "0.01071em",
-                              "lineHeight": 1.5,
+                              "lineHeight": 1.43,
                             },
                             "button": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "0.875rem",
-                              "fontWeight": 500,
-                              "textTransform": "uppercase",
-                            },
-                            "buttonNext": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "0.875rem",
                               "fontWeight": 500,
@@ -341,52 +280,11 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "textTransform": "uppercase",
                             },
                             "caption": Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "0.75rem",
-                              "fontWeight": 400,
-                              "lineHeight": "1.375em",
-                            },
-                            "captionNext": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "0.75rem",
                               "fontWeight": 400,
                               "letterSpacing": "0.03333em",
                               "lineHeight": 1.66,
-                            },
-                            "display1": Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "2.125rem",
-                              "fontWeight": 400,
-                              "lineHeight": "1.20588em",
-                            },
-                            "display2": Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "2.8125rem",
-                              "fontWeight": 400,
-                              "lineHeight": "1.13333em",
-                              "marginLeft": "-.02em",
-                            },
-                            "display3": Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "3.5rem",
-                              "fontWeight": 400,
-                              "letterSpacing": "-.02em",
-                              "lineHeight": "1.30357em",
-                              "marginLeft": "-.02em",
-                            },
-                            "display4": Object {
-                              "color": "rgba(0, 0, 0, 0.54)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "7rem",
-                              "fontWeight": 300,
-                              "letterSpacing": "-.04em",
-                              "lineHeight": "1.14286em",
-                              "marginLeft": "-.04em",
                             },
                             "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                             "fontSize": 14,
@@ -394,7 +292,6 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                             "fontWeightMedium": 500,
                             "fontWeightRegular": 400,
                             "h1": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "6rem",
                               "fontWeight": 300,
@@ -402,7 +299,6 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1,
                             },
                             "h2": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "3.75rem",
                               "fontWeight": 300,
@@ -410,7 +306,6 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1,
                             },
                             "h3": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "3rem",
                               "fontWeight": 400,
@@ -418,7 +313,6 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1.04,
                             },
                             "h4": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "2.125rem",
                               "fontWeight": 400,
@@ -426,7 +320,6 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1.17,
                             },
                             "h5": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "1.5rem",
                               "fontWeight": 400,
@@ -434,22 +327,14 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1.33,
                             },
                             "h6": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "1.25rem",
                               "fontWeight": 500,
                               "letterSpacing": "0.0075em",
                               "lineHeight": 1.6,
                             },
-                            "headline": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "1.5rem",
-                              "fontWeight": 400,
-                              "lineHeight": "1.35417em",
-                            },
+                            "htmlFontSize": 16,
                             "overline": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "0.75rem",
                               "fontWeight": 400,
@@ -459,15 +344,7 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                             },
                             "pxToRem": [Function],
                             "round": [Function],
-                            "subheading": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "1rem",
-                              "fontWeight": 400,
-                              "lineHeight": "1.5em",
-                            },
                             "subtitle1": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "1rem",
                               "fontWeight": 400,
@@ -475,21 +352,12 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                               "lineHeight": 1.75,
                             },
                             "subtitle2": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
                               "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                               "fontSize": "0.875rem",
                               "fontWeight": 500,
                               "letterSpacing": "0.00714em",
                               "lineHeight": 1.57,
                             },
-                            "title": Object {
-                              "color": "rgba(0, 0, 0, 0.87)",
-                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                              "fontSize": "1.3125rem",
-                              "fontWeight": 500,
-                              "lineHeight": "1.16667em",
-                            },
-                            "useNextVariants": false,
                           },
                           "zIndex": Object {
                             "appBar": 1100,
@@ -504,257 +372,233 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                       variant="h6"
                     >
                       <h6
-                        className="MuiTypography-root-30 MuiTypography-h6-47 MuiTypography-gutterBottom-57"
+                        className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
                       >
                         Set server address
                       </h6>
-                    </Typography>
-                  </WithStyles(Typography)>
-                  <TextField
+                    </ForwardRef(Typography)>
+                  </WithStyles(ForwardRef(Typography))>
+                  <WithStyles(ForwardRef(TextField))
                     className="SetServer-textField-2"
                     id="serverAddress"
                     label="Server address"
                     onChange={[Function]}
                     required={true}
-                    select={false}
                     value=""
-                    variant="standard"
                   >
-                    <WithStyles(FormControl)
+                    <ForwardRef(TextField)
                       className="SetServer-textField-2"
-                      required={true}
-                      variant="standard"
-                    >
-                      <FormControl
-                        className="SetServer-textField-2"
-                        classes={
-                          Object {
-                            "fullWidth": "MuiFormControl-fullWidth-69",
-                            "marginDense": "MuiFormControl-marginDense-68",
-                            "marginNormal": "MuiFormControl-marginNormal-67",
-                            "root": "MuiFormControl-root-66",
-                          }
+                      classes={
+                        Object {
+                          "root": "MuiTextField-root",
                         }
-                        component="div"
-                        disabled={false}
-                        error={false}
-                        fullWidth={false}
-                        margin="none"
+                      }
+                      id="serverAddress"
+                      label="Server address"
+                      onChange={[Function]}
+                      required={true}
+                      value=""
+                    >
+                      <WithStyles(ForwardRef(FormControl))
+                        className="MuiTextField-root SetServer-textField-2"
                         required={true}
                         variant="standard"
                       >
-                        <div
-                          className="MuiFormControl-root-66 SetServer-textField-2"
+                        <ForwardRef(FormControl)
+                          className="MuiTextField-root SetServer-textField-2"
+                          classes={
+                            Object {
+                              "fullWidth": "MuiFormControl-fullWidth",
+                              "marginDense": "MuiFormControl-marginDense",
+                              "marginNormal": "MuiFormControl-marginNormal",
+                              "root": "MuiFormControl-root",
+                            }
+                          }
+                          required={true}
+                          variant="standard"
                         >
-                          <WithStyles(WithFormControlContext(InputLabel))
-                            htmlFor="serverAddress"
+                          <div
+                            className="MuiFormControl-root MuiTextField-root SetServer-textField-2"
                           >
-                            <WithFormControlContext(InputLabel)
-                              classes={
-                                Object {
-                                  "animated": "MuiInputLabel-animated-78",
-                                  "disabled": "MuiInputLabel-disabled-72",
-                                  "error": "MuiInputLabel-error-73",
-                                  "filled": "MuiInputLabel-filled-79",
-                                  "focused": "MuiInputLabel-focused-71",
-                                  "formControl": "MuiInputLabel-formControl-75",
-                                  "marginDense": "MuiInputLabel-marginDense-76",
-                                  "outlined": "MuiInputLabel-outlined-80",
-                                  "required": "MuiInputLabel-required-74",
-                                  "root": "MuiInputLabel-root-70",
-                                  "shrink": "MuiInputLabel-shrink-77",
-                                }
-                              }
+                            <WithStyles(WithFormControlContext(ForwardRef(InputLabel)))
                               htmlFor="serverAddress"
                             >
-                              <InputLabel
+                              <WithFormControlContext(ForwardRef(InputLabel))
                                 classes={
                                   Object {
-                                    "animated": "MuiInputLabel-animated-78",
-                                    "disabled": "MuiInputLabel-disabled-72",
-                                    "error": "MuiInputLabel-error-73",
-                                    "filled": "MuiInputLabel-filled-79",
-                                    "focused": "MuiInputLabel-focused-71",
-                                    "formControl": "MuiInputLabel-formControl-75",
-                                    "marginDense": "MuiInputLabel-marginDense-76",
-                                    "outlined": "MuiInputLabel-outlined-80",
-                                    "required": "MuiInputLabel-required-74",
-                                    "root": "MuiInputLabel-root-70",
-                                    "shrink": "MuiInputLabel-shrink-77",
+                                    "animated": "MuiInputLabel-animated",
+                                    "asterisk": "MuiInputLabel-asterisk",
+                                    "disabled": "Mui-disabled",
+                                    "error": "Mui-error",
+                                    "filled": "MuiInputLabel-filled",
+                                    "focused": "Mui-focused",
+                                    "formControl": "MuiInputLabel-formControl",
+                                    "marginDense": "MuiInputLabel-marginDense",
+                                    "outlined": "MuiInputLabel-outlined",
+                                    "required": "Mui-required",
+                                    "root": "MuiInputLabel-root",
+                                    "shrink": "MuiInputLabel-shrink",
                                   }
                                 }
-                                disableAnimation={false}
                                 htmlFor="serverAddress"
-                                muiFormControl={
-                                  Object {
-                                    "adornedStart": false,
-                                    "disabled": false,
-                                    "error": false,
-                                    "filled": false,
-                                    "focused": false,
-                                    "margin": "none",
-                                    "onBlur": [Function],
-                                    "onEmpty": [Function],
-                                    "onFilled": [Function],
-                                    "onFocus": [Function],
-                                    "required": true,
-                                    "variant": "standard",
-                                  }
-                                }
                               >
-                                <WithStyles(WithFormControlContext(FormLabel))
-                                  className="MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                <ForwardRef(InputLabel)
                                   classes={
                                     Object {
-                                      "disabled": "MuiInputLabel-disabled-72",
-                                      "error": "MuiInputLabel-error-73",
-                                      "focused": "MuiInputLabel-focused-71",
-                                      "required": "MuiInputLabel-required-74",
+                                      "animated": "MuiInputLabel-animated",
+                                      "asterisk": "MuiInputLabel-asterisk",
+                                      "disabled": "Mui-disabled",
+                                      "error": "Mui-error",
+                                      "filled": "MuiInputLabel-filled",
+                                      "focused": "Mui-focused",
+                                      "formControl": "MuiInputLabel-formControl",
+                                      "marginDense": "MuiInputLabel-marginDense",
+                                      "outlined": "MuiInputLabel-outlined",
+                                      "required": "Mui-required",
+                                      "root": "MuiInputLabel-root",
+                                      "shrink": "MuiInputLabel-shrink",
                                     }
                                   }
-                                  data-shrink={false}
                                   htmlFor="serverAddress"
+                                  muiFormControl={
+                                    Object {
+                                      "adornedStart": false,
+                                      "disabled": false,
+                                      "error": false,
+                                      "filled": false,
+                                      "focused": false,
+                                      "margin": "none",
+                                      "onBlur": [Function],
+                                      "onEmpty": [Function],
+                                      "onFilled": [Function],
+                                      "onFocus": [Function],
+                                      "required": true,
+                                      "variant": "standard",
+                                    }
+                                  }
                                 >
-                                  <WithFormControlContext(FormLabel)
-                                    className="MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                  <WithStyles(WithFormControlContext(ForwardRef(FormLabel)))
+                                    className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                                     classes={
                                       Object {
-                                        "asterisk": "MuiFormLabel-asterisk-87",
-                                        "disabled": "MuiFormLabel-disabled-83 MuiInputLabel-disabled-72",
-                                        "error": "MuiFormLabel-error-84 MuiInputLabel-error-73",
-                                        "filled": "MuiFormLabel-filled-85",
-                                        "focused": "MuiFormLabel-focused-82 MuiInputLabel-focused-71",
-                                        "required": "MuiFormLabel-required-86 MuiInputLabel-required-74",
-                                        "root": "MuiFormLabel-root-81",
+                                        "asterisk": "MuiInputLabel-asterisk",
+                                        "disabled": "Mui-disabled",
+                                        "error": "Mui-error",
+                                        "focused": "Mui-focused",
+                                        "required": "Mui-required",
                                       }
                                     }
                                     data-shrink={false}
                                     htmlFor="serverAddress"
                                   >
-                                    <FormLabel
-                                      className="MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                    <WithFormControlContext(ForwardRef(FormLabel))
+                                      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                                       classes={
                                         Object {
-                                          "asterisk": "MuiFormLabel-asterisk-87",
-                                          "disabled": "MuiFormLabel-disabled-83 MuiInputLabel-disabled-72",
-                                          "error": "MuiFormLabel-error-84 MuiInputLabel-error-73",
-                                          "filled": "MuiFormLabel-filled-85",
-                                          "focused": "MuiFormLabel-focused-82 MuiInputLabel-focused-71",
-                                          "required": "MuiFormLabel-required-86 MuiInputLabel-required-74",
-                                          "root": "MuiFormLabel-root-81",
+                                          "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                                          "disabled": "Mui-disabled Mui-disabled",
+                                          "error": "Mui-error Mui-error",
+                                          "filled": "MuiFormLabel-filled",
+                                          "focused": "Mui-focused Mui-focused",
+                                          "required": "Mui-required Mui-required",
+                                          "root": "MuiFormLabel-root",
                                         }
                                       }
-                                      component="label"
                                       data-shrink={false}
                                       htmlFor="serverAddress"
-                                      muiFormControl={
-                                        Object {
-                                          "adornedStart": false,
-                                          "disabled": false,
-                                          "error": false,
-                                          "filled": false,
-                                          "focused": false,
-                                          "margin": "none",
-                                          "onBlur": [Function],
-                                          "onEmpty": [Function],
-                                          "onFilled": [Function],
-                                          "onFocus": [Function],
-                                          "required": true,
-                                          "variant": "standard",
-                                        }
-                                      }
                                     >
-                                      <label
-                                        className="MuiFormLabel-root-81 MuiFormLabel-required-86 MuiInputLabel-required-74 MuiInputLabel-root-70 MuiInputLabel-formControl-75 MuiInputLabel-animated-78"
+                                      <ForwardRef(FormLabel)
+                                        className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                                        classes={
+                                          Object {
+                                            "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
+                                            "disabled": "Mui-disabled Mui-disabled",
+                                            "error": "Mui-error Mui-error",
+                                            "filled": "MuiFormLabel-filled",
+                                            "focused": "Mui-focused Mui-focused",
+                                            "required": "Mui-required Mui-required",
+                                            "root": "MuiFormLabel-root",
+                                          }
+                                        }
                                         data-shrink={false}
                                         htmlFor="serverAddress"
+                                        muiFormControl={
+                                          Object {
+                                            "adornedStart": false,
+                                            "disabled": false,
+                                            "error": false,
+                                            "filled": false,
+                                            "focused": false,
+                                            "margin": "none",
+                                            "onBlur": [Function],
+                                            "onEmpty": [Function],
+                                            "onFilled": [Function],
+                                            "onFocus": [Function],
+                                            "required": true,
+                                            "variant": "standard",
+                                          }
+                                        }
                                       >
-                                        Server address
-                                        <span
-                                          className="MuiFormLabel-asterisk-87"
+                                        <label
+                                          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated Mui-required Mui-required"
+                                          data-shrink={false}
+                                          htmlFor="serverAddress"
                                         >
-                                           *
-                                        </span>
-                                      </label>
-                                    </FormLabel>
-                                  </WithFormControlContext(FormLabel)>
-                                </WithStyles(WithFormControlContext(FormLabel))>
-                              </InputLabel>
-                            </WithFormControlContext(InputLabel)>
-                          </WithStyles(WithFormControlContext(InputLabel))>
-                          <WithStyles(Input)
-                            id="serverAddress"
-                            onChange={[Function]}
-                            value=""
-                          >
-                            <Input
-                              classes={
-                                Object {
-                                  "disabled": "MuiInput-disabled-91",
-                                  "error": "MuiInput-error-93",
-                                  "focused": "MuiInput-focused-90",
-                                  "formControl": "MuiInput-formControl-89",
-                                  "fullWidth": "MuiInput-fullWidth-95",
-                                  "input": "MuiInput-input-96",
-                                  "inputMarginDense": "MuiInput-inputMarginDense-97",
-                                  "inputMultiline": "MuiInput-inputMultiline-98",
-                                  "inputType": "MuiInput-inputType-99",
-                                  "inputTypeSearch": "MuiInput-inputTypeSearch-100",
-                                  "multiline": "MuiInput-multiline-94",
-                                  "root": "MuiInput-root-88",
-                                  "underline": "MuiInput-underline-92",
-                                }
-                              }
+                                          Server address
+                                          <span
+                                            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                                          >
+                                             
+                                            *
+                                          </span>
+                                        </label>
+                                      </ForwardRef(FormLabel)>
+                                    </WithFormControlContext(ForwardRef(FormLabel))>
+                                  </WithStyles(WithFormControlContext(ForwardRef(FormLabel)))>
+                                </ForwardRef(InputLabel)>
+                              </WithFormControlContext(ForwardRef(InputLabel))>
+                            </WithStyles(WithFormControlContext(ForwardRef(InputLabel)))>
+                            <WithStyles(ForwardRef(Input))
                               id="serverAddress"
                               onChange={[Function]}
                               value=""
                             >
-                              <WithStyles(WithFormControlContext(InputBase))
+                              <ForwardRef(Input)
                                 classes={
                                   Object {
-                                    "disabled": "MuiInput-disabled-91",
-                                    "error": "MuiInput-error-93",
-                                    "focused": "MuiInput-focused-90",
-                                    "formControl": "MuiInput-formControl-89",
-                                    "fullWidth": "MuiInput-fullWidth-95",
-                                    "input": "MuiInput-input-96",
-                                    "inputMarginDense": "MuiInput-inputMarginDense-97",
-                                    "inputMultiline": "MuiInput-inputMultiline-98",
-                                    "inputType": "MuiInput-inputType-99",
-                                    "inputTypeSearch": "MuiInput-inputTypeSearch-100",
-                                    "multiline": "MuiInput-multiline-94",
-                                    "root": "MuiInput-root-88 MuiInput-underline-92",
-                                    "underline": null,
+                                    "disabled": "Mui-disabled",
+                                    "error": "Mui-error",
+                                    "focused": "Mui-focused",
+                                    "formControl": "MuiInput-formControl",
+                                    "fullWidth": "MuiInput-fullWidth",
+                                    "input": "MuiInput-input",
+                                    "inputMarginDense": "MuiInput-inputMarginDense",
+                                    "inputMultiline": "MuiInput-inputMultiline",
+                                    "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                    "multiline": "MuiInput-multiline",
+                                    "root": "MuiInput-root",
+                                    "underline": "MuiInput-underline",
                                   }
                                 }
-                                fullWidth={false}
                                 id="serverAddress"
-                                inputComponent="input"
-                                multiline={false}
                                 onChange={[Function]}
-                                type="text"
                                 value=""
                               >
-                                <WithFormControlContext(InputBase)
+                                <WithStyles(ForwardRef(InputBase))
                                   classes={
                                     Object {
-                                      "adornedEnd": "MuiInputBase-adornedEnd-106",
-                                      "adornedStart": "MuiInputBase-adornedStart-105",
-                                      "disabled": "MuiInputBase-disabled-104 MuiInput-disabled-91",
-                                      "error": "MuiInputBase-error-107 MuiInput-error-93",
-                                      "focused": "MuiInputBase-focused-103 MuiInput-focused-90",
-                                      "formControl": "MuiInputBase-formControl-102 MuiInput-formControl-89",
-                                      "fullWidth": "MuiInputBase-fullWidth-110 MuiInput-fullWidth-95",
-                                      "input": "MuiInputBase-input-111 MuiInput-input-96",
-                                      "inputAdornedEnd": "MuiInputBase-inputAdornedEnd-117",
-                                      "inputAdornedStart": "MuiInputBase-inputAdornedStart-116",
-                                      "inputMarginDense": "MuiInputBase-inputMarginDense-112 MuiInput-inputMarginDense-97",
-                                      "inputMultiline": "MuiInputBase-inputMultiline-113 MuiInput-inputMultiline-98",
-                                      "inputType": "MuiInputBase-inputType-114 MuiInput-inputType-99",
-                                      "inputTypeSearch": "MuiInputBase-inputTypeSearch-115 MuiInput-inputTypeSearch-100",
-                                      "marginDense": "MuiInputBase-marginDense-108",
-                                      "multiline": "MuiInputBase-multiline-109 MuiInput-multiline-94",
-                                      "root": "MuiInputBase-root-101 MuiInput-root-88 MuiInput-underline-92",
+                                      "disabled": "Mui-disabled",
+                                      "error": "Mui-error",
+                                      "focused": "Mui-focused",
+                                      "formControl": "MuiInput-formControl",
+                                      "fullWidth": "MuiInput-fullWidth",
+                                      "input": "MuiInput-input",
+                                      "inputMarginDense": "MuiInput-inputMarginDense",
+                                      "inputMultiline": "MuiInput-inputMultiline",
+                                      "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                      "multiline": "MuiInput-multiline",
+                                      "root": "MuiInput-root MuiInput-underline",
+                                      "underline": null,
                                     }
                                   }
                                   fullWidth={false}
@@ -765,59 +609,42 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                                   type="text"
                                   value=""
                                 >
-                                  <InputBase
+                                  <ForwardRef(InputBase)
                                     classes={
                                       Object {
-                                        "adornedEnd": "MuiInputBase-adornedEnd-106",
-                                        "adornedStart": "MuiInputBase-adornedStart-105",
-                                        "disabled": "MuiInputBase-disabled-104 MuiInput-disabled-91",
-                                        "error": "MuiInputBase-error-107 MuiInput-error-93",
-                                        "focused": "MuiInputBase-focused-103 MuiInput-focused-90",
-                                        "formControl": "MuiInputBase-formControl-102 MuiInput-formControl-89",
-                                        "fullWidth": "MuiInputBase-fullWidth-110 MuiInput-fullWidth-95",
-                                        "input": "MuiInputBase-input-111 MuiInput-input-96",
-                                        "inputAdornedEnd": "MuiInputBase-inputAdornedEnd-117",
-                                        "inputAdornedStart": "MuiInputBase-inputAdornedStart-116",
-                                        "inputMarginDense": "MuiInputBase-inputMarginDense-112 MuiInput-inputMarginDense-97",
-                                        "inputMultiline": "MuiInputBase-inputMultiline-113 MuiInput-inputMultiline-98",
-                                        "inputType": "MuiInputBase-inputType-114 MuiInput-inputType-99",
-                                        "inputTypeSearch": "MuiInputBase-inputTypeSearch-115 MuiInput-inputTypeSearch-100",
-                                        "marginDense": "MuiInputBase-marginDense-108",
-                                        "multiline": "MuiInputBase-multiline-109 MuiInput-multiline-94",
-                                        "root": "MuiInputBase-root-101 MuiInput-root-88 MuiInput-underline-92",
+                                        "adornedEnd": "MuiInputBase-adornedEnd",
+                                        "adornedStart": "MuiInputBase-adornedStart",
+                                        "disabled": "Mui-disabled Mui-disabled",
+                                        "error": "Mui-error Mui-error",
+                                        "focused": "Mui-focused Mui-focused",
+                                        "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                        "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                        "input": "MuiInputBase-input MuiInput-input",
+                                        "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                        "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                        "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                        "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                        "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                        "marginDense": "MuiInputBase-marginDense",
+                                        "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                        "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
                                       }
                                     }
                                     fullWidth={false}
                                     id="serverAddress"
                                     inputComponent="input"
-                                    muiFormControl={
-                                      Object {
-                                        "adornedStart": false,
-                                        "disabled": false,
-                                        "error": false,
-                                        "filled": false,
-                                        "focused": false,
-                                        "margin": "none",
-                                        "onBlur": [Function],
-                                        "onEmpty": [Function],
-                                        "onFilled": [Function],
-                                        "onFocus": [Function],
-                                        "required": true,
-                                        "variant": "standard",
-                                      }
-                                    }
                                     multiline={false}
                                     onChange={[Function]}
                                     type="text"
                                     value=""
                                   >
                                     <div
-                                      className="MuiInputBase-root-101 MuiInput-root-88 MuiInput-underline-92 MuiInputBase-formControl-102 MuiInput-formControl-89"
+                                      className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
                                       onClick={[Function]}
                                     >
                                       <input
                                         aria-invalid={false}
-                                        className="MuiInputBase-input-111 MuiInput-input-96"
+                                        className="MuiInputBase-input MuiInput-input"
                                         disabled={false}
                                         id="serverAddress"
                                         onBlur={[Function]}
@@ -828,97 +655,75 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                                         value=""
                                       />
                                     </div>
-                                  </InputBase>
-                                </WithFormControlContext(InputBase)>
-                              </WithStyles(WithFormControlContext(InputBase))>
-                            </Input>
-                          </WithStyles(Input)>
-                        </div>
-                      </FormControl>
-                    </WithStyles(FormControl)>
-                  </TextField>
+                                  </ForwardRef(InputBase)>
+                                </WithStyles(ForwardRef(InputBase))>
+                              </ForwardRef(Input)>
+                            </WithStyles(ForwardRef(Input))>
+                          </div>
+                        </ForwardRef(FormControl)>
+                      </WithStyles(ForwardRef(FormControl))>
+                    </ForwardRef(TextField)>
+                  </WithStyles(ForwardRef(TextField))>
                   <br />
-                  <WithStyles(Button)
+                  <WithStyles(ForwardRef(Button))
                     color="primary"
                     onClick={[Function]}
                   >
-                    <Button
+                    <ForwardRef(Button)
                       classes={
                         Object {
-                          "colorInherit": "MuiButton-colorInherit-139",
-                          "contained": "MuiButton-contained-129",
-                          "containedPrimary": "MuiButton-containedPrimary-130",
-                          "containedSecondary": "MuiButton-containedSecondary-131",
-                          "disabled": "MuiButton-disabled-138",
-                          "extendedFab": "MuiButton-extendedFab-136",
-                          "fab": "MuiButton-fab-135",
-                          "flat": "MuiButton-flat-123",
-                          "flatPrimary": "MuiButton-flatPrimary-124",
-                          "flatSecondary": "MuiButton-flatSecondary-125",
-                          "focusVisible": "MuiButton-focusVisible-137",
-                          "fullWidth": "MuiButton-fullWidth-143",
-                          "label": "MuiButton-label-119",
-                          "mini": "MuiButton-mini-140",
-                          "outlined": "MuiButton-outlined-126",
-                          "outlinedPrimary": "MuiButton-outlinedPrimary-127",
-                          "outlinedSecondary": "MuiButton-outlinedSecondary-128",
-                          "raised": "MuiButton-raised-132",
-                          "raisedPrimary": "MuiButton-raisedPrimary-133",
-                          "raisedSecondary": "MuiButton-raisedSecondary-134",
-                          "root": "MuiButton-root-118",
-                          "sizeLarge": "MuiButton-sizeLarge-142",
-                          "sizeSmall": "MuiButton-sizeSmall-141",
-                          "text": "MuiButton-text-120",
-                          "textPrimary": "MuiButton-textPrimary-121",
-                          "textSecondary": "MuiButton-textSecondary-122",
+                          "colorInherit": "MuiButton-colorInherit",
+                          "contained": "MuiButton-contained",
+                          "containedPrimary": "MuiButton-containedPrimary",
+                          "containedSecondary": "MuiButton-containedSecondary",
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "fullWidth": "MuiButton-fullWidth",
+                          "label": "MuiButton-label",
+                          "outlined": "MuiButton-outlined",
+                          "outlinedPrimary": "MuiButton-outlinedPrimary",
+                          "outlinedSecondary": "MuiButton-outlinedSecondary",
+                          "root": "MuiButton-root",
+                          "sizeLarge": "MuiButton-sizeLarge",
+                          "sizeSmall": "MuiButton-sizeSmall",
+                          "text": "MuiButton-text",
+                          "textPrimary": "MuiButton-textPrimary",
+                          "textSecondary": "MuiButton-textSecondary",
                         }
                       }
                       color="primary"
-                      component="button"
-                      disableFocusRipple={false}
-                      disabled={false}
-                      fullWidth={false}
-                      mini={false}
                       onClick={[Function]}
-                      size="medium"
-                      type="button"
-                      variant="text"
                     >
-                      <WithStyles(ButtonBase)
-                        className="MuiButton-root-118 MuiButton-text-120 MuiButton-textPrimary-121 MuiButton-flat-123 MuiButton-flatPrimary-124"
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiButton-root MuiButton-text MuiButton-textPrimary"
                         component="button"
                         disabled={false}
                         focusRipple={true}
-                        focusVisibleClassName="MuiButton-focusVisible-137"
+                        focusVisibleClassName="Mui-focusVisible"
                         onClick={[Function]}
                         type="button"
                       >
-                        <ButtonBase
-                          centerRipple={false}
-                          className="MuiButton-root-118 MuiButton-text-120 MuiButton-textPrimary-121 MuiButton-flat-123 MuiButton-flatPrimary-124"
+                        <ForwardRef(ButtonBase)
+                          className="MuiButton-root MuiButton-text MuiButton-textPrimary"
                           classes={
                             Object {
-                              "disabled": "MuiButtonBase-disabled-145",
-                              "focusVisible": "MuiButtonBase-focusVisible-146",
-                              "root": "MuiButtonBase-root-144",
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
                             }
                           }
                           component="button"
-                          disableRipple={false}
-                          disableTouchRipple={false}
                           disabled={false}
                           focusRipple={true}
-                          focusVisibleClassName="MuiButton-focusVisible-137"
+                          focusVisibleClassName="Mui-focusVisible"
                           onClick={[Function]}
-                          tabIndex="0"
                           type="button"
                         >
                           <button
-                            className="MuiButtonBase-root-144 MuiButton-root-118 MuiButton-text-120 MuiButton-textPrimary-121 MuiButton-flat-123 MuiButton-flatPrimary-124"
+                            className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
                             disabled={false}
                             onBlur={[Function]}
                             onClick={[Function]}
-                            onContextMenu={[Function]}
                             onFocus={[Function]}
                             onKeyDown={[Function]}
                             onKeyUp={[Function]}
@@ -928,58 +733,53 @@ exports[`<SetServer /> Should match snapshot 1`] = `
                             onTouchEnd={[Function]}
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
-                            tabIndex="0"
+                            tabIndex={0}
                             type="button"
                           >
                             <span
-                              className="MuiButton-label-119"
+                              className="MuiButton-label"
                             >
                               Submit
                             </span>
-                            <NoSsr
-                              defer={false}
-                              fallback={null}
-                            >
+                            <NoSsr>
                               <WithStyles(TouchRipple)
                                 center={false}
-                                innerRef={[Function]}
                               >
                                 <TouchRipple
                                   center={false}
                                   classes={
                                     Object {
-                                      "child": "MuiTouchRipple-child-151",
-                                      "childLeaving": "MuiTouchRipple-childLeaving-152",
-                                      "childPulsate": "MuiTouchRipple-childPulsate-153",
-                                      "ripple": "MuiTouchRipple-ripple-148",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate-150",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible-149",
-                                      "root": "MuiTouchRipple-root-147",
+                                      "child": "MuiTouchRipple-child",
+                                      "childLeaving": "MuiTouchRipple-childLeaving",
+                                      "childPulsate": "MuiTouchRipple-childPulsate",
+                                      "ripple": "MuiTouchRipple-ripple",
+                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                      "root": "MuiTouchRipple-root",
                                     }
                                   }
                                 >
-                                  <TransitionGroup
-                                    childFactory={[Function]}
-                                    className="MuiTouchRipple-root-147"
-                                    component="span"
-                                    enter={true}
-                                    exit={true}
+                                  <span
+                                    className="MuiTouchRipple-root"
                                   >
-                                    <span
-                                      className="MuiTouchRipple-root-147"
+                                    <TransitionGroup
+                                      childFactory={[Function]}
+                                      component={null}
+                                      enter={true}
+                                      exit={true}
                                     />
-                                  </TransitionGroup>
+                                  </span>
                                 </TouchRipple>
                               </WithStyles(TouchRipple)>
                             </NoSsr>
                           </button>
-                        </ButtonBase>
-                      </WithStyles(ButtonBase)>
-                    </Button>
-                  </WithStyles(Button)>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(Button)>
+                  </WithStyles(ForwardRef(Button))>
                 </div>
-              </Paper>
-            </WithStyles(Paper)>
+              </ForwardRef(Paper)>
+            </WithStyles(ForwardRef(Paper))>
           </SetServer>
         </WithStyles(SetServer)>
       </withHandlers(WithStyles(SetServer))>

@@ -46,7 +46,7 @@ exports[`<App /> Should match snapshot 1`] = `
                 dispatch={[Function]}
                 serverPath={null}
               >
-                <MuiThemeProviderOld
+                <ThemeProvider
                   theme={
                     Object {
                       "breakpoints": Object {
@@ -207,9 +207,7 @@ exports[`<App /> Should match snapshot 1`] = `
                       "shape": Object {
                         "borderRadius": 4,
                       },
-                      "spacing": Object {
-                        "unit": 8,
-                      },
+                      "spacing": [Function],
                       "transitions": Object {
                         "create": [Function],
                         "duration": Object {
@@ -231,15 +229,6 @@ exports[`<App /> Should match snapshot 1`] = `
                       },
                       "typography": Object {
                         "body1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1rem",
-                          "fontWeight": 400,
-                          "letterSpacing": "0.00938em",
-                          "lineHeight": 1.5,
-                        },
-                        "body1Next": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1rem",
                           "fontWeight": 400,
@@ -247,32 +236,13 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1.5,
                         },
                         "body2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 400,
                           "letterSpacing": "0.01071em",
-                          "lineHeight": 1.5,
-                        },
-                        "body2Next": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 400,
-                          "letterSpacing": "0.01071em",
-                          "lineHeight": 1.5,
+                          "lineHeight": 1.43,
                         },
                         "button": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 500,
-                          "letterSpacing": "0.02857em",
-                          "lineHeight": 1.75,
-                          "textTransform": "uppercase",
-                        },
-                        "buttonNext": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 500,
@@ -281,53 +251,11 @@ exports[`<App /> Should match snapshot 1`] = `
                           "textTransform": "uppercase",
                         },
                         "caption": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.75rem",
                           "fontWeight": 400,
                           "letterSpacing": "0.03333em",
                           "lineHeight": 1.66,
-                        },
-                        "captionNext": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.75rem",
-                          "fontWeight": 400,
-                          "letterSpacing": "0.03333em",
-                          "lineHeight": 1.66,
-                        },
-                        "display1": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "2.125rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.20588em",
-                        },
-                        "display2": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "2.8125rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.13333em",
-                          "marginLeft": "-.02em",
-                        },
-                        "display3": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "3.5rem",
-                          "fontWeight": 400,
-                          "letterSpacing": "-.02em",
-                          "lineHeight": "1.30357em",
-                          "marginLeft": "-.02em",
-                        },
-                        "display4": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "7rem",
-                          "fontWeight": 300,
-                          "letterSpacing": "-.04em",
-                          "lineHeight": "1.14286em",
-                          "marginLeft": "-.04em",
                         },
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": 14,
@@ -335,7 +263,6 @@ exports[`<App /> Should match snapshot 1`] = `
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
                         "h1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "6rem",
                           "fontWeight": 300,
@@ -343,7 +270,6 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1,
                         },
                         "h2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "3.75rem",
                           "fontWeight": 300,
@@ -351,7 +277,6 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1,
                         },
                         "h3": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "3rem",
                           "fontWeight": 400,
@@ -359,7 +284,6 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1.04,
                         },
                         "h4": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "2.125rem",
                           "fontWeight": 400,
@@ -367,7 +291,6 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1.17,
                         },
                         "h5": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1.5rem",
                           "fontWeight": 400,
@@ -375,22 +298,14 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1.33,
                         },
                         "h6": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1.25rem",
                           "fontWeight": 500,
                           "letterSpacing": "0.0075em",
                           "lineHeight": 1.6,
                         },
-                        "headline": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1.5rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.35417em",
-                        },
+                        "htmlFontSize": 16,
                         "overline": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.75rem",
                           "fontWeight": 400,
@@ -400,15 +315,7 @@ exports[`<App /> Should match snapshot 1`] = `
                         },
                         "pxToRem": [Function],
                         "round": [Function],
-                        "subheading": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.5em",
-                        },
                         "subtitle1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1rem",
                           "fontWeight": 400,
@@ -416,21 +323,12 @@ exports[`<App /> Should match snapshot 1`] = `
                           "lineHeight": 1.75,
                         },
                         "subtitle2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 500,
                           "letterSpacing": "0.00714em",
                           "lineHeight": 1.57,
                         },
-                        "title": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1.3125rem",
-                          "fontWeight": 500,
-                          "lineHeight": "1.16667em",
-                        },
-                        "useNextVariants": true,
                       },
                       "zIndex": Object {
                         "appBar": 1100,
@@ -448,7 +346,7 @@ exports[`<App /> Should match snapshot 1`] = `
                       Scenes
                     </p>
                   </Component>
-                </MuiThemeProviderOld>
+                </ThemeProvider>
               </Component>
             </renderComponent(Component)>
           </branch(mapProps(ApolloProvider))>

@@ -47,7 +47,7 @@ export const Nodes = ({ nodes, onTemplateDataChange }) => {
 };
 
 Nodes.propTypes = {
-	nodes: PropTypes.object,
+	nodes: PropTypes.array,
 	onTemplateDataChange: PropTypes.func
 };
 

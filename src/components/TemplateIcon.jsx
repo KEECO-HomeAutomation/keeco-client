@@ -9,7 +9,7 @@ export const TemplateIcon = ({ Icon, ...rest }) => {
 };
 
 TemplateIcon.propTypes = {
-	Icon: PropTypes.node
+	Icon: PropTypes.elementType
 };
 
 export const enhancer = compose(

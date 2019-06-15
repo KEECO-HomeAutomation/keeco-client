@@ -1,9 +1,866 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
+<WithStyles(Component)
+  mocks={
+    Object {
+      "nodes": Array [
+        Object {
+          "templates": Array [
+            Object {
+              "mocked": "node1",
+            },
+          ],
+        },
+        Object {
+          "templates": Array [
+            Object {
+              "mocked": "node2",
+            },
+          ],
+        },
+        Object {
+          "templates": Array [
+            Object {
+              "mocked": "node3",
+            },
+          ],
+        },
+      ],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Component
+    classes={
+      Object {
+        "centeredProgress": "Component-centeredProgress-1",
+      }
+    }
+    mocks={
+      Object {
+        "nodes": Array [
+          Object {
+            "templates": Array [
+              Object {
+                "mocked": "node1",
+              },
+            ],
+          },
+          Object {
+            "templates": Array [
+              Object {
+                "mocked": "node2",
+              },
+            ],
+          },
+          Object {
+            "templates": Array [
+              Object {
+                "mocked": "node3",
+              },
+            ],
+          },
+        ],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <branch(Component)
+      classes={
+        Object {
+          "centeredProgress": "Component-centeredProgress-1",
+        }
+      }
+      mocks={
+        Object {
+          "nodes": Array [
+            Object {
+              "templates": Array [
+                Object {
+                  "mocked": "node1",
+                },
+              ],
+            },
+            Object {
+              "templates": Array [
+                Object {
+                  "mocked": "node2",
+                },
+              ],
+            },
+            Object {
+              "templates": Array [
+                Object {
+                  "mocked": "node3",
+                },
+              ],
+            },
+          ],
+          "subscribe": [Function],
+        }
+      }
+      nodes={
+        Array [
+          Object {
+            "templates": Array [
+              Object {
+                "mocked": "node1",
+              },
+            ],
+          },
+          Object {
+            "templates": Array [
+              Object {
+                "mocked": "node2",
+              },
+            ],
+          },
+          Object {
+            "templates": Array [
+              Object {
+                "mocked": "node3",
+              },
+            ],
+          },
+        ]
+      }
+      subscribe={[Function]}
+    >
+      <Component
+        classes={
+          Object {
+            "centeredProgress": "Component-centeredProgress-1",
+          }
+        }
+        mocks={
+          Object {
+            "nodes": Array [
+              Object {
+                "templates": Array [
+                  Object {
+                    "mocked": "node1",
+                  },
+                ],
+              },
+              Object {
+                "templates": Array [
+                  Object {
+                    "mocked": "node2",
+                  },
+                ],
+              },
+              Object {
+                "templates": Array [
+                  Object {
+                    "mocked": "node3",
+                  },
+                ],
+              },
+            ],
+            "subscribe": [Function],
+          }
+        }
+        nodes={
+          Array [
+            Object {
+              "templates": Array [
+                Object {
+                  "mocked": "node1",
+                },
+              ],
+            },
+            Object {
+              "templates": Array [
+                Object {
+                  "mocked": "node2",
+                },
+              ],
+            },
+            Object {
+              "templates": Array [
+                Object {
+                  "mocked": "node3",
+                },
+              ],
+            },
+          ]
+        }
+        subscribe={[Function]}
+      >
+        <withHandlers(lifecycle(Nodes))
+          classes={
+            Object {
+              "centeredProgress": "Component-centeredProgress-1",
+            }
+          }
+          mocks={
+            Object {
+              "nodes": Array [
+                Object {
+                  "templates": Array [
+                    Object {
+                      "mocked": "node1",
+                    },
+                  ],
+                },
+                Object {
+                  "templates": Array [
+                    Object {
+                      "mocked": "node2",
+                    },
+                  ],
+                },
+                Object {
+                  "templates": Array [
+                    Object {
+                      "mocked": "node3",
+                    },
+                  ],
+                },
+              ],
+              "subscribe": [Function],
+            }
+          }
+          nodes={
+            Array [
+              Object {
+                "templates": Array [
+                  Object {
+                    "mocked": "node1",
+                  },
+                ],
+              },
+              Object {
+                "templates": Array [
+                  Object {
+                    "mocked": "node2",
+                  },
+                ],
+              },
+              Object {
+                "templates": Array [
+                  Object {
+                    "mocked": "node3",
+                  },
+                ],
+              },
+            ]
+          }
+          subscribe={[Function]}
+        >
+          <lifecycle(Nodes)
+            classes={
+              Object {
+                "centeredProgress": "Component-centeredProgress-1",
+              }
+            }
+            mocks={
+              Object {
+                "nodes": Array [
+                  Object {
+                    "templates": Array [
+                      Object {
+                        "mocked": "node1",
+                      },
+                    ],
+                  },
+                  Object {
+                    "templates": Array [
+                      Object {
+                        "mocked": "node2",
+                      },
+                    ],
+                  },
+                  Object {
+                    "templates": Array [
+                      Object {
+                        "mocked": "node3",
+                      },
+                    ],
+                  },
+                ],
+                "subscribe": [Function],
+              }
+            }
+            nodes={
+              Array [
+                Object {
+                  "templates": Array [
+                    Object {
+                      "mocked": "node1",
+                    },
+                  ],
+                },
+                Object {
+                  "templates": Array [
+                    Object {
+                      "mocked": "node2",
+                    },
+                  ],
+                },
+                Object {
+                  "templates": Array [
+                    Object {
+                      "mocked": "node3",
+                    },
+                  ],
+                },
+              ]
+            }
+            onTemplateDataChange={[Function]}
+            subscribe={[Function]}
+          >
+            <Nodes
+              classes={
+                Object {
+                  "centeredProgress": "Component-centeredProgress-1",
+                }
+              }
+              mocks={
+                Object {
+                  "nodes": Array [
+                    Object {
+                      "templates": Array [
+                        Object {
+                          "mocked": "node1",
+                        },
+                      ],
+                    },
+                    Object {
+                      "templates": Array [
+                        Object {
+                          "mocked": "node2",
+                        },
+                      ],
+                    },
+                    Object {
+                      "templates": Array [
+                        Object {
+                          "mocked": "node3",
+                        },
+                      ],
+                    },
+                  ],
+                  "subscribe": [Function],
+                }
+              }
+              nodes={
+                Array [
+                  Object {
+                    "templates": Array [
+                      Object {
+                        "mocked": "node1",
+                      },
+                    ],
+                  },
+                  Object {
+                    "templates": Array [
+                      Object {
+                        "mocked": "node2",
+                      },
+                    ],
+                  },
+                  Object {
+                    "templates": Array [
+                      Object {
+                        "mocked": "node3",
+                      },
+                    ],
+                  },
+                ]
+              }
+              onTemplateDataChange={[Function]}
+              subscribe={[Function]}
+            >
+              <WithStyles(ForwardRef(GridList))
+                cellHeight="auto"
+                cols={4}
+                spacing={5}
+              >
+                <ForwardRef(GridList)
+                  cellHeight="auto"
+                  classes={
+                    Object {
+                      "root": "MuiGridList-root",
+                    }
+                  }
+                  cols={4}
+                  spacing={5}
+                >
+                  <ul
+                    className="MuiGridList-root"
+                    style={
+                      Object {
+                        "margin": -2.5,
+                      }
+                    }
+                  >
+                    <WithStyles(ForwardRef(GridListTile))
+                      key=".0:0"
+                      style={
+                        Object {
+                          "height": "auto",
+                          "padding": 2.5,
+                          "width": "25%",
+                        }
+                      }
+                    >
+                      <ForwardRef(GridListTile)
+                        classes={
+                          Object {
+                            "imgFullHeight": "MuiGridListTile-imgFullHeight",
+                            "imgFullWidth": "MuiGridListTile-imgFullWidth",
+                            "root": "MuiGridListTile-root",
+                            "tile": "MuiGridListTile-tile",
+                          }
+                        }
+                        style={
+                          Object {
+                            "height": "auto",
+                            "padding": 2.5,
+                            "width": "25%",
+                          }
+                        }
+                      >
+                        <li
+                          className="MuiGridListTile-root"
+                          style={
+                            Object {
+                              "height": "auto",
+                              "padding": 2.5,
+                              "width": "25%",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiGridListTile-tile"
+                          >
+                            <Component
+                              data={
+                                Object {
+                                  "id": undefined,
+                                  "name": undefined,
+                                  "template": Object {
+                                    "mocked": "node1",
+                                  },
+                                }
+                              }
+                              key=".0"
+                              onTemplateDataChange={[Function]}
+                            >
+                              <p
+                                className="nodeCard"
+                              >
+                                NodeCard: 
+                                {"data":{"template":{"mocked":"node1"}}}
+                                 
+                              </p>
+                            </Component>
+                          </div>
+                        </li>
+                      </ForwardRef(GridListTile)>
+                    </WithStyles(ForwardRef(GridListTile))>
+                    <WithStyles(ForwardRef(GridListTile))
+                      key=".1:0"
+                      style={
+                        Object {
+                          "height": "auto",
+                          "padding": 2.5,
+                          "width": "25%",
+                        }
+                      }
+                    >
+                      <ForwardRef(GridListTile)
+                        classes={
+                          Object {
+                            "imgFullHeight": "MuiGridListTile-imgFullHeight",
+                            "imgFullWidth": "MuiGridListTile-imgFullWidth",
+                            "root": "MuiGridListTile-root",
+                            "tile": "MuiGridListTile-tile",
+                          }
+                        }
+                        style={
+                          Object {
+                            "height": "auto",
+                            "padding": 2.5,
+                            "width": "25%",
+                          }
+                        }
+                      >
+                        <li
+                          className="MuiGridListTile-root"
+                          style={
+                            Object {
+                              "height": "auto",
+                              "padding": 2.5,
+                              "width": "25%",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiGridListTile-tile"
+                          >
+                            <Component
+                              data={
+                                Object {
+                                  "id": undefined,
+                                  "name": undefined,
+                                  "template": Object {
+                                    "mocked": "node2",
+                                  },
+                                }
+                              }
+                              key=".0"
+                              onTemplateDataChange={[Function]}
+                            >
+                              <p
+                                className="nodeCard"
+                              >
+                                NodeCard: 
+                                {"data":{"template":{"mocked":"node2"}}}
+                                 
+                              </p>
+                            </Component>
+                          </div>
+                        </li>
+                      </ForwardRef(GridListTile)>
+                    </WithStyles(ForwardRef(GridListTile))>
+                    <WithStyles(ForwardRef(GridListTile))
+                      key=".2:0"
+                      style={
+                        Object {
+                          "height": "auto",
+                          "padding": 2.5,
+                          "width": "25%",
+                        }
+                      }
+                    >
+                      <ForwardRef(GridListTile)
+                        classes={
+                          Object {
+                            "imgFullHeight": "MuiGridListTile-imgFullHeight",
+                            "imgFullWidth": "MuiGridListTile-imgFullWidth",
+                            "root": "MuiGridListTile-root",
+                            "tile": "MuiGridListTile-tile",
+                          }
+                        }
+                        style={
+                          Object {
+                            "height": "auto",
+                            "padding": 2.5,
+                            "width": "25%",
+                          }
+                        }
+                      >
+                        <li
+                          className="MuiGridListTile-root"
+                          style={
+                            Object {
+                              "height": "auto",
+                              "padding": 2.5,
+                              "width": "25%",
+                            }
+                          }
+                        >
+                          <div
+                            className="MuiGridListTile-tile"
+                          >
+                            <Component
+                              data={
+                                Object {
+                                  "id": undefined,
+                                  "name": undefined,
+                                  "template": Object {
+                                    "mocked": "node3",
+                                  },
+                                }
+                              }
+                              key=".0"
+                              onTemplateDataChange={[Function]}
+                            >
+                              <p
+                                className="nodeCard"
+                              >
+                                NodeCard: 
+                                {"data":{"template":{"mocked":"node3"}}}
+                                 
+                              </p>
+                            </Component>
+                          </div>
+                        </li>
+                      </ForwardRef(GridListTile)>
+                    </WithStyles(ForwardRef(GridListTile))>
+                  </ul>
+                </ForwardRef(GridList)>
+              </WithStyles(ForwardRef(GridList))>
+            </Nodes>
+          </lifecycle(Nodes)>
+        </withHandlers(lifecycle(Nodes))>
+      </Component>
+    </branch(Component)>
+  </Component>
+</WithStyles(Component)>
+`;
+
 exports[`<Nodes /> Should match snapshot 1`] = `
-<Nodes>
-  <p>
-    Nodes
-  </p>
-</Nodes>
+<WithStyles(Component)
+  mocks={
+    Object {
+      "nodes": Array [],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Component
+    classes={
+      Object {
+        "centeredProgress": "Component-centeredProgress-1",
+      }
+    }
+    mocks={
+      Object {
+        "nodes": Array [],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <branch(Component)
+      classes={
+        Object {
+          "centeredProgress": "Component-centeredProgress-1",
+        }
+      }
+      mocks={
+        Object {
+          "nodes": Array [],
+          "subscribe": [Function],
+        }
+      }
+      nodes={Array []}
+      subscribe={[Function]}
+    >
+      <Component
+        classes={
+          Object {
+            "centeredProgress": "Component-centeredProgress-1",
+          }
+        }
+        mocks={
+          Object {
+            "nodes": Array [],
+            "subscribe": [Function],
+          }
+        }
+        nodes={Array []}
+        subscribe={[Function]}
+      >
+        <withHandlers(lifecycle(Nodes))
+          classes={
+            Object {
+              "centeredProgress": "Component-centeredProgress-1",
+            }
+          }
+          mocks={
+            Object {
+              "nodes": Array [],
+              "subscribe": [Function],
+            }
+          }
+          nodes={Array []}
+          subscribe={[Function]}
+        >
+          <lifecycle(Nodes)
+            classes={
+              Object {
+                "centeredProgress": "Component-centeredProgress-1",
+              }
+            }
+            mocks={
+              Object {
+                "nodes": Array [],
+                "subscribe": [Function],
+              }
+            }
+            nodes={Array []}
+            onTemplateDataChange={[Function]}
+            subscribe={[Function]}
+          >
+            <Nodes
+              classes={
+                Object {
+                  "centeredProgress": "Component-centeredProgress-1",
+                }
+              }
+              mocks={
+                Object {
+                  "nodes": Array [],
+                  "subscribe": [Function],
+                }
+              }
+              nodes={Array []}
+              onTemplateDataChange={[Function]}
+              subscribe={[Function]}
+            >
+              <WithStyles(ForwardRef(GridList))
+                cellHeight="auto"
+                cols={4}
+                spacing={5}
+              >
+                <ForwardRef(GridList)
+                  cellHeight="auto"
+                  classes={
+                    Object {
+                      "root": "MuiGridList-root",
+                    }
+                  }
+                  cols={4}
+                  spacing={5}
+                >
+                  <ul
+                    className="MuiGridList-root"
+                    style={
+                      Object {
+                        "margin": -2.5,
+                      }
+                    }
+                  />
+                </ForwardRef(GridList)>
+              </WithStyles(ForwardRef(GridList))>
+            </Nodes>
+          </lifecycle(Nodes)>
+        </withHandlers(lifecycle(Nodes))>
+      </Component>
+    </branch(Component)>
+  </Component>
+</WithStyles(Component)>
+`;
+
+exports[`<Nodes /> When graphql is loading should display loading circle 1`] = `
+<WithStyles(Component)
+  mocks={
+    Object {
+      "loading": true,
+      "nodes": Array [],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Component
+    classes={
+      Object {
+        "centeredProgress": "Component-centeredProgress-1",
+      }
+    }
+    mocks={
+      Object {
+        "loading": true,
+        "nodes": Array [],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <branch(Component)
+      classes={
+        Object {
+          "centeredProgress": "Component-centeredProgress-1",
+        }
+      }
+      loading={true}
+      mocks={
+        Object {
+          "loading": true,
+          "nodes": Array [],
+          "subscribe": [Function],
+        }
+      }
+      nodes={Array []}
+      subscribe={[Function]}
+    >
+      <renderComponent(Component)
+        classes={
+          Object {
+            "centeredProgress": "Component-centeredProgress-1",
+          }
+        }
+        loading={true}
+        mocks={
+          Object {
+            "loading": true,
+            "nodes": Array [],
+            "subscribe": [Function],
+          }
+        }
+        nodes={Array []}
+        subscribe={[Function]}
+      >
+        <Component
+          classes={
+            Object {
+              "centeredProgress": "Component-centeredProgress-1",
+            }
+          }
+          loading={true}
+          mocks={
+            Object {
+              "loading": true,
+              "nodes": Array [],
+              "subscribe": [Function],
+            }
+          }
+          nodes={Array []}
+          subscribe={[Function]}
+        >
+          <WithStyles(ForwardRef(CircularProgress))
+            className="Component-centeredProgress-1"
+          >
+            <ForwardRef(CircularProgress)
+              className="Component-centeredProgress-1"
+              classes={
+                Object {
+                  "circle": "MuiCircularProgress-circle",
+                  "circleDisableShrink": "MuiCircularProgress-circleDisableShrink",
+                  "circleIndeterminate": "MuiCircularProgress-circleIndeterminate",
+                  "circleStatic": "MuiCircularProgress-circleStatic",
+                  "colorPrimary": "MuiCircularProgress-colorPrimary",
+                  "colorSecondary": "MuiCircularProgress-colorSecondary",
+                  "indeterminate": "MuiCircularProgress-indeterminate",
+                  "root": "MuiCircularProgress-root",
+                  "static": "MuiCircularProgress-static",
+                  "svg": "MuiCircularProgress-svg",
+                }
+              }
+            >
+              <div
+                className="MuiCircularProgress-root Component-centeredProgress-1 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+                role="progressbar"
+                style={
+                  Object {
+                    "height": 40,
+                    "width": 40,
+                  }
+                }
+              >
+                <svg
+                  className="MuiCircularProgress-svg"
+                  viewBox="22 22 44 44"
+                >
+                  <circle
+                    className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                    cx={44}
+                    cy={44}
+                    fill="none"
+                    r={20.2}
+                    strokeWidth={3.6}
+                    style={Object {}}
+                  />
+                </svg>
+              </div>
+            </ForwardRef(CircularProgress)>
+          </WithStyles(ForwardRef(CircularProgress))>
+        </Component>
+      </renderComponent(Component)>
+    </branch(Component)>
+  </Component>
+</WithStyles(Component)>
 `;

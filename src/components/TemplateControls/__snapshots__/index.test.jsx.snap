@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateControls /> Should match snapshot 1`] = `
+<WithStyles(withProps(TemplateControls))>
+  <withProps(TemplateControls)
+    classes={
+      Object {
+        "container": "withProps(TemplateControls)-container-1",
+      }
+    }
+  >
+    <TemplateControls
+      Controls={null}
+      classes={
+        Object {
+          "container": "withProps(TemplateControls)-container-1",
+        }
+      }
+    >
+      <div
+        className="withProps(TemplateControls)-container-1"
+      />
+    </TemplateControls>
+  </withProps(TemplateControls)>
+</WithStyles(withProps(TemplateControls))>
+`;
+
+exports[`<TemplateControls /> Should render the needed control template=lamp 1`] = `
+<WithStyles(withProps(TemplateControls))
+  template="lamp"
+>
+  <withProps(TemplateControls)
+    classes={
+      Object {
+        "container": "withProps(TemplateControls)-container-1",
+      }
+    }
+    template="lamp"
+  >
+    <TemplateControls
+      Controls={[Function]}
+      classes={
+        Object {
+          "container": "withProps(TemplateControls)-container-1",
+        }
+      }
+      template="lamp"
+    >
+      <div
+        className="withProps(TemplateControls)-container-1"
+      >
+        <Component>
+          <p>
+            LampControls
+          </p>
+        </Component>
+      </div>
+    </TemplateControls>
+  </withProps(TemplateControls)>
+</WithStyles(withProps(TemplateControls))>
+`;
+
+exports[`<TemplateControls /> Should render the needed control template=switch 1`] = `
+<WithStyles(withProps(TemplateControls))
+  template="switch"
+>
+  <withProps(TemplateControls)
+    classes={
+      Object {
+        "container": "withProps(TemplateControls)-container-1",
+      }
+    }
+    template="switch"
+  >
+    <TemplateControls
+      Controls={[Function]}
+      classes={
+        Object {
+          "container": "withProps(TemplateControls)-container-1",
+        }
+      }
+      template="switch"
+    >
+      <div
+        className="withProps(TemplateControls)-container-1"
+      >
+        <Component>
+          <p>
+            SwitchControls
+          </p>
+        </Component>
+      </div>
+    </TemplateControls>
+  </withProps(TemplateControls)>
+</WithStyles(withProps(TemplateControls))>
+`;
+
+exports[`<TemplateControls /> Should render the needed control template=thermostat 1`] = `
+<WithStyles(withProps(TemplateControls))
+  template="thermostat"
+>
+  <withProps(TemplateControls)
+    classes={
+      Object {
+        "container": "withProps(TemplateControls)-container-1",
+      }
+    }
+    template="thermostat"
+  >
+    <TemplateControls
+      Controls={[Function]}
+      classes={
+        Object {
+          "container": "withProps(TemplateControls)-container-1",
+        }
+      }
+      template="thermostat"
+    >
+      <div
+        className="withProps(TemplateControls)-container-1"
+      >
+        <Component>
+          <p>
+            ThermostatControls
+          </p>
+        </Component>
+      </div>
+    </TemplateControls>
+  </withProps(TemplateControls)>
+</WithStyles(withProps(TemplateControls))>
+`;
