@@ -87,13 +87,15 @@ NodeCard.propTypes = {
 	data: PropTypes.shape({
 		id: PropTypes.string,
 		name: PropTypes.string,
-		endpoints: PropTypes.shape({
-			id: PropTypes.string,
-			name: PropTypes.string,
-			output: PropTypes.bool,
-			range: PropTypes.range,
-			value: PropTypes.number
-		}),
+		endpoints: PropTypes.arrayOf(
+			PropTypes.shape({
+				id: PropTypes.string,
+				name: PropTypes.string,
+				output: PropTypes.bool,
+				range: PropTypes.range,
+				value: PropTypes.number
+			})
+		),
 		template: PropTypes.shape({
 			id: PropTypes.string,
 			name: PropTypes.string,

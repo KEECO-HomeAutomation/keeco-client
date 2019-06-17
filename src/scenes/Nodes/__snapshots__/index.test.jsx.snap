@@ -6,25 +6,28 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
     Object {
       "nodes": Array [
         Object {
+          "id": 1,
           "templates": Array [
             Object {
-              "id": 1,
+              "id": 4,
               "mocked": "node1",
             },
           ],
         },
         Object {
+          "id": 2,
           "templates": Array [
             Object {
-              "id": 2,
+              "id": 5,
               "mocked": "node2",
             },
           ],
         },
         Object {
+          "id": 3,
           "templates": Array [
             Object {
-              "id": 3,
+              "id": 6,
               "mocked": "node3",
             },
           ],
@@ -40,31 +43,35 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
         "card": "Component-card-3",
         "centeredProgress": "Component-centeredProgress-2",
         "container": "Component-container-1",
+        "viewOptions": "Component-viewOptions-4",
       }
     }
     mocks={
       Object {
         "nodes": Array [
           Object {
+            "id": 1,
             "templates": Array [
               Object {
-                "id": 1,
+                "id": 4,
                 "mocked": "node1",
               },
             ],
           },
           Object {
+            "id": 2,
             "templates": Array [
               Object {
-                "id": 2,
+                "id": 5,
                 "mocked": "node2",
               },
             ],
           },
           Object {
+            "id": 3,
             "templates": Array [
               Object {
-                "id": 3,
+                "id": 6,
                 "mocked": "node3",
               },
             ],
@@ -80,31 +87,35 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
           "card": "Component-card-3",
           "centeredProgress": "Component-centeredProgress-2",
           "container": "Component-container-1",
+          "viewOptions": "Component-viewOptions-4",
         }
       }
       mocks={
         Object {
           "nodes": Array [
             Object {
+              "id": 1,
               "templates": Array [
                 Object {
-                  "id": 1,
+                  "id": 4,
                   "mocked": "node1",
                 },
               ],
             },
             Object {
+              "id": 2,
               "templates": Array [
                 Object {
-                  "id": 2,
+                  "id": 5,
                   "mocked": "node2",
                 },
               ],
             },
             Object {
+              "id": 3,
               "templates": Array [
                 Object {
-                  "id": 3,
+                  "id": 6,
                   "mocked": "node3",
                 },
               ],
@@ -116,25 +127,28 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
       nodes={
         Array [
           Object {
+            "id": 1,
             "templates": Array [
               Object {
-                "id": 1,
+                "id": 4,
                 "mocked": "node1",
               },
             ],
           },
           Object {
+            "id": 2,
             "templates": Array [
               Object {
-                "id": 2,
+                "id": 5,
                 "mocked": "node2",
               },
             ],
           },
           Object {
+            "id": 3,
             "templates": Array [
               Object {
-                "id": 3,
+                "id": 6,
                 "mocked": "node3",
               },
             ],
@@ -149,31 +163,35 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
             "card": "Component-card-3",
             "centeredProgress": "Component-centeredProgress-2",
             "container": "Component-container-1",
+            "viewOptions": "Component-viewOptions-4",
           }
         }
         mocks={
           Object {
             "nodes": Array [
               Object {
+                "id": 1,
                 "templates": Array [
                   Object {
-                    "id": 1,
+                    "id": 4,
                     "mocked": "node1",
                   },
                 ],
               },
               Object {
+                "id": 2,
                 "templates": Array [
                   Object {
-                    "id": 2,
+                    "id": 5,
                     "mocked": "node2",
                   },
                 ],
               },
               Object {
+                "id": 3,
                 "templates": Array [
                   Object {
-                    "id": 3,
+                    "id": 6,
                     "mocked": "node3",
                   },
                 ],
@@ -185,25 +203,28 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
         nodes={
           Array [
             Object {
+              "id": 1,
               "templates": Array [
                 Object {
-                  "id": 1,
+                  "id": 4,
                   "mocked": "node1",
                 },
               ],
             },
             Object {
+              "id": 2,
               "templates": Array [
                 Object {
-                  "id": 2,
+                  "id": 5,
                   "mocked": "node2",
                 },
               ],
             },
             Object {
+              "id": 3,
               "templates": Array [
                 Object {
-                  "id": 3,
+                  "id": 6,
                   "mocked": "node3",
                 },
               ],
@@ -212,37 +233,41 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
         }
         subscribe={[Function]}
       >
-        <withHandlers(lifecycle(Nodes))
+        <Component
           classes={
             Object {
               "card": "Component-card-3",
               "centeredProgress": "Component-centeredProgress-2",
               "container": "Component-container-1",
+              "viewOptions": "Component-viewOptions-4",
             }
           }
           mocks={
             Object {
               "nodes": Array [
                 Object {
+                  "id": 1,
                   "templates": Array [
                     Object {
-                      "id": 1,
+                      "id": 4,
                       "mocked": "node1",
                     },
                   ],
                 },
                 Object {
+                  "id": 2,
                   "templates": Array [
                     Object {
-                      "id": 2,
+                      "id": 5,
                       "mocked": "node2",
                     },
                   ],
                 },
                 Object {
+                  "id": 3,
                   "templates": Array [
                     Object {
-                      "id": 3,
+                      "id": 6,
                       "mocked": "node3",
                     },
                   ],
@@ -254,25 +279,28 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
           nodes={
             Array [
               Object {
+                "id": 1,
                 "templates": Array [
                   Object {
-                    "id": 1,
+                    "id": 4,
                     "mocked": "node1",
                   },
                 ],
               },
               Object {
+                "id": 2,
                 "templates": Array [
                   Object {
-                    "id": 2,
+                    "id": 5,
                     "mocked": "node2",
                   },
                 ],
               },
               Object {
+                "id": 3,
                 "templates": Array [
                   Object {
-                    "id": 3,
+                    "id": 6,
                     "mocked": "node3",
                   },
                 ],
@@ -281,37 +309,41 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
           }
           subscribe={[Function]}
         >
-          <lifecycle(Nodes)
+          <withHandlers(lifecycle(Nodes))
             classes={
               Object {
                 "card": "Component-card-3",
                 "centeredProgress": "Component-centeredProgress-2",
                 "container": "Component-container-1",
+                "viewOptions": "Component-viewOptions-4",
               }
             }
             mocks={
               Object {
                 "nodes": Array [
                   Object {
+                    "id": 1,
                     "templates": Array [
                       Object {
-                        "id": 1,
+                        "id": 4,
                         "mocked": "node1",
                       },
                     ],
                   },
                   Object {
+                    "id": 2,
                     "templates": Array [
                       Object {
-                        "id": 2,
+                        "id": 5,
                         "mocked": "node2",
                       },
                     ],
                   },
                   Object {
+                    "id": 3,
                     "templates": Array [
                       Object {
-                        "id": 3,
+                        "id": 6,
                         "mocked": "node3",
                       },
                     ],
@@ -323,65 +355,71 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
             nodes={
               Array [
                 Object {
+                  "id": 1,
                   "templates": Array [
                     Object {
-                      "id": 1,
+                      "id": 4,
                       "mocked": "node1",
                     },
                   ],
                 },
                 Object {
+                  "id": 2,
                   "templates": Array [
                     Object {
-                      "id": 2,
+                      "id": 5,
                       "mocked": "node2",
                     },
                   ],
                 },
                 Object {
+                  "id": 3,
                   "templates": Array [
                     Object {
-                      "id": 3,
+                      "id": 6,
                       "mocked": "node3",
                     },
                   ],
                 },
               ]
             }
-            onTemplateDataChange={[Function]}
             subscribe={[Function]}
           >
-            <Nodes
+            <lifecycle(Nodes)
               classes={
                 Object {
                   "card": "Component-card-3",
                   "centeredProgress": "Component-centeredProgress-2",
                   "container": "Component-container-1",
+                  "viewOptions": "Component-viewOptions-4",
                 }
               }
               mocks={
                 Object {
                   "nodes": Array [
                     Object {
+                      "id": 1,
                       "templates": Array [
                         Object {
-                          "id": 1,
+                          "id": 4,
                           "mocked": "node1",
                         },
                       ],
                     },
                     Object {
+                      "id": 2,
                       "templates": Array [
                         Object {
-                          "id": 2,
+                          "id": 5,
                           "mocked": "node2",
                         },
                       ],
                     },
                     Object {
+                      "id": 3,
                       "templates": Array [
                         Object {
-                          "id": 3,
+                          "id": 6,
                           "mocked": "node3",
                         },
                       ],
@@ -393,25 +431,28 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
               nodes={
                 Array [
                   Object {
+                    "id": 1,
                     "templates": Array [
                       Object {
-                        "id": 1,
+                        "id": 4,
                         "mocked": "node1",
                       },
                     ],
                   },
                   Object {
+                    "id": 2,
                     "templates": Array [
                       Object {
-                        "id": 2,
+                        "id": 5,
                         "mocked": "node2",
                       },
                     ],
                   },
                   Object {
+                    "id": 3,
                     "templates": Array [
                       Object {
-                        "id": 3,
+                        "id": 6,
                         "mocked": "node3",
                       },
                     ],
@@ -419,555 +460,894 @@ exports[`<Nodes /> Should display a mapped list of the nodes 1`] = `
                 ]
               }
               onTemplateDataChange={[Function]}
+              onViewModeChange={[Function]}
               subscribe={[Function]}
             >
-              <WithStyles(ForwardRef(Grid))
-                className="Component-container-1"
-                container={true}
-              >
-                <ForwardRef(Grid)
-                  className="Component-container-1"
-                  classes={
-                    Object {
-                      "align-content-xs-center": "MuiGrid-align-content-xs-center",
-                      "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
-                      "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
-                      "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
-                      "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
-                      "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
-                      "align-items-xs-center": "MuiGrid-align-items-xs-center",
-                      "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
-                      "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
-                      "container": "MuiGrid-container",
-                      "direction-xs-column": "MuiGrid-direction-xs-column",
-                      "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
-                      "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
-                      "grid-lg-1": "MuiGrid-grid-lg-1",
-                      "grid-lg-10": "MuiGrid-grid-lg-10",
-                      "grid-lg-11": "MuiGrid-grid-lg-11",
-                      "grid-lg-12": "MuiGrid-grid-lg-12",
-                      "grid-lg-2": "MuiGrid-grid-lg-2",
-                      "grid-lg-3": "MuiGrid-grid-lg-3",
-                      "grid-lg-4": "MuiGrid-grid-lg-4",
-                      "grid-lg-5": "MuiGrid-grid-lg-5",
-                      "grid-lg-6": "MuiGrid-grid-lg-6",
-                      "grid-lg-7": "MuiGrid-grid-lg-7",
-                      "grid-lg-8": "MuiGrid-grid-lg-8",
-                      "grid-lg-9": "MuiGrid-grid-lg-9",
-                      "grid-lg-auto": "MuiGrid-grid-lg-auto",
-                      "grid-lg-true": "MuiGrid-grid-lg-true",
-                      "grid-md-1": "MuiGrid-grid-md-1",
-                      "grid-md-10": "MuiGrid-grid-md-10",
-                      "grid-md-11": "MuiGrid-grid-md-11",
-                      "grid-md-12": "MuiGrid-grid-md-12",
-                      "grid-md-2": "MuiGrid-grid-md-2",
-                      "grid-md-3": "MuiGrid-grid-md-3",
-                      "grid-md-4": "MuiGrid-grid-md-4",
-                      "grid-md-5": "MuiGrid-grid-md-5",
-                      "grid-md-6": "MuiGrid-grid-md-6",
-                      "grid-md-7": "MuiGrid-grid-md-7",
-                      "grid-md-8": "MuiGrid-grid-md-8",
-                      "grid-md-9": "MuiGrid-grid-md-9",
-                      "grid-md-auto": "MuiGrid-grid-md-auto",
-                      "grid-md-true": "MuiGrid-grid-md-true",
-                      "grid-sm-1": "MuiGrid-grid-sm-1",
-                      "grid-sm-10": "MuiGrid-grid-sm-10",
-                      "grid-sm-11": "MuiGrid-grid-sm-11",
-                      "grid-sm-12": "MuiGrid-grid-sm-12",
-                      "grid-sm-2": "MuiGrid-grid-sm-2",
-                      "grid-sm-3": "MuiGrid-grid-sm-3",
-                      "grid-sm-4": "MuiGrid-grid-sm-4",
-                      "grid-sm-5": "MuiGrid-grid-sm-5",
-                      "grid-sm-6": "MuiGrid-grid-sm-6",
-                      "grid-sm-7": "MuiGrid-grid-sm-7",
-                      "grid-sm-8": "MuiGrid-grid-sm-8",
-                      "grid-sm-9": "MuiGrid-grid-sm-9",
-                      "grid-sm-auto": "MuiGrid-grid-sm-auto",
-                      "grid-sm-true": "MuiGrid-grid-sm-true",
-                      "grid-xl-1": "MuiGrid-grid-xl-1",
-                      "grid-xl-10": "MuiGrid-grid-xl-10",
-                      "grid-xl-11": "MuiGrid-grid-xl-11",
-                      "grid-xl-12": "MuiGrid-grid-xl-12",
-                      "grid-xl-2": "MuiGrid-grid-xl-2",
-                      "grid-xl-3": "MuiGrid-grid-xl-3",
-                      "grid-xl-4": "MuiGrid-grid-xl-4",
-                      "grid-xl-5": "MuiGrid-grid-xl-5",
-                      "grid-xl-6": "MuiGrid-grid-xl-6",
-                      "grid-xl-7": "MuiGrid-grid-xl-7",
-                      "grid-xl-8": "MuiGrid-grid-xl-8",
-                      "grid-xl-9": "MuiGrid-grid-xl-9",
-                      "grid-xl-auto": "MuiGrid-grid-xl-auto",
-                      "grid-xl-true": "MuiGrid-grid-xl-true",
-                      "grid-xs-1": "MuiGrid-grid-xs-1",
-                      "grid-xs-10": "MuiGrid-grid-xs-10",
-                      "grid-xs-11": "MuiGrid-grid-xs-11",
-                      "grid-xs-12": "MuiGrid-grid-xs-12",
-                      "grid-xs-2": "MuiGrid-grid-xs-2",
-                      "grid-xs-3": "MuiGrid-grid-xs-3",
-                      "grid-xs-4": "MuiGrid-grid-xs-4",
-                      "grid-xs-5": "MuiGrid-grid-xs-5",
-                      "grid-xs-6": "MuiGrid-grid-xs-6",
-                      "grid-xs-7": "MuiGrid-grid-xs-7",
-                      "grid-xs-8": "MuiGrid-grid-xs-8",
-                      "grid-xs-9": "MuiGrid-grid-xs-9",
-                      "grid-xs-auto": "MuiGrid-grid-xs-auto",
-                      "grid-xs-true": "MuiGrid-grid-xs-true",
-                      "item": "MuiGrid-item",
-                      "justify-xs-center": "MuiGrid-justify-xs-center",
-                      "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
-                      "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
-                      "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
-                      "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
-                      "root": "MuiGrid-root",
-                      "spacing-xs-1": "MuiGrid-spacing-xs-1",
-                      "spacing-xs-10": "MuiGrid-spacing-xs-10",
-                      "spacing-xs-2": "MuiGrid-spacing-xs-2",
-                      "spacing-xs-3": "MuiGrid-spacing-xs-3",
-                      "spacing-xs-4": "MuiGrid-spacing-xs-4",
-                      "spacing-xs-5": "MuiGrid-spacing-xs-5",
-                      "spacing-xs-6": "MuiGrid-spacing-xs-6",
-                      "spacing-xs-7": "MuiGrid-spacing-xs-7",
-                      "spacing-xs-8": "MuiGrid-spacing-xs-8",
-                      "spacing-xs-9": "MuiGrid-spacing-xs-9",
-                      "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
-                      "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
-                      "zeroMinWidth": "MuiGrid-zeroMinWidth",
-                    }
+              <Nodes
+                classes={
+                  Object {
+                    "card": "Component-card-3",
+                    "centeredProgress": "Component-centeredProgress-2",
+                    "container": "Component-container-1",
+                    "viewOptions": "Component-viewOptions-4",
                   }
-                  container={true}
-                >
+                }
+                mocks={
+                  Object {
+                    "nodes": Array [
+                      Object {
+                        "id": 1,
+                        "templates": Array [
+                          Object {
+                            "id": 4,
+                            "mocked": "node1",
+                          },
+                        ],
+                      },
+                      Object {
+                        "id": 2,
+                        "templates": Array [
+                          Object {
+                            "id": 5,
+                            "mocked": "node2",
+                          },
+                        ],
+                      },
+                      Object {
+                        "id": 3,
+                        "templates": Array [
+                          Object {
+                            "id": 6,
+                            "mocked": "node3",
+                          },
+                        ],
+                      },
+                    ],
+                    "subscribe": [Function],
+                  }
+                }
+                nodes={
+                  Array [
+                    Object {
+                      "id": 1,
+                      "templates": Array [
+                        Object {
+                          "id": 4,
+                          "mocked": "node1",
+                        },
+                      ],
+                    },
+                    Object {
+                      "id": 2,
+                      "templates": Array [
+                        Object {
+                          "id": 5,
+                          "mocked": "node2",
+                        },
+                      ],
+                    },
+                    Object {
+                      "id": 3,
+                      "templates": Array [
+                        Object {
+                          "id": 6,
+                          "mocked": "node3",
+                        },
+                      ],
+                    },
+                  ]
+                }
+                onTemplateDataChange={[Function]}
+                onViewModeChange={[Function]}
+                subscribe={[Function]}
+              >
+                <div>
                   <div
-                    className="MuiGrid-root Component-container-1 MuiGrid-container"
+                    className="Component-viewOptions-4"
                   >
-                    <WithStyles(ForwardRef(Grid))
-                      className="Component-card-3"
-                      item={true}
-                      key="1"
+                    <WithStyles(ForwardRef(ToggleButton))
+                      onChange={[Function]}
+                      value={
+                        Array [
+                          "node",
+                          "template",
+                        ]
+                      }
                     >
-                      <ForwardRef(Grid)
-                        className="Component-card-3"
+                      <ForwardRef(ToggleButton)
                         classes={
                           Object {
-                            "align-content-xs-center": "MuiGrid-align-content-xs-center",
-                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
-                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
-                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
-                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
-                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
-                            "align-items-xs-center": "MuiGrid-align-items-xs-center",
-                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
-                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
-                            "container": "MuiGrid-container",
-                            "direction-xs-column": "MuiGrid-direction-xs-column",
-                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
-                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
-                            "grid-lg-1": "MuiGrid-grid-lg-1",
-                            "grid-lg-10": "MuiGrid-grid-lg-10",
-                            "grid-lg-11": "MuiGrid-grid-lg-11",
-                            "grid-lg-12": "MuiGrid-grid-lg-12",
-                            "grid-lg-2": "MuiGrid-grid-lg-2",
-                            "grid-lg-3": "MuiGrid-grid-lg-3",
-                            "grid-lg-4": "MuiGrid-grid-lg-4",
-                            "grid-lg-5": "MuiGrid-grid-lg-5",
-                            "grid-lg-6": "MuiGrid-grid-lg-6",
-                            "grid-lg-7": "MuiGrid-grid-lg-7",
-                            "grid-lg-8": "MuiGrid-grid-lg-8",
-                            "grid-lg-9": "MuiGrid-grid-lg-9",
-                            "grid-lg-auto": "MuiGrid-grid-lg-auto",
-                            "grid-lg-true": "MuiGrid-grid-lg-true",
-                            "grid-md-1": "MuiGrid-grid-md-1",
-                            "grid-md-10": "MuiGrid-grid-md-10",
-                            "grid-md-11": "MuiGrid-grid-md-11",
-                            "grid-md-12": "MuiGrid-grid-md-12",
-                            "grid-md-2": "MuiGrid-grid-md-2",
-                            "grid-md-3": "MuiGrid-grid-md-3",
-                            "grid-md-4": "MuiGrid-grid-md-4",
-                            "grid-md-5": "MuiGrid-grid-md-5",
-                            "grid-md-6": "MuiGrid-grid-md-6",
-                            "grid-md-7": "MuiGrid-grid-md-7",
-                            "grid-md-8": "MuiGrid-grid-md-8",
-                            "grid-md-9": "MuiGrid-grid-md-9",
-                            "grid-md-auto": "MuiGrid-grid-md-auto",
-                            "grid-md-true": "MuiGrid-grid-md-true",
-                            "grid-sm-1": "MuiGrid-grid-sm-1",
-                            "grid-sm-10": "MuiGrid-grid-sm-10",
-                            "grid-sm-11": "MuiGrid-grid-sm-11",
-                            "grid-sm-12": "MuiGrid-grid-sm-12",
-                            "grid-sm-2": "MuiGrid-grid-sm-2",
-                            "grid-sm-3": "MuiGrid-grid-sm-3",
-                            "grid-sm-4": "MuiGrid-grid-sm-4",
-                            "grid-sm-5": "MuiGrid-grid-sm-5",
-                            "grid-sm-6": "MuiGrid-grid-sm-6",
-                            "grid-sm-7": "MuiGrid-grid-sm-7",
-                            "grid-sm-8": "MuiGrid-grid-sm-8",
-                            "grid-sm-9": "MuiGrid-grid-sm-9",
-                            "grid-sm-auto": "MuiGrid-grid-sm-auto",
-                            "grid-sm-true": "MuiGrid-grid-sm-true",
-                            "grid-xl-1": "MuiGrid-grid-xl-1",
-                            "grid-xl-10": "MuiGrid-grid-xl-10",
-                            "grid-xl-11": "MuiGrid-grid-xl-11",
-                            "grid-xl-12": "MuiGrid-grid-xl-12",
-                            "grid-xl-2": "MuiGrid-grid-xl-2",
-                            "grid-xl-3": "MuiGrid-grid-xl-3",
-                            "grid-xl-4": "MuiGrid-grid-xl-4",
-                            "grid-xl-5": "MuiGrid-grid-xl-5",
-                            "grid-xl-6": "MuiGrid-grid-xl-6",
-                            "grid-xl-7": "MuiGrid-grid-xl-7",
-                            "grid-xl-8": "MuiGrid-grid-xl-8",
-                            "grid-xl-9": "MuiGrid-grid-xl-9",
-                            "grid-xl-auto": "MuiGrid-grid-xl-auto",
-                            "grid-xl-true": "MuiGrid-grid-xl-true",
-                            "grid-xs-1": "MuiGrid-grid-xs-1",
-                            "grid-xs-10": "MuiGrid-grid-xs-10",
-                            "grid-xs-11": "MuiGrid-grid-xs-11",
-                            "grid-xs-12": "MuiGrid-grid-xs-12",
-                            "grid-xs-2": "MuiGrid-grid-xs-2",
-                            "grid-xs-3": "MuiGrid-grid-xs-3",
-                            "grid-xs-4": "MuiGrid-grid-xs-4",
-                            "grid-xs-5": "MuiGrid-grid-xs-5",
-                            "grid-xs-6": "MuiGrid-grid-xs-6",
-                            "grid-xs-7": "MuiGrid-grid-xs-7",
-                            "grid-xs-8": "MuiGrid-grid-xs-8",
-                            "grid-xs-9": "MuiGrid-grid-xs-9",
-                            "grid-xs-auto": "MuiGrid-grid-xs-auto",
-                            "grid-xs-true": "MuiGrid-grid-xs-true",
-                            "item": "MuiGrid-item",
-                            "justify-xs-center": "MuiGrid-justify-xs-center",
-                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
-                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
-                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
-                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
-                            "root": "MuiGrid-root",
-                            "spacing-xs-1": "MuiGrid-spacing-xs-1",
-                            "spacing-xs-10": "MuiGrid-spacing-xs-10",
-                            "spacing-xs-2": "MuiGrid-spacing-xs-2",
-                            "spacing-xs-3": "MuiGrid-spacing-xs-3",
-                            "spacing-xs-4": "MuiGrid-spacing-xs-4",
-                            "spacing-xs-5": "MuiGrid-spacing-xs-5",
-                            "spacing-xs-6": "MuiGrid-spacing-xs-6",
-                            "spacing-xs-7": "MuiGrid-spacing-xs-7",
-                            "spacing-xs-8": "MuiGrid-spacing-xs-8",
-                            "spacing-xs-9": "MuiGrid-spacing-xs-9",
-                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
-                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
-                            "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                            "root": "MuiToggleButtonGroup-root",
                           }
                         }
-                        item={true}
-                      >
-                        <div
-                          className="MuiGrid-root Component-card-3 MuiGrid-item"
-                        >
-                          <Component
-                            data={
-                              Object {
-                                "id": undefined,
-                                "name": undefined,
-                                "template": Object {
-                                  "id": 1,
-                                  "mocked": "node1",
-                                },
-                              }
-                            }
-                            onTemplateDataChange={[Function]}
-                          >
-                            <p>
-                              NodeCard: 
-                              {"data":{"template":{"id":1,"mocked":"node1"}}}
-                               
-                            </p>
-                          </Component>
-                        </div>
-                      </ForwardRef(Grid)>
-                    </WithStyles(ForwardRef(Grid))>
-                    <WithStyles(ForwardRef(Grid))
-                      className="Component-card-3"
-                      item={true}
-                      key="2"
-                    >
-                      <ForwardRef(Grid)
-                        className="Component-card-3"
-                        classes={
-                          Object {
-                            "align-content-xs-center": "MuiGrid-align-content-xs-center",
-                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
-                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
-                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
-                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
-                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
-                            "align-items-xs-center": "MuiGrid-align-items-xs-center",
-                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
-                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
-                            "container": "MuiGrid-container",
-                            "direction-xs-column": "MuiGrid-direction-xs-column",
-                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
-                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
-                            "grid-lg-1": "MuiGrid-grid-lg-1",
-                            "grid-lg-10": "MuiGrid-grid-lg-10",
-                            "grid-lg-11": "MuiGrid-grid-lg-11",
-                            "grid-lg-12": "MuiGrid-grid-lg-12",
-                            "grid-lg-2": "MuiGrid-grid-lg-2",
-                            "grid-lg-3": "MuiGrid-grid-lg-3",
-                            "grid-lg-4": "MuiGrid-grid-lg-4",
-                            "grid-lg-5": "MuiGrid-grid-lg-5",
-                            "grid-lg-6": "MuiGrid-grid-lg-6",
-                            "grid-lg-7": "MuiGrid-grid-lg-7",
-                            "grid-lg-8": "MuiGrid-grid-lg-8",
-                            "grid-lg-9": "MuiGrid-grid-lg-9",
-                            "grid-lg-auto": "MuiGrid-grid-lg-auto",
-                            "grid-lg-true": "MuiGrid-grid-lg-true",
-                            "grid-md-1": "MuiGrid-grid-md-1",
-                            "grid-md-10": "MuiGrid-grid-md-10",
-                            "grid-md-11": "MuiGrid-grid-md-11",
-                            "grid-md-12": "MuiGrid-grid-md-12",
-                            "grid-md-2": "MuiGrid-grid-md-2",
-                            "grid-md-3": "MuiGrid-grid-md-3",
-                            "grid-md-4": "MuiGrid-grid-md-4",
-                            "grid-md-5": "MuiGrid-grid-md-5",
-                            "grid-md-6": "MuiGrid-grid-md-6",
-                            "grid-md-7": "MuiGrid-grid-md-7",
-                            "grid-md-8": "MuiGrid-grid-md-8",
-                            "grid-md-9": "MuiGrid-grid-md-9",
-                            "grid-md-auto": "MuiGrid-grid-md-auto",
-                            "grid-md-true": "MuiGrid-grid-md-true",
-                            "grid-sm-1": "MuiGrid-grid-sm-1",
-                            "grid-sm-10": "MuiGrid-grid-sm-10",
-                            "grid-sm-11": "MuiGrid-grid-sm-11",
-                            "grid-sm-12": "MuiGrid-grid-sm-12",
-                            "grid-sm-2": "MuiGrid-grid-sm-2",
-                            "grid-sm-3": "MuiGrid-grid-sm-3",
-                            "grid-sm-4": "MuiGrid-grid-sm-4",
-                            "grid-sm-5": "MuiGrid-grid-sm-5",
-                            "grid-sm-6": "MuiGrid-grid-sm-6",
-                            "grid-sm-7": "MuiGrid-grid-sm-7",
-                            "grid-sm-8": "MuiGrid-grid-sm-8",
-                            "grid-sm-9": "MuiGrid-grid-sm-9",
-                            "grid-sm-auto": "MuiGrid-grid-sm-auto",
-                            "grid-sm-true": "MuiGrid-grid-sm-true",
-                            "grid-xl-1": "MuiGrid-grid-xl-1",
-                            "grid-xl-10": "MuiGrid-grid-xl-10",
-                            "grid-xl-11": "MuiGrid-grid-xl-11",
-                            "grid-xl-12": "MuiGrid-grid-xl-12",
-                            "grid-xl-2": "MuiGrid-grid-xl-2",
-                            "grid-xl-3": "MuiGrid-grid-xl-3",
-                            "grid-xl-4": "MuiGrid-grid-xl-4",
-                            "grid-xl-5": "MuiGrid-grid-xl-5",
-                            "grid-xl-6": "MuiGrid-grid-xl-6",
-                            "grid-xl-7": "MuiGrid-grid-xl-7",
-                            "grid-xl-8": "MuiGrid-grid-xl-8",
-                            "grid-xl-9": "MuiGrid-grid-xl-9",
-                            "grid-xl-auto": "MuiGrid-grid-xl-auto",
-                            "grid-xl-true": "MuiGrid-grid-xl-true",
-                            "grid-xs-1": "MuiGrid-grid-xs-1",
-                            "grid-xs-10": "MuiGrid-grid-xs-10",
-                            "grid-xs-11": "MuiGrid-grid-xs-11",
-                            "grid-xs-12": "MuiGrid-grid-xs-12",
-                            "grid-xs-2": "MuiGrid-grid-xs-2",
-                            "grid-xs-3": "MuiGrid-grid-xs-3",
-                            "grid-xs-4": "MuiGrid-grid-xs-4",
-                            "grid-xs-5": "MuiGrid-grid-xs-5",
-                            "grid-xs-6": "MuiGrid-grid-xs-6",
-                            "grid-xs-7": "MuiGrid-grid-xs-7",
-                            "grid-xs-8": "MuiGrid-grid-xs-8",
-                            "grid-xs-9": "MuiGrid-grid-xs-9",
-                            "grid-xs-auto": "MuiGrid-grid-xs-auto",
-                            "grid-xs-true": "MuiGrid-grid-xs-true",
-                            "item": "MuiGrid-item",
-                            "justify-xs-center": "MuiGrid-justify-xs-center",
-                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
-                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
-                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
-                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
-                            "root": "MuiGrid-root",
-                            "spacing-xs-1": "MuiGrid-spacing-xs-1",
-                            "spacing-xs-10": "MuiGrid-spacing-xs-10",
-                            "spacing-xs-2": "MuiGrid-spacing-xs-2",
-                            "spacing-xs-3": "MuiGrid-spacing-xs-3",
-                            "spacing-xs-4": "MuiGrid-spacing-xs-4",
-                            "spacing-xs-5": "MuiGrid-spacing-xs-5",
-                            "spacing-xs-6": "MuiGrid-spacing-xs-6",
-                            "spacing-xs-7": "MuiGrid-spacing-xs-7",
-                            "spacing-xs-8": "MuiGrid-spacing-xs-8",
-                            "spacing-xs-9": "MuiGrid-spacing-xs-9",
-                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
-                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
-                            "zeroMinWidth": "MuiGrid-zeroMinWidth",
-                          }
+                        exclusive={false}
+                        onChange={[Function]}
+                        size="medium"
+                        value={
+                          Array [
+                            "node",
+                            "template",
+                          ]
                         }
-                        item={true}
                       >
                         <div
-                          className="MuiGrid-root Component-card-3 MuiGrid-item"
+                          className="MuiToggleButtonGroup-root"
                         >
-                          <Component
-                            data={
-                              Object {
-                                "id": undefined,
-                                "name": undefined,
-                                "template": Object {
-                                  "id": 2,
-                                  "mocked": "node2",
-                                },
-                              }
-                            }
-                            onTemplateDataChange={[Function]}
+                          <WithStyles(ForwardRef(ToggleButton))
+                            key=".0"
+                            onChange={[Function]}
+                            selected={false}
+                            size="medium"
+                            value="template"
                           >
-                            <p>
-                              NodeCard: 
-                              {"data":{"template":{"id":2,"mocked":"node2"}}}
-                               
-                            </p>
-                          </Component>
-                        </div>
-                      </ForwardRef(Grid)>
-                    </WithStyles(ForwardRef(Grid))>
-                    <WithStyles(ForwardRef(Grid))
-                      className="Component-card-3"
-                      item={true}
-                      key="3"
-                    >
-                      <ForwardRef(Grid)
-                        className="Component-card-3"
-                        classes={
-                          Object {
-                            "align-content-xs-center": "MuiGrid-align-content-xs-center",
-                            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
-                            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
-                            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
-                            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
-                            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
-                            "align-items-xs-center": "MuiGrid-align-items-xs-center",
-                            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
-                            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
-                            "container": "MuiGrid-container",
-                            "direction-xs-column": "MuiGrid-direction-xs-column",
-                            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
-                            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
-                            "grid-lg-1": "MuiGrid-grid-lg-1",
-                            "grid-lg-10": "MuiGrid-grid-lg-10",
-                            "grid-lg-11": "MuiGrid-grid-lg-11",
-                            "grid-lg-12": "MuiGrid-grid-lg-12",
-                            "grid-lg-2": "MuiGrid-grid-lg-2",
-                            "grid-lg-3": "MuiGrid-grid-lg-3",
-                            "grid-lg-4": "MuiGrid-grid-lg-4",
-                            "grid-lg-5": "MuiGrid-grid-lg-5",
-                            "grid-lg-6": "MuiGrid-grid-lg-6",
-                            "grid-lg-7": "MuiGrid-grid-lg-7",
-                            "grid-lg-8": "MuiGrid-grid-lg-8",
-                            "grid-lg-9": "MuiGrid-grid-lg-9",
-                            "grid-lg-auto": "MuiGrid-grid-lg-auto",
-                            "grid-lg-true": "MuiGrid-grid-lg-true",
-                            "grid-md-1": "MuiGrid-grid-md-1",
-                            "grid-md-10": "MuiGrid-grid-md-10",
-                            "grid-md-11": "MuiGrid-grid-md-11",
-                            "grid-md-12": "MuiGrid-grid-md-12",
-                            "grid-md-2": "MuiGrid-grid-md-2",
-                            "grid-md-3": "MuiGrid-grid-md-3",
-                            "grid-md-4": "MuiGrid-grid-md-4",
-                            "grid-md-5": "MuiGrid-grid-md-5",
-                            "grid-md-6": "MuiGrid-grid-md-6",
-                            "grid-md-7": "MuiGrid-grid-md-7",
-                            "grid-md-8": "MuiGrid-grid-md-8",
-                            "grid-md-9": "MuiGrid-grid-md-9",
-                            "grid-md-auto": "MuiGrid-grid-md-auto",
-                            "grid-md-true": "MuiGrid-grid-md-true",
-                            "grid-sm-1": "MuiGrid-grid-sm-1",
-                            "grid-sm-10": "MuiGrid-grid-sm-10",
-                            "grid-sm-11": "MuiGrid-grid-sm-11",
-                            "grid-sm-12": "MuiGrid-grid-sm-12",
-                            "grid-sm-2": "MuiGrid-grid-sm-2",
-                            "grid-sm-3": "MuiGrid-grid-sm-3",
-                            "grid-sm-4": "MuiGrid-grid-sm-4",
-                            "grid-sm-5": "MuiGrid-grid-sm-5",
-                            "grid-sm-6": "MuiGrid-grid-sm-6",
-                            "grid-sm-7": "MuiGrid-grid-sm-7",
-                            "grid-sm-8": "MuiGrid-grid-sm-8",
-                            "grid-sm-9": "MuiGrid-grid-sm-9",
-                            "grid-sm-auto": "MuiGrid-grid-sm-auto",
-                            "grid-sm-true": "MuiGrid-grid-sm-true",
-                            "grid-xl-1": "MuiGrid-grid-xl-1",
-                            "grid-xl-10": "MuiGrid-grid-xl-10",
-                            "grid-xl-11": "MuiGrid-grid-xl-11",
-                            "grid-xl-12": "MuiGrid-grid-xl-12",
-                            "grid-xl-2": "MuiGrid-grid-xl-2",
-                            "grid-xl-3": "MuiGrid-grid-xl-3",
-                            "grid-xl-4": "MuiGrid-grid-xl-4",
-                            "grid-xl-5": "MuiGrid-grid-xl-5",
-                            "grid-xl-6": "MuiGrid-grid-xl-6",
-                            "grid-xl-7": "MuiGrid-grid-xl-7",
-                            "grid-xl-8": "MuiGrid-grid-xl-8",
-                            "grid-xl-9": "MuiGrid-grid-xl-9",
-                            "grid-xl-auto": "MuiGrid-grid-xl-auto",
-                            "grid-xl-true": "MuiGrid-grid-xl-true",
-                            "grid-xs-1": "MuiGrid-grid-xs-1",
-                            "grid-xs-10": "MuiGrid-grid-xs-10",
-                            "grid-xs-11": "MuiGrid-grid-xs-11",
-                            "grid-xs-12": "MuiGrid-grid-xs-12",
-                            "grid-xs-2": "MuiGrid-grid-xs-2",
-                            "grid-xs-3": "MuiGrid-grid-xs-3",
-                            "grid-xs-4": "MuiGrid-grid-xs-4",
-                            "grid-xs-5": "MuiGrid-grid-xs-5",
-                            "grid-xs-6": "MuiGrid-grid-xs-6",
-                            "grid-xs-7": "MuiGrid-grid-xs-7",
-                            "grid-xs-8": "MuiGrid-grid-xs-8",
-                            "grid-xs-9": "MuiGrid-grid-xs-9",
-                            "grid-xs-auto": "MuiGrid-grid-xs-auto",
-                            "grid-xs-true": "MuiGrid-grid-xs-true",
-                            "item": "MuiGrid-item",
-                            "justify-xs-center": "MuiGrid-justify-xs-center",
-                            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
-                            "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
-                            "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
-                            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
-                            "root": "MuiGrid-root",
-                            "spacing-xs-1": "MuiGrid-spacing-xs-1",
-                            "spacing-xs-10": "MuiGrid-spacing-xs-10",
-                            "spacing-xs-2": "MuiGrid-spacing-xs-2",
-                            "spacing-xs-3": "MuiGrid-spacing-xs-3",
-                            "spacing-xs-4": "MuiGrid-spacing-xs-4",
-                            "spacing-xs-5": "MuiGrid-spacing-xs-5",
-                            "spacing-xs-6": "MuiGrid-spacing-xs-6",
-                            "spacing-xs-7": "MuiGrid-spacing-xs-7",
-                            "spacing-xs-8": "MuiGrid-spacing-xs-8",
-                            "spacing-xs-9": "MuiGrid-spacing-xs-9",
-                            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
-                            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
-                            "zeroMinWidth": "MuiGrid-zeroMinWidth",
-                          }
-                        }
-                        item={true}
-                      >
-                        <div
-                          className="MuiGrid-root Component-card-3 MuiGrid-item"
-                        >
-                          <Component
-                            data={
-                              Object {
-                                "id": undefined,
-                                "name": undefined,
-                                "template": Object {
-                                  "id": 3,
-                                  "mocked": "node3",
-                                },
+                            <ForwardRef(ToggleButton)
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "label": "MuiToggleButton-label",
+                                  "root": "MuiToggleButton-root",
+                                  "selected": "Mui-selected",
+                                  "sizeLarge": "MuiToggleButton-sizeLarge",
+                                  "sizeSmall": "MuiToggleButton-sizeSmall",
+                                }
                               }
-                            }
-                            onTemplateDataChange={[Function]}
+                              disableFocusRipple={false}
+                              disableRipple={false}
+                              disabled={false}
+                              onChange={[Function]}
+                              selected={false}
+                              size="medium"
+                              value="template"
+                            >
+                              <WithStyles(ForwardRef(ButtonBase))
+                                className="MuiToggleButton-root"
+                                disableRipple={false}
+                                disabled={false}
+                                focusRipple={true}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                value="template"
+                              >
+                                <ForwardRef(ButtonBase)
+                                  className="MuiToggleButton-root"
+                                  classes={
+                                    Object {
+                                      "disabled": "Mui-disabled",
+                                      "focusVisible": "Mui-focusVisible",
+                                      "root": "MuiButtonBase-root",
+                                    }
+                                  }
+                                  disableRipple={false}
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  value="template"
+                                >
+                                  <button
+                                    className="MuiButtonBase-root MuiToggleButton-root"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex={0}
+                                    type="button"
+                                    value="template"
+                                  >
+                                    <span
+                                      className="MuiToggleButton-label"
+                                    >
+                                      Node
+                                    </span>
+                                    <NoSsr>
+                                      <WithStyles(TouchRipple)
+                                        center={false}
+                                      >
+                                        <TouchRipple
+                                          center={false}
+                                          classes={
+                                            Object {
+                                              "child": "MuiTouchRipple-child",
+                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                              "ripple": "MuiTouchRipple-ripple",
+                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                              "root": "MuiTouchRipple-root",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="MuiTouchRipple-root"
+                                          >
+                                            <TransitionGroup
+                                              childFactory={[Function]}
+                                              component={null}
+                                              enter={true}
+                                              exit={true}
+                                            />
+                                          </span>
+                                        </TouchRipple>
+                                      </WithStyles(TouchRipple)>
+                                    </NoSsr>
+                                  </button>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(ToggleButton)>
+                          </WithStyles(ForwardRef(ToggleButton))>
+                          <WithStyles(ForwardRef(ToggleButton))
+                            key=".1"
+                            onChange={[Function]}
+                            selected={false}
+                            size="medium"
+                            value="node"
                           >
-                            <p>
-                              NodeCard: 
-                              {"data":{"template":{"id":3,"mocked":"node3"}}}
-                               
-                            </p>
-                          </Component>
+                            <ForwardRef(ToggleButton)
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "label": "MuiToggleButton-label",
+                                  "root": "MuiToggleButton-root",
+                                  "selected": "Mui-selected",
+                                  "sizeLarge": "MuiToggleButton-sizeLarge",
+                                  "sizeSmall": "MuiToggleButton-sizeSmall",
+                                }
+                              }
+                              disableFocusRipple={false}
+                              disableRipple={false}
+                              disabled={false}
+                              onChange={[Function]}
+                              selected={false}
+                              size="medium"
+                              value="node"
+                            >
+                              <WithStyles(ForwardRef(ButtonBase))
+                                className="MuiToggleButton-root"
+                                disableRipple={false}
+                                disabled={false}
+                                focusRipple={true}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                value="node"
+                              >
+                                <ForwardRef(ButtonBase)
+                                  className="MuiToggleButton-root"
+                                  classes={
+                                    Object {
+                                      "disabled": "Mui-disabled",
+                                      "focusVisible": "Mui-focusVisible",
+                                      "root": "MuiButtonBase-root",
+                                    }
+                                  }
+                                  disableRipple={false}
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  value="node"
+                                >
+                                  <button
+                                    className="MuiButtonBase-root MuiToggleButton-root"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex={0}
+                                    type="button"
+                                    value="node"
+                                  >
+                                    <span
+                                      className="MuiToggleButton-label"
+                                    >
+                                      Template
+                                    </span>
+                                    <NoSsr>
+                                      <WithStyles(TouchRipple)
+                                        center={false}
+                                      >
+                                        <TouchRipple
+                                          center={false}
+                                          classes={
+                                            Object {
+                                              "child": "MuiTouchRipple-child",
+                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                              "ripple": "MuiTouchRipple-ripple",
+                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                              "root": "MuiTouchRipple-root",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="MuiTouchRipple-root"
+                                          >
+                                            <TransitionGroup
+                                              childFactory={[Function]}
+                                              component={null}
+                                              enter={true}
+                                              exit={true}
+                                            />
+                                          </span>
+                                        </TouchRipple>
+                                      </WithStyles(TouchRipple)>
+                                    </NoSsr>
+                                  </button>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(ToggleButton)>
+                          </WithStyles(ForwardRef(ToggleButton))>
                         </div>
-                      </ForwardRef(Grid)>
-                    </WithStyles(ForwardRef(Grid))>
+                      </ForwardRef(ToggleButton)>
+                    </WithStyles(ForwardRef(ToggleButton))>
                   </div>
-                </ForwardRef(Grid)>
-              </WithStyles(ForwardRef(Grid))>
-            </Nodes>
-          </lifecycle(Nodes)>
-        </withHandlers(lifecycle(Nodes))>
+                  <WithStyles(ForwardRef(Grid))
+                    className="Component-container-1"
+                    container={true}
+                  >
+                    <ForwardRef(Grid)
+                      className="Component-container-1"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      container={true}
+                    >
+                      <div
+                        className="MuiGrid-root Component-container-1 MuiGrid-container"
+                      >
+                        <WithStyles(ForwardRef(Grid))
+                          className="Component-card-3"
+                          item={true}
+                          key="1"
+                        >
+                          <ForwardRef(Grid)
+                            className="Component-card-3"
+                            classes={
+                              Object {
+                                "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                                "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                                "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                                "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                                "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                                "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                                "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                                "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                                "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                                "container": "MuiGrid-container",
+                                "direction-xs-column": "MuiGrid-direction-xs-column",
+                                "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                                "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                                "grid-lg-1": "MuiGrid-grid-lg-1",
+                                "grid-lg-10": "MuiGrid-grid-lg-10",
+                                "grid-lg-11": "MuiGrid-grid-lg-11",
+                                "grid-lg-12": "MuiGrid-grid-lg-12",
+                                "grid-lg-2": "MuiGrid-grid-lg-2",
+                                "grid-lg-3": "MuiGrid-grid-lg-3",
+                                "grid-lg-4": "MuiGrid-grid-lg-4",
+                                "grid-lg-5": "MuiGrid-grid-lg-5",
+                                "grid-lg-6": "MuiGrid-grid-lg-6",
+                                "grid-lg-7": "MuiGrid-grid-lg-7",
+                                "grid-lg-8": "MuiGrid-grid-lg-8",
+                                "grid-lg-9": "MuiGrid-grid-lg-9",
+                                "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                                "grid-lg-true": "MuiGrid-grid-lg-true",
+                                "grid-md-1": "MuiGrid-grid-md-1",
+                                "grid-md-10": "MuiGrid-grid-md-10",
+                                "grid-md-11": "MuiGrid-grid-md-11",
+                                "grid-md-12": "MuiGrid-grid-md-12",
+                                "grid-md-2": "MuiGrid-grid-md-2",
+                                "grid-md-3": "MuiGrid-grid-md-3",
+                                "grid-md-4": "MuiGrid-grid-md-4",
+                                "grid-md-5": "MuiGrid-grid-md-5",
+                                "grid-md-6": "MuiGrid-grid-md-6",
+                                "grid-md-7": "MuiGrid-grid-md-7",
+                                "grid-md-8": "MuiGrid-grid-md-8",
+                                "grid-md-9": "MuiGrid-grid-md-9",
+                                "grid-md-auto": "MuiGrid-grid-md-auto",
+                                "grid-md-true": "MuiGrid-grid-md-true",
+                                "grid-sm-1": "MuiGrid-grid-sm-1",
+                                "grid-sm-10": "MuiGrid-grid-sm-10",
+                                "grid-sm-11": "MuiGrid-grid-sm-11",
+                                "grid-sm-12": "MuiGrid-grid-sm-12",
+                                "grid-sm-2": "MuiGrid-grid-sm-2",
+                                "grid-sm-3": "MuiGrid-grid-sm-3",
+                                "grid-sm-4": "MuiGrid-grid-sm-4",
+                                "grid-sm-5": "MuiGrid-grid-sm-5",
+                                "grid-sm-6": "MuiGrid-grid-sm-6",
+                                "grid-sm-7": "MuiGrid-grid-sm-7",
+                                "grid-sm-8": "MuiGrid-grid-sm-8",
+                                "grid-sm-9": "MuiGrid-grid-sm-9",
+                                "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                                "grid-sm-true": "MuiGrid-grid-sm-true",
+                                "grid-xl-1": "MuiGrid-grid-xl-1",
+                                "grid-xl-10": "MuiGrid-grid-xl-10",
+                                "grid-xl-11": "MuiGrid-grid-xl-11",
+                                "grid-xl-12": "MuiGrid-grid-xl-12",
+                                "grid-xl-2": "MuiGrid-grid-xl-2",
+                                "grid-xl-3": "MuiGrid-grid-xl-3",
+                                "grid-xl-4": "MuiGrid-grid-xl-4",
+                                "grid-xl-5": "MuiGrid-grid-xl-5",
+                                "grid-xl-6": "MuiGrid-grid-xl-6",
+                                "grid-xl-7": "MuiGrid-grid-xl-7",
+                                "grid-xl-8": "MuiGrid-grid-xl-8",
+                                "grid-xl-9": "MuiGrid-grid-xl-9",
+                                "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                                "grid-xl-true": "MuiGrid-grid-xl-true",
+                                "grid-xs-1": "MuiGrid-grid-xs-1",
+                                "grid-xs-10": "MuiGrid-grid-xs-10",
+                                "grid-xs-11": "MuiGrid-grid-xs-11",
+                                "grid-xs-12": "MuiGrid-grid-xs-12",
+                                "grid-xs-2": "MuiGrid-grid-xs-2",
+                                "grid-xs-3": "MuiGrid-grid-xs-3",
+                                "grid-xs-4": "MuiGrid-grid-xs-4",
+                                "grid-xs-5": "MuiGrid-grid-xs-5",
+                                "grid-xs-6": "MuiGrid-grid-xs-6",
+                                "grid-xs-7": "MuiGrid-grid-xs-7",
+                                "grid-xs-8": "MuiGrid-grid-xs-8",
+                                "grid-xs-9": "MuiGrid-grid-xs-9",
+                                "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                                "grid-xs-true": "MuiGrid-grid-xs-true",
+                                "item": "MuiGrid-item",
+                                "justify-xs-center": "MuiGrid-justify-xs-center",
+                                "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                                "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                                "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                                "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                                "root": "MuiGrid-root",
+                                "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                                "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                                "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                                "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                                "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                                "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                                "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                                "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                                "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                                "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                                "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                                "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                                "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                              }
+                            }
+                            item={true}
+                          >
+                            <div
+                              className="MuiGrid-root Component-card-3 MuiGrid-item"
+                            >
+                              <Component
+                                data={
+                                  Object {
+                                    "id": 1,
+                                    "templates": Array [
+                                      Object {
+                                        "id": 4,
+                                        "mocked": "node1",
+                                      },
+                                    ],
+                                  }
+                                }
+                              >
+                                <p>
+                                  NodeCard: 
+                                  {"data":{"id":1,"templates":[{"id":4,"mocked":"node1"}]}}
+                                   
+                                </p>
+                              </Component>
+                            </div>
+                          </ForwardRef(Grid)>
+                        </WithStyles(ForwardRef(Grid))>
+                        <WithStyles(ForwardRef(Grid))
+                          className="Component-card-3"
+                          item={true}
+                          key="2"
+                        >
+                          <ForwardRef(Grid)
+                            className="Component-card-3"
+                            classes={
+                              Object {
+                                "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                                "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                                "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                                "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                                "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                                "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                                "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                                "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                                "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                                "container": "MuiGrid-container",
+                                "direction-xs-column": "MuiGrid-direction-xs-column",
+                                "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                                "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                                "grid-lg-1": "MuiGrid-grid-lg-1",
+                                "grid-lg-10": "MuiGrid-grid-lg-10",
+                                "grid-lg-11": "MuiGrid-grid-lg-11",
+                                "grid-lg-12": "MuiGrid-grid-lg-12",
+                                "grid-lg-2": "MuiGrid-grid-lg-2",
+                                "grid-lg-3": "MuiGrid-grid-lg-3",
+                                "grid-lg-4": "MuiGrid-grid-lg-4",
+                                "grid-lg-5": "MuiGrid-grid-lg-5",
+                                "grid-lg-6": "MuiGrid-grid-lg-6",
+                                "grid-lg-7": "MuiGrid-grid-lg-7",
+                                "grid-lg-8": "MuiGrid-grid-lg-8",
+                                "grid-lg-9": "MuiGrid-grid-lg-9",
+                                "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                                "grid-lg-true": "MuiGrid-grid-lg-true",
+                                "grid-md-1": "MuiGrid-grid-md-1",
+                                "grid-md-10": "MuiGrid-grid-md-10",
+                                "grid-md-11": "MuiGrid-grid-md-11",
+                                "grid-md-12": "MuiGrid-grid-md-12",
+                                "grid-md-2": "MuiGrid-grid-md-2",
+                                "grid-md-3": "MuiGrid-grid-md-3",
+                                "grid-md-4": "MuiGrid-grid-md-4",
+                                "grid-md-5": "MuiGrid-grid-md-5",
+                                "grid-md-6": "MuiGrid-grid-md-6",
+                                "grid-md-7": "MuiGrid-grid-md-7",
+                                "grid-md-8": "MuiGrid-grid-md-8",
+                                "grid-md-9": "MuiGrid-grid-md-9",
+                                "grid-md-auto": "MuiGrid-grid-md-auto",
+                                "grid-md-true": "MuiGrid-grid-md-true",
+                                "grid-sm-1": "MuiGrid-grid-sm-1",
+                                "grid-sm-10": "MuiGrid-grid-sm-10",
+                                "grid-sm-11": "MuiGrid-grid-sm-11",
+                                "grid-sm-12": "MuiGrid-grid-sm-12",
+                                "grid-sm-2": "MuiGrid-grid-sm-2",
+                                "grid-sm-3": "MuiGrid-grid-sm-3",
+                                "grid-sm-4": "MuiGrid-grid-sm-4",
+                                "grid-sm-5": "MuiGrid-grid-sm-5",
+                                "grid-sm-6": "MuiGrid-grid-sm-6",
+                                "grid-sm-7": "MuiGrid-grid-sm-7",
+                                "grid-sm-8": "MuiGrid-grid-sm-8",
+                                "grid-sm-9": "MuiGrid-grid-sm-9",
+                                "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                                "grid-sm-true": "MuiGrid-grid-sm-true",
+                                "grid-xl-1": "MuiGrid-grid-xl-1",
+                                "grid-xl-10": "MuiGrid-grid-xl-10",
+                                "grid-xl-11": "MuiGrid-grid-xl-11",
+                                "grid-xl-12": "MuiGrid-grid-xl-12",
+                                "grid-xl-2": "MuiGrid-grid-xl-2",
+                                "grid-xl-3": "MuiGrid-grid-xl-3",
+                                "grid-xl-4": "MuiGrid-grid-xl-4",
+                                "grid-xl-5": "MuiGrid-grid-xl-5",
+                                "grid-xl-6": "MuiGrid-grid-xl-6",
+                                "grid-xl-7": "MuiGrid-grid-xl-7",
+                                "grid-xl-8": "MuiGrid-grid-xl-8",
+                                "grid-xl-9": "MuiGrid-grid-xl-9",
+                                "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                                "grid-xl-true": "MuiGrid-grid-xl-true",
+                                "grid-xs-1": "MuiGrid-grid-xs-1",
+                                "grid-xs-10": "MuiGrid-grid-xs-10",
+                                "grid-xs-11": "MuiGrid-grid-xs-11",
+                                "grid-xs-12": "MuiGrid-grid-xs-12",
+                                "grid-xs-2": "MuiGrid-grid-xs-2",
+                                "grid-xs-3": "MuiGrid-grid-xs-3",
+                                "grid-xs-4": "MuiGrid-grid-xs-4",
+                                "grid-xs-5": "MuiGrid-grid-xs-5",
+                                "grid-xs-6": "MuiGrid-grid-xs-6",
+                                "grid-xs-7": "MuiGrid-grid-xs-7",
+                                "grid-xs-8": "MuiGrid-grid-xs-8",
+                                "grid-xs-9": "MuiGrid-grid-xs-9",
+                                "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                                "grid-xs-true": "MuiGrid-grid-xs-true",
+                                "item": "MuiGrid-item",
+                                "justify-xs-center": "MuiGrid-justify-xs-center",
+                                "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                                "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                                "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                                "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                                "root": "MuiGrid-root",
+                                "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                                "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                                "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                                "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                                "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                                "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                                "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                                "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                                "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                                "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                                "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                                "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                                "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                              }
+                            }
+                            item={true}
+                          >
+                            <div
+                              className="MuiGrid-root Component-card-3 MuiGrid-item"
+                            >
+                              <Component
+                                data={
+                                  Object {
+                                    "id": 2,
+                                    "templates": Array [
+                                      Object {
+                                        "id": 5,
+                                        "mocked": "node2",
+                                      },
+                                    ],
+                                  }
+                                }
+                              >
+                                <p>
+                                  NodeCard: 
+                                  {"data":{"id":2,"templates":[{"id":5,"mocked":"node2"}]}}
+                                   
+                                </p>
+                              </Component>
+                            </div>
+                          </ForwardRef(Grid)>
+                        </WithStyles(ForwardRef(Grid))>
+                        <WithStyles(ForwardRef(Grid))
+                          className="Component-card-3"
+                          item={true}
+                          key="3"
+                        >
+                          <ForwardRef(Grid)
+                            className="Component-card-3"
+                            classes={
+                              Object {
+                                "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                                "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                                "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                                "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                                "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                                "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                                "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                                "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                                "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                                "container": "MuiGrid-container",
+                                "direction-xs-column": "MuiGrid-direction-xs-column",
+                                "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                                "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                                "grid-lg-1": "MuiGrid-grid-lg-1",
+                                "grid-lg-10": "MuiGrid-grid-lg-10",
+                                "grid-lg-11": "MuiGrid-grid-lg-11",
+                                "grid-lg-12": "MuiGrid-grid-lg-12",
+                                "grid-lg-2": "MuiGrid-grid-lg-2",
+                                "grid-lg-3": "MuiGrid-grid-lg-3",
+                                "grid-lg-4": "MuiGrid-grid-lg-4",
+                                "grid-lg-5": "MuiGrid-grid-lg-5",
+                                "grid-lg-6": "MuiGrid-grid-lg-6",
+                                "grid-lg-7": "MuiGrid-grid-lg-7",
+                                "grid-lg-8": "MuiGrid-grid-lg-8",
+                                "grid-lg-9": "MuiGrid-grid-lg-9",
+                                "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                                "grid-lg-true": "MuiGrid-grid-lg-true",
+                                "grid-md-1": "MuiGrid-grid-md-1",
+                                "grid-md-10": "MuiGrid-grid-md-10",
+                                "grid-md-11": "MuiGrid-grid-md-11",
+                                "grid-md-12": "MuiGrid-grid-md-12",
+                                "grid-md-2": "MuiGrid-grid-md-2",
+                                "grid-md-3": "MuiGrid-grid-md-3",
+                                "grid-md-4": "MuiGrid-grid-md-4",
+                                "grid-md-5": "MuiGrid-grid-md-5",
+                                "grid-md-6": "MuiGrid-grid-md-6",
+                                "grid-md-7": "MuiGrid-grid-md-7",
+                                "grid-md-8": "MuiGrid-grid-md-8",
+                                "grid-md-9": "MuiGrid-grid-md-9",
+                                "grid-md-auto": "MuiGrid-grid-md-auto",
+                                "grid-md-true": "MuiGrid-grid-md-true",
+                                "grid-sm-1": "MuiGrid-grid-sm-1",
+                                "grid-sm-10": "MuiGrid-grid-sm-10",
+                                "grid-sm-11": "MuiGrid-grid-sm-11",
+                                "grid-sm-12": "MuiGrid-grid-sm-12",
+                                "grid-sm-2": "MuiGrid-grid-sm-2",
+                                "grid-sm-3": "MuiGrid-grid-sm-3",
+                                "grid-sm-4": "MuiGrid-grid-sm-4",
+                                "grid-sm-5": "MuiGrid-grid-sm-5",
+                                "grid-sm-6": "MuiGrid-grid-sm-6",
+                                "grid-sm-7": "MuiGrid-grid-sm-7",
+                                "grid-sm-8": "MuiGrid-grid-sm-8",
+                                "grid-sm-9": "MuiGrid-grid-sm-9",
+                                "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                                "grid-sm-true": "MuiGrid-grid-sm-true",
+                                "grid-xl-1": "MuiGrid-grid-xl-1",
+                                "grid-xl-10": "MuiGrid-grid-xl-10",
+                                "grid-xl-11": "MuiGrid-grid-xl-11",
+                                "grid-xl-12": "MuiGrid-grid-xl-12",
+                                "grid-xl-2": "MuiGrid-grid-xl-2",
+                                "grid-xl-3": "MuiGrid-grid-xl-3",
+                                "grid-xl-4": "MuiGrid-grid-xl-4",
+                                "grid-xl-5": "MuiGrid-grid-xl-5",
+                                "grid-xl-6": "MuiGrid-grid-xl-6",
+                                "grid-xl-7": "MuiGrid-grid-xl-7",
+                                "grid-xl-8": "MuiGrid-grid-xl-8",
+                                "grid-xl-9": "MuiGrid-grid-xl-9",
+                                "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                                "grid-xl-true": "MuiGrid-grid-xl-true",
+                                "grid-xs-1": "MuiGrid-grid-xs-1",
+                                "grid-xs-10": "MuiGrid-grid-xs-10",
+                                "grid-xs-11": "MuiGrid-grid-xs-11",
+                                "grid-xs-12": "MuiGrid-grid-xs-12",
+                                "grid-xs-2": "MuiGrid-grid-xs-2",
+                                "grid-xs-3": "MuiGrid-grid-xs-3",
+                                "grid-xs-4": "MuiGrid-grid-xs-4",
+                                "grid-xs-5": "MuiGrid-grid-xs-5",
+                                "grid-xs-6": "MuiGrid-grid-xs-6",
+                                "grid-xs-7": "MuiGrid-grid-xs-7",
+                                "grid-xs-8": "MuiGrid-grid-xs-8",
+                                "grid-xs-9": "MuiGrid-grid-xs-9",
+                                "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                                "grid-xs-true": "MuiGrid-grid-xs-true",
+                                "item": "MuiGrid-item",
+                                "justify-xs-center": "MuiGrid-justify-xs-center",
+                                "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                                "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                                "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                                "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                                "root": "MuiGrid-root",
+                                "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                                "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                                "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                                "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                                "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                                "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                                "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                                "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                                "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                                "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                                "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                                "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                                "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                              }
+                            }
+                            item={true}
+                          >
+                            <div
+                              className="MuiGrid-root Component-card-3 MuiGrid-item"
+                            >
+                              <Component
+                                data={
+                                  Object {
+                                    "id": 3,
+                                    "templates": Array [
+                                      Object {
+                                        "id": 6,
+                                        "mocked": "node3",
+                                      },
+                                    ],
+                                  }
+                                }
+                              >
+                                <p>
+                                  NodeCard: 
+                                  {"data":{"id":3,"templates":[{"id":6,"mocked":"node3"}]}}
+                                   
+                                </p>
+                              </Component>
+                            </div>
+                          </ForwardRef(Grid)>
+                        </WithStyles(ForwardRef(Grid))>
+                      </div>
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                </div>
+              </Nodes>
+            </lifecycle(Nodes)>
+          </withHandlers(lifecycle(Nodes))>
+        </Component>
       </Component>
     </branch(Component)>
   </Component>
@@ -989,6 +1369,7 @@ exports[`<Nodes /> Should match snapshot 1`] = `
         "card": "Component-card-3",
         "centeredProgress": "Component-centeredProgress-2",
         "container": "Component-container-1",
+        "viewOptions": "Component-viewOptions-4",
       }
     }
     mocks={
@@ -1004,6 +1385,7 @@ exports[`<Nodes /> Should match snapshot 1`] = `
           "card": "Component-card-3",
           "centeredProgress": "Component-centeredProgress-2",
           "container": "Component-container-1",
+          "viewOptions": "Component-viewOptions-4",
         }
       }
       mocks={
@@ -1021,6 +1403,7 @@ exports[`<Nodes /> Should match snapshot 1`] = `
             "card": "Component-card-3",
             "centeredProgress": "Component-centeredProgress-2",
             "container": "Component-container-1",
+            "viewOptions": "Component-viewOptions-4",
           }
         }
         mocks={
@@ -1032,12 +1415,13 @@ exports[`<Nodes /> Should match snapshot 1`] = `
         nodes={Array []}
         subscribe={[Function]}
       >
-        <withHandlers(lifecycle(Nodes))
+        <Component
           classes={
             Object {
               "card": "Component-card-3",
               "centeredProgress": "Component-centeredProgress-2",
               "container": "Component-container-1",
+              "viewOptions": "Component-viewOptions-4",
             }
           }
           mocks={
@@ -1049,12 +1433,13 @@ exports[`<Nodes /> Should match snapshot 1`] = `
           nodes={Array []}
           subscribe={[Function]}
         >
-          <lifecycle(Nodes)
+          <withHandlers(lifecycle(Nodes))
             classes={
               Object {
                 "card": "Component-card-3",
                 "centeredProgress": "Component-centeredProgress-2",
                 "container": "Component-container-1",
+                "viewOptions": "Component-viewOptions-4",
               }
             }
             mocks={
@@ -1064,15 +1449,15 @@ exports[`<Nodes /> Should match snapshot 1`] = `
               }
             }
             nodes={Array []}
-            onTemplateDataChange={[Function]}
             subscribe={[Function]}
           >
-            <Nodes
+            <lifecycle(Nodes)
               classes={
                 Object {
                   "card": "Component-card-3",
                   "centeredProgress": "Component-centeredProgress-2",
                   "container": "Component-container-1",
+                  "viewOptions": "Component-viewOptions-4",
                 }
               }
               mocks={
@@ -1083,131 +1468,412 @@ exports[`<Nodes /> Should match snapshot 1`] = `
               }
               nodes={Array []}
               onTemplateDataChange={[Function]}
+              onViewModeChange={[Function]}
               subscribe={[Function]}
             >
-              <WithStyles(ForwardRef(Grid))
-                className="Component-container-1"
-                container={true}
-              >
-                <ForwardRef(Grid)
-                  className="Component-container-1"
-                  classes={
-                    Object {
-                      "align-content-xs-center": "MuiGrid-align-content-xs-center",
-                      "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
-                      "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
-                      "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
-                      "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
-                      "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
-                      "align-items-xs-center": "MuiGrid-align-items-xs-center",
-                      "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
-                      "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
-                      "container": "MuiGrid-container",
-                      "direction-xs-column": "MuiGrid-direction-xs-column",
-                      "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
-                      "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
-                      "grid-lg-1": "MuiGrid-grid-lg-1",
-                      "grid-lg-10": "MuiGrid-grid-lg-10",
-                      "grid-lg-11": "MuiGrid-grid-lg-11",
-                      "grid-lg-12": "MuiGrid-grid-lg-12",
-                      "grid-lg-2": "MuiGrid-grid-lg-2",
-                      "grid-lg-3": "MuiGrid-grid-lg-3",
-                      "grid-lg-4": "MuiGrid-grid-lg-4",
-                      "grid-lg-5": "MuiGrid-grid-lg-5",
-                      "grid-lg-6": "MuiGrid-grid-lg-6",
-                      "grid-lg-7": "MuiGrid-grid-lg-7",
-                      "grid-lg-8": "MuiGrid-grid-lg-8",
-                      "grid-lg-9": "MuiGrid-grid-lg-9",
-                      "grid-lg-auto": "MuiGrid-grid-lg-auto",
-                      "grid-lg-true": "MuiGrid-grid-lg-true",
-                      "grid-md-1": "MuiGrid-grid-md-1",
-                      "grid-md-10": "MuiGrid-grid-md-10",
-                      "grid-md-11": "MuiGrid-grid-md-11",
-                      "grid-md-12": "MuiGrid-grid-md-12",
-                      "grid-md-2": "MuiGrid-grid-md-2",
-                      "grid-md-3": "MuiGrid-grid-md-3",
-                      "grid-md-4": "MuiGrid-grid-md-4",
-                      "grid-md-5": "MuiGrid-grid-md-5",
-                      "grid-md-6": "MuiGrid-grid-md-6",
-                      "grid-md-7": "MuiGrid-grid-md-7",
-                      "grid-md-8": "MuiGrid-grid-md-8",
-                      "grid-md-9": "MuiGrid-grid-md-9",
-                      "grid-md-auto": "MuiGrid-grid-md-auto",
-                      "grid-md-true": "MuiGrid-grid-md-true",
-                      "grid-sm-1": "MuiGrid-grid-sm-1",
-                      "grid-sm-10": "MuiGrid-grid-sm-10",
-                      "grid-sm-11": "MuiGrid-grid-sm-11",
-                      "grid-sm-12": "MuiGrid-grid-sm-12",
-                      "grid-sm-2": "MuiGrid-grid-sm-2",
-                      "grid-sm-3": "MuiGrid-grid-sm-3",
-                      "grid-sm-4": "MuiGrid-grid-sm-4",
-                      "grid-sm-5": "MuiGrid-grid-sm-5",
-                      "grid-sm-6": "MuiGrid-grid-sm-6",
-                      "grid-sm-7": "MuiGrid-grid-sm-7",
-                      "grid-sm-8": "MuiGrid-grid-sm-8",
-                      "grid-sm-9": "MuiGrid-grid-sm-9",
-                      "grid-sm-auto": "MuiGrid-grid-sm-auto",
-                      "grid-sm-true": "MuiGrid-grid-sm-true",
-                      "grid-xl-1": "MuiGrid-grid-xl-1",
-                      "grid-xl-10": "MuiGrid-grid-xl-10",
-                      "grid-xl-11": "MuiGrid-grid-xl-11",
-                      "grid-xl-12": "MuiGrid-grid-xl-12",
-                      "grid-xl-2": "MuiGrid-grid-xl-2",
-                      "grid-xl-3": "MuiGrid-grid-xl-3",
-                      "grid-xl-4": "MuiGrid-grid-xl-4",
-                      "grid-xl-5": "MuiGrid-grid-xl-5",
-                      "grid-xl-6": "MuiGrid-grid-xl-6",
-                      "grid-xl-7": "MuiGrid-grid-xl-7",
-                      "grid-xl-8": "MuiGrid-grid-xl-8",
-                      "grid-xl-9": "MuiGrid-grid-xl-9",
-                      "grid-xl-auto": "MuiGrid-grid-xl-auto",
-                      "grid-xl-true": "MuiGrid-grid-xl-true",
-                      "grid-xs-1": "MuiGrid-grid-xs-1",
-                      "grid-xs-10": "MuiGrid-grid-xs-10",
-                      "grid-xs-11": "MuiGrid-grid-xs-11",
-                      "grid-xs-12": "MuiGrid-grid-xs-12",
-                      "grid-xs-2": "MuiGrid-grid-xs-2",
-                      "grid-xs-3": "MuiGrid-grid-xs-3",
-                      "grid-xs-4": "MuiGrid-grid-xs-4",
-                      "grid-xs-5": "MuiGrid-grid-xs-5",
-                      "grid-xs-6": "MuiGrid-grid-xs-6",
-                      "grid-xs-7": "MuiGrid-grid-xs-7",
-                      "grid-xs-8": "MuiGrid-grid-xs-8",
-                      "grid-xs-9": "MuiGrid-grid-xs-9",
-                      "grid-xs-auto": "MuiGrid-grid-xs-auto",
-                      "grid-xs-true": "MuiGrid-grid-xs-true",
-                      "item": "MuiGrid-item",
-                      "justify-xs-center": "MuiGrid-justify-xs-center",
-                      "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
-                      "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
-                      "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
-                      "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
-                      "root": "MuiGrid-root",
-                      "spacing-xs-1": "MuiGrid-spacing-xs-1",
-                      "spacing-xs-10": "MuiGrid-spacing-xs-10",
-                      "spacing-xs-2": "MuiGrid-spacing-xs-2",
-                      "spacing-xs-3": "MuiGrid-spacing-xs-3",
-                      "spacing-xs-4": "MuiGrid-spacing-xs-4",
-                      "spacing-xs-5": "MuiGrid-spacing-xs-5",
-                      "spacing-xs-6": "MuiGrid-spacing-xs-6",
-                      "spacing-xs-7": "MuiGrid-spacing-xs-7",
-                      "spacing-xs-8": "MuiGrid-spacing-xs-8",
-                      "spacing-xs-9": "MuiGrid-spacing-xs-9",
-                      "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
-                      "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
-                      "zeroMinWidth": "MuiGrid-zeroMinWidth",
-                    }
+              <Nodes
+                classes={
+                  Object {
+                    "card": "Component-card-3",
+                    "centeredProgress": "Component-centeredProgress-2",
+                    "container": "Component-container-1",
+                    "viewOptions": "Component-viewOptions-4",
                   }
-                  container={true}
-                >
+                }
+                mocks={
+                  Object {
+                    "nodes": Array [],
+                    "subscribe": [Function],
+                  }
+                }
+                nodes={Array []}
+                onTemplateDataChange={[Function]}
+                onViewModeChange={[Function]}
+                subscribe={[Function]}
+              >
+                <div>
                   <div
-                    className="MuiGrid-root Component-container-1 MuiGrid-container"
-                  />
-                </ForwardRef(Grid)>
-              </WithStyles(ForwardRef(Grid))>
-            </Nodes>
-          </lifecycle(Nodes)>
-        </withHandlers(lifecycle(Nodes))>
+                    className="Component-viewOptions-4"
+                  >
+                    <WithStyles(ForwardRef(ToggleButton))
+                      onChange={[Function]}
+                      value={
+                        Array [
+                          "node",
+                          "template",
+                        ]
+                      }
+                    >
+                      <ForwardRef(ToggleButton)
+                        classes={
+                          Object {
+                            "root": "MuiToggleButtonGroup-root",
+                          }
+                        }
+                        exclusive={false}
+                        onChange={[Function]}
+                        size="medium"
+                        value={
+                          Array [
+                            "node",
+                            "template",
+                          ]
+                        }
+                      >
+                        <div
+                          className="MuiToggleButtonGroup-root"
+                        >
+                          <WithStyles(ForwardRef(ToggleButton))
+                            key=".0"
+                            onChange={[Function]}
+                            selected={false}
+                            size="medium"
+                            value="template"
+                          >
+                            <ForwardRef(ToggleButton)
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "label": "MuiToggleButton-label",
+                                  "root": "MuiToggleButton-root",
+                                  "selected": "Mui-selected",
+                                  "sizeLarge": "MuiToggleButton-sizeLarge",
+                                  "sizeSmall": "MuiToggleButton-sizeSmall",
+                                }
+                              }
+                              disableFocusRipple={false}
+                              disableRipple={false}
+                              disabled={false}
+                              onChange={[Function]}
+                              selected={false}
+                              size="medium"
+                              value="template"
+                            >
+                              <WithStyles(ForwardRef(ButtonBase))
+                                className="MuiToggleButton-root"
+                                disableRipple={false}
+                                disabled={false}
+                                focusRipple={true}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                value="template"
+                              >
+                                <ForwardRef(ButtonBase)
+                                  className="MuiToggleButton-root"
+                                  classes={
+                                    Object {
+                                      "disabled": "Mui-disabled",
+                                      "focusVisible": "Mui-focusVisible",
+                                      "root": "MuiButtonBase-root",
+                                    }
+                                  }
+                                  disableRipple={false}
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  value="template"
+                                >
+                                  <button
+                                    className="MuiButtonBase-root MuiToggleButton-root"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex={0}
+                                    type="button"
+                                    value="template"
+                                  >
+                                    <span
+                                      className="MuiToggleButton-label"
+                                    >
+                                      Node
+                                    </span>
+                                    <NoSsr>
+                                      <WithStyles(TouchRipple)
+                                        center={false}
+                                      >
+                                        <TouchRipple
+                                          center={false}
+                                          classes={
+                                            Object {
+                                              "child": "MuiTouchRipple-child",
+                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                              "ripple": "MuiTouchRipple-ripple",
+                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                              "root": "MuiTouchRipple-root",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="MuiTouchRipple-root"
+                                          >
+                                            <TransitionGroup
+                                              childFactory={[Function]}
+                                              component={null}
+                                              enter={true}
+                                              exit={true}
+                                            />
+                                          </span>
+                                        </TouchRipple>
+                                      </WithStyles(TouchRipple)>
+                                    </NoSsr>
+                                  </button>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(ToggleButton)>
+                          </WithStyles(ForwardRef(ToggleButton))>
+                          <WithStyles(ForwardRef(ToggleButton))
+                            key=".1"
+                            onChange={[Function]}
+                            selected={false}
+                            size="medium"
+                            value="node"
+                          >
+                            <ForwardRef(ToggleButton)
+                              classes={
+                                Object {
+                                  "disabled": "Mui-disabled",
+                                  "label": "MuiToggleButton-label",
+                                  "root": "MuiToggleButton-root",
+                                  "selected": "Mui-selected",
+                                  "sizeLarge": "MuiToggleButton-sizeLarge",
+                                  "sizeSmall": "MuiToggleButton-sizeSmall",
+                                }
+                              }
+                              disableFocusRipple={false}
+                              disableRipple={false}
+                              disabled={false}
+                              onChange={[Function]}
+                              selected={false}
+                              size="medium"
+                              value="node"
+                            >
+                              <WithStyles(ForwardRef(ButtonBase))
+                                className="MuiToggleButton-root"
+                                disableRipple={false}
+                                disabled={false}
+                                focusRipple={true}
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                value="node"
+                              >
+                                <ForwardRef(ButtonBase)
+                                  className="MuiToggleButton-root"
+                                  classes={
+                                    Object {
+                                      "disabled": "Mui-disabled",
+                                      "focusVisible": "Mui-focusVisible",
+                                      "root": "MuiButtonBase-root",
+                                    }
+                                  }
+                                  disableRipple={false}
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onChange={[Function]}
+                                  onClick={[Function]}
+                                  value="node"
+                                >
+                                  <button
+                                    className="MuiButtonBase-root MuiToggleButton-root"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onChange={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex={0}
+                                    type="button"
+                                    value="node"
+                                  >
+                                    <span
+                                      className="MuiToggleButton-label"
+                                    >
+                                      Template
+                                    </span>
+                                    <NoSsr>
+                                      <WithStyles(TouchRipple)
+                                        center={false}
+                                      >
+                                        <TouchRipple
+                                          center={false}
+                                          classes={
+                                            Object {
+                                              "child": "MuiTouchRipple-child",
+                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                              "ripple": "MuiTouchRipple-ripple",
+                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                              "root": "MuiTouchRipple-root",
+                                            }
+                                          }
+                                        >
+                                          <span
+                                            className="MuiTouchRipple-root"
+                                          >
+                                            <TransitionGroup
+                                              childFactory={[Function]}
+                                              component={null}
+                                              enter={true}
+                                              exit={true}
+                                            />
+                                          </span>
+                                        </TouchRipple>
+                                      </WithStyles(TouchRipple)>
+                                    </NoSsr>
+                                  </button>
+                                </ForwardRef(ButtonBase)>
+                              </WithStyles(ForwardRef(ButtonBase))>
+                            </ForwardRef(ToggleButton)>
+                          </WithStyles(ForwardRef(ToggleButton))>
+                        </div>
+                      </ForwardRef(ToggleButton)>
+                    </WithStyles(ForwardRef(ToggleButton))>
+                  </div>
+                  <WithStyles(ForwardRef(Grid))
+                    className="Component-container-1"
+                    container={true}
+                  >
+                    <ForwardRef(Grid)
+                      className="Component-container-1"
+                      classes={
+                        Object {
+                          "align-content-xs-center": "MuiGrid-align-content-xs-center",
+                          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end",
+                          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start",
+                          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around",
+                          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between",
+                          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline",
+                          "align-items-xs-center": "MuiGrid-align-items-xs-center",
+                          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end",
+                          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start",
+                          "container": "MuiGrid-container",
+                          "direction-xs-column": "MuiGrid-direction-xs-column",
+                          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse",
+                          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse",
+                          "grid-lg-1": "MuiGrid-grid-lg-1",
+                          "grid-lg-10": "MuiGrid-grid-lg-10",
+                          "grid-lg-11": "MuiGrid-grid-lg-11",
+                          "grid-lg-12": "MuiGrid-grid-lg-12",
+                          "grid-lg-2": "MuiGrid-grid-lg-2",
+                          "grid-lg-3": "MuiGrid-grid-lg-3",
+                          "grid-lg-4": "MuiGrid-grid-lg-4",
+                          "grid-lg-5": "MuiGrid-grid-lg-5",
+                          "grid-lg-6": "MuiGrid-grid-lg-6",
+                          "grid-lg-7": "MuiGrid-grid-lg-7",
+                          "grid-lg-8": "MuiGrid-grid-lg-8",
+                          "grid-lg-9": "MuiGrid-grid-lg-9",
+                          "grid-lg-auto": "MuiGrid-grid-lg-auto",
+                          "grid-lg-true": "MuiGrid-grid-lg-true",
+                          "grid-md-1": "MuiGrid-grid-md-1",
+                          "grid-md-10": "MuiGrid-grid-md-10",
+                          "grid-md-11": "MuiGrid-grid-md-11",
+                          "grid-md-12": "MuiGrid-grid-md-12",
+                          "grid-md-2": "MuiGrid-grid-md-2",
+                          "grid-md-3": "MuiGrid-grid-md-3",
+                          "grid-md-4": "MuiGrid-grid-md-4",
+                          "grid-md-5": "MuiGrid-grid-md-5",
+                          "grid-md-6": "MuiGrid-grid-md-6",
+                          "grid-md-7": "MuiGrid-grid-md-7",
+                          "grid-md-8": "MuiGrid-grid-md-8",
+                          "grid-md-9": "MuiGrid-grid-md-9",
+                          "grid-md-auto": "MuiGrid-grid-md-auto",
+                          "grid-md-true": "MuiGrid-grid-md-true",
+                          "grid-sm-1": "MuiGrid-grid-sm-1",
+                          "grid-sm-10": "MuiGrid-grid-sm-10",
+                          "grid-sm-11": "MuiGrid-grid-sm-11",
+                          "grid-sm-12": "MuiGrid-grid-sm-12",
+                          "grid-sm-2": "MuiGrid-grid-sm-2",
+                          "grid-sm-3": "MuiGrid-grid-sm-3",
+                          "grid-sm-4": "MuiGrid-grid-sm-4",
+                          "grid-sm-5": "MuiGrid-grid-sm-5",
+                          "grid-sm-6": "MuiGrid-grid-sm-6",
+                          "grid-sm-7": "MuiGrid-grid-sm-7",
+                          "grid-sm-8": "MuiGrid-grid-sm-8",
+                          "grid-sm-9": "MuiGrid-grid-sm-9",
+                          "grid-sm-auto": "MuiGrid-grid-sm-auto",
+                          "grid-sm-true": "MuiGrid-grid-sm-true",
+                          "grid-xl-1": "MuiGrid-grid-xl-1",
+                          "grid-xl-10": "MuiGrid-grid-xl-10",
+                          "grid-xl-11": "MuiGrid-grid-xl-11",
+                          "grid-xl-12": "MuiGrid-grid-xl-12",
+                          "grid-xl-2": "MuiGrid-grid-xl-2",
+                          "grid-xl-3": "MuiGrid-grid-xl-3",
+                          "grid-xl-4": "MuiGrid-grid-xl-4",
+                          "grid-xl-5": "MuiGrid-grid-xl-5",
+                          "grid-xl-6": "MuiGrid-grid-xl-6",
+                          "grid-xl-7": "MuiGrid-grid-xl-7",
+                          "grid-xl-8": "MuiGrid-grid-xl-8",
+                          "grid-xl-9": "MuiGrid-grid-xl-9",
+                          "grid-xl-auto": "MuiGrid-grid-xl-auto",
+                          "grid-xl-true": "MuiGrid-grid-xl-true",
+                          "grid-xs-1": "MuiGrid-grid-xs-1",
+                          "grid-xs-10": "MuiGrid-grid-xs-10",
+                          "grid-xs-11": "MuiGrid-grid-xs-11",
+                          "grid-xs-12": "MuiGrid-grid-xs-12",
+                          "grid-xs-2": "MuiGrid-grid-xs-2",
+                          "grid-xs-3": "MuiGrid-grid-xs-3",
+                          "grid-xs-4": "MuiGrid-grid-xs-4",
+                          "grid-xs-5": "MuiGrid-grid-xs-5",
+                          "grid-xs-6": "MuiGrid-grid-xs-6",
+                          "grid-xs-7": "MuiGrid-grid-xs-7",
+                          "grid-xs-8": "MuiGrid-grid-xs-8",
+                          "grid-xs-9": "MuiGrid-grid-xs-9",
+                          "grid-xs-auto": "MuiGrid-grid-xs-auto",
+                          "grid-xs-true": "MuiGrid-grid-xs-true",
+                          "item": "MuiGrid-item",
+                          "justify-xs-center": "MuiGrid-justify-xs-center",
+                          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end",
+                          "justify-xs-space-around": "MuiGrid-justify-xs-space-around",
+                          "justify-xs-space-between": "MuiGrid-justify-xs-space-between",
+                          "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly",
+                          "root": "MuiGrid-root",
+                          "spacing-xs-1": "MuiGrid-spacing-xs-1",
+                          "spacing-xs-10": "MuiGrid-spacing-xs-10",
+                          "spacing-xs-2": "MuiGrid-spacing-xs-2",
+                          "spacing-xs-3": "MuiGrid-spacing-xs-3",
+                          "spacing-xs-4": "MuiGrid-spacing-xs-4",
+                          "spacing-xs-5": "MuiGrid-spacing-xs-5",
+                          "spacing-xs-6": "MuiGrid-spacing-xs-6",
+                          "spacing-xs-7": "MuiGrid-spacing-xs-7",
+                          "spacing-xs-8": "MuiGrid-spacing-xs-8",
+                          "spacing-xs-9": "MuiGrid-spacing-xs-9",
+                          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap",
+                          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse",
+                          "zeroMinWidth": "MuiGrid-zeroMinWidth",
+                        }
+                      }
+                      container={true}
+                    >
+                      <div
+                        className="MuiGrid-root Component-container-1 MuiGrid-container"
+                      />
+                    </ForwardRef(Grid)>
+                  </WithStyles(ForwardRef(Grid))>
+                </div>
+              </Nodes>
+            </lifecycle(Nodes)>
+          </withHandlers(lifecycle(Nodes))>
+        </Component>
       </Component>
     </branch(Component)>
   </Component>
@@ -1230,6 +1896,7 @@ exports[`<Nodes /> When graphql is loading should display loading circle 1`] = `
         "card": "Component-card-3",
         "centeredProgress": "Component-centeredProgress-2",
         "container": "Component-container-1",
+        "viewOptions": "Component-viewOptions-4",
       }
     }
     mocks={
@@ -1246,6 +1913,7 @@ exports[`<Nodes /> When graphql is loading should display loading circle 1`] = `
           "card": "Component-card-3",
           "centeredProgress": "Component-centeredProgress-2",
           "container": "Component-container-1",
+          "viewOptions": "Component-viewOptions-4",
         }
       }
       loading={true}
@@ -1265,6 +1933,7 @@ exports[`<Nodes /> When graphql is loading should display loading circle 1`] = `
             "card": "Component-card-3",
             "centeredProgress": "Component-centeredProgress-2",
             "container": "Component-container-1",
+            "viewOptions": "Component-viewOptions-4",
           }
         }
         loading={true}
@@ -1284,6 +1953,7 @@ exports[`<Nodes /> When graphql is loading should display loading circle 1`] = `
               "card": "Component-card-3",
               "centeredProgress": "Component-centeredProgress-2",
               "container": "Component-container-1",
+              "viewOptions": "Component-viewOptions-4",
             }
           }
           loading={true}

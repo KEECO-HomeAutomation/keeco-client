@@ -9,13 +9,17 @@ import {
 } from 'recompose';
 import { withStyles } from '@material-ui/core/styles';
 import { graphql } from 'react-apollo';
+import { connect } from 'react-redux';
 
 import NodesQuery from '../../data/queries/NodesQuery.graphql';
 import UpdateTemplateDataMutation from '../../data/queries/UpdateTemplateDataMutation.graphql';
 import NodeSubscription from '../../data/queries/NodeSubscription.graphql';
+import { setViewMode } from './data/duck';
 
 import Grid from '@material-ui/core/Grid';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
+import ToggleButton from '@material-ui/lab/ToggleButton';
 
 import NodeCard from '../../components/NodeCard';
 
@@ -29,31 +33,64 @@ const styles = theme => ({
 	},
 	card: {
 		width: '400px'
+	},
+	viewOptions: {
+		display: 'flex',
+		justifyContent: 'flex-end'
 	}
 });
 
-export const Nodes = ({ nodes, onTemplateDataChange, classes }) => {
+export const Nodes = ({
+	viewMode,
+	nodes,
+	onTemplateDataChange,
+	onViewModeChange,
+	classes
+}) => {
 	return (
-		<Grid container className={classes.container}>
-			{nodes.map(node =>
-				node.templates.map(template => (
-					<Grid key={template.id} item className={classes.card}>
-						<NodeCard
-							data={{ id: node.id, name: node.name, template: template }}
-							onTemplateDataChange={data =>
-								onTemplateDataChange(template, data)
-							}
-						/>
-					</Grid>
-				))
-			)}
-		</Grid>
+		<div>
+			<div className={classes.viewOptions}>
+				<ToggleButtonGroup
+					value={['node', 'template']}
+					onChange={onViewModeChange}
+				>
+					<ToggleButton value={'template'} selected={viewMode === 'node'}>
+						Node
+					</ToggleButton>
+					<ToggleButton value={'node'} selected={viewMode === 'template'}>
+						Template
+					</ToggleButton>
+				</ToggleButtonGroup>
+			</div>
+			<Grid container className={classes.container}>
+				{nodes.map(node =>
+					viewMode === 'template' ? (
+						node.templates.map(template => (
+							<Grid key={template.id} item className={classes.card}>
+								<NodeCard
+									data={{ id: node.id, name: node.name, template: template }}
+									onTemplateDataChange={data =>
+										onTemplateDataChange(template, data)
+									}
+								/>
+							</Grid>
+						))
+					) : (
+						<Grid key={node.id} item className={classes.card}>
+							<NodeCard data={node} />
+						</Grid>
+					)
+				)}
+			</Grid>
+		</div>
 	);
 };
 
 Nodes.propTypes = {
+	viewMode: PropTypes.string,
 	nodes: PropTypes.array,
 	onTemplateDataChange: PropTypes.func,
+	onViewModeChange: PropTypes.func,
 	classes: PropTypes.object
 };
 
@@ -95,6 +132,14 @@ export const enhancer = compose(
 		renderComponent(({ classes }) => (
 			<CircularProgress className={classes.centeredProgress} />
 		))
+	),
+	connect(
+		state => ({
+			viewMode: state.nodes.viewMode
+		}),
+		dispatch => ({
+			setViewMode: viewMode => dispatch(setViewMode(viewMode))
+		})
 	),
 	graphql(UpdateTemplateDataMutation, {
 		props: ({ mutate }) => ({
@@ -139,6 +184,9 @@ export const enhancer = compose(
 					}
 				}
 			});
+		},
+		onViewModeChange: ({ setViewMode }) => (e, viewMode) => {
+			setViewMode(viewMode[0]);
 		}
 	}),
 	lifecycle({

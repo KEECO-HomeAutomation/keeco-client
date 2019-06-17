@@ -4,10 +4,12 @@ import storage from 'redux-persist/lib/storage';
 
 import appDuck from './duck';
 import dashboardDuck from '../scenes/Dashboard/data/duck';
+import nodesDuck from '../scenes/Nodes/data/duck';
 
 const rootReducer = combineReducers({
 	app: appDuck,
-	dashboard: dashboardDuck
+	dashboard: dashboardDuck,
+	nodes: nodesDuck
 });
 
 const persistedReducer = persistReducer({ key: 'root', storage }, rootReducer);
