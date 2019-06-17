@@ -12,7 +12,6 @@ import TemplateIcon from './TemplateIcon';
 import TemplateControls from './TemplateControls';
 import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
-import DeviceHubIcon from '@material-ui/icons/DeviceHub';
 
 describe('<NodeCard />', () => {
 	test('Should export base and enhancer', () => {

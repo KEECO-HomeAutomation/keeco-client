@@ -14,41 +14,47 @@ import NodesQuery from '../../data/queries/NodesQuery.graphql';
 import UpdateTemplateDataMutation from '../../data/queries/UpdateTemplateDataMutation.graphql';
 import NodeSubscription from '../../data/queries/NodeSubscription.graphql';
 
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
+import Grid from '@material-ui/core/Grid';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
 import NodeCard from '../../components/NodeCard';
 
 const styles = theme => ({
+	container: {
+		justifyContent: 'flex-start'
+	},
 	centeredProgress: {
 		margin: 'auto',
 		marginTop: theme.spacing(5)
+	},
+	card: {
+		width: '400px'
 	}
 });
 
-export const Nodes = ({ nodes, onTemplateDataChange }) => {
+export const Nodes = ({ nodes, onTemplateDataChange, classes }) => {
 	return (
-		<GridList cellHeight="auto" cols={4} spacing={5}>
+		<Grid container className={classes.container}>
 			{nodes.map(node =>
 				node.templates.map(template => (
-					<GridListTile key={template.id}>
+					<Grid key={template.id} item className={classes.card}>
 						<NodeCard
 							data={{ id: node.id, name: node.name, template: template }}
 							onTemplateDataChange={data =>
 								onTemplateDataChange(template, data)
 							}
 						/>
-					</GridListTile>
+					</Grid>
 				))
 			)}
-		</GridList>
+		</Grid>
 	);
 };
 
 Nodes.propTypes = {
 	nodes: PropTypes.array,
-	onTemplateDataChange: PropTypes.func
+	onTemplateDataChange: PropTypes.func,
+	classes: PropTypes.object
 };
 
 export const enhancer = compose(
@@ -57,7 +63,7 @@ export const enhancer = compose(
 		props: ({ data: { nodes, loading, subscribeToMore } }) => ({
 			nodes,
 			loading,
-			subscribe: () => {
+			subscribe: () =>
 				subscribeToMore({
 					document: NodeSubscription,
 					updateQuery: (prev, { subscriptionData }) => {
@@ -65,7 +71,7 @@ export const enhancer = compose(
 							return prev;
 						}
 
-						const { mutation, node } = subscriptionData;
+						const { mutation, node } = subscriptionData.data.nodeSubscription;
 
 						if (mutation === 'CREATED') {
 							return {
@@ -81,8 +87,7 @@ export const enhancer = compose(
 							};
 						}
 					}
-				});
-			}
+				})
 		})
 	}),
 	branch(

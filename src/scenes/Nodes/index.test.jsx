@@ -1,10 +1,10 @@
-/* eslint-disable: react/display-name */
-/* eslint-disable: react/prop-types */
+/* eslint-disable react/display-name */
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { mount } from 'enzyme';
 
 jest.mock('../../components/NodeCard', () => props => (
-	<p className="nodeCard">NodeCard: {JSON.stringify(props)} </p>
+	<p>NodeCard: {JSON.stringify(props)} </p>
 ));
 
 jest.mock('react-apollo', () => ({
@@ -58,15 +58,15 @@ describe('<Nodes />', () => {
 			<Nodes
 				mocks={{
 					nodes: [
-						{ templates: [{ mocked: 'node1' }] },
-						{ templates: [{ mocked: 'node2' }] },
-						{ templates: [{ mocked: 'node3' }] }
+						{ templates: [{ id: 1, mocked: 'node1' }] },
+						{ templates: [{ id: 2, mocked: 'node2' }] },
+						{ templates: [{ id: 3, mocked: 'node3' }] }
 					],
 					subscribe: () => () => {}
 				}}
 			/>
 		);
 		expect(comp).toMatchSnapshot();
-		expect(comp).toContainMatchingElements(3, 'p.nodeCard');
+		expect(comp).toContainMatchingElements(3, NodeCard);
 	});
 });

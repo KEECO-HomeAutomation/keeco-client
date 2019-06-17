@@ -46,12 +46,12 @@ export const NodeCard = ({ data, actions, onTemplateDataChange, classes }) => {
 			<div className={classes.titleBar}>
 				<Typography variant="h6" className={classes.title}>
 					{data.name}
+					{data.template && (
+						<span className={classes.secondaryTitle}>
+							&nbsp;-&nbsp;{data.template.name}
+						</span>
+					)}
 				</Typography>
-				{data.template && (
-					<Typography variant="h6" className={classes.secondaryTitle}>
-						&nbsp;-&nbsp;{data.template.name}
-					</Typography>
-				)}
 			</div>
 			<CardContent className={classes.cardContent}>
 				{data.template ? (

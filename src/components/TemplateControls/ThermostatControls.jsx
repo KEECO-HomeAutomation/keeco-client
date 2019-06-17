@@ -69,7 +69,7 @@ ThermostatControls.propTypes = {
 export const enhancer = compose(
 	withStyles(styles),
 	withProps(({ data }) => ({
-		processedTemp: data.temperature > 60 ? 100 : data.temperature + 40
+		processedTemp: data.temperature > 60 ? 100 : (data.temperature || -40) + 40
 	}))
 );
 
