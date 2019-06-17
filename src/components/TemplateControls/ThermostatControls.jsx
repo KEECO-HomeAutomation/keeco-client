@@ -36,7 +36,7 @@ const styles = theme => ({
 	}
 });
 
-export const SwitchControls = ({ data, processedTemp, classes }) => {
+export const ThermostatControls = ({ data, processedTemp, classes }) => {
 	return (
 		<Grid container className={classes.grid}>
 			<Grid item className={classes.option}>
@@ -46,7 +46,7 @@ export const SwitchControls = ({ data, processedTemp, classes }) => {
 			</Grid>
 			<Grid item className={classes.action}>
 				<Typography variant="body1" className={classes.actionText}>
-					{data.temperature || '-'}&nbsp;&#8451;
+					{data.temperature === null ? '-' : data.temperature}&nbsp;&#8451;
 				</Typography>
 				<LinearProgress
 					variant="determinate"
@@ -59,7 +59,7 @@ export const SwitchControls = ({ data, processedTemp, classes }) => {
 	);
 };
 
-SwitchControls.propTypes = {
+ThermostatControls.propTypes = {
 	data: PropTypes.object,
 	onChange: PropTypes.func,
 	processedTemp: PropTypes.number,
@@ -69,8 +69,8 @@ SwitchControls.propTypes = {
 export const enhancer = compose(
 	withStyles(styles),
 	withProps(({ data }) => ({
-		processedTemp: data.temperature + 40
+		processedTemp: data.temperature > 60 ? 100 : data.temperature + 40
 	}))
 );
 
-export default enhancer(SwitchControls);
+export default enhancer(ThermostatControls);
