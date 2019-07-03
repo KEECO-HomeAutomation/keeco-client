@@ -13,6 +13,7 @@ import { connect } from 'react-redux';
 
 import NodesQuery from '../../data/queries/NodesQuery.graphql';
 import UpdateTemplateDataMutation from '../../data/queries/UpdateTemplateDataMutation.graphql';
+import UpdateNodeMutation from '../../data/queries/UpdateNodeMutation.graphql';
 import NodeSubscription from '../../data/queries/NodeSubscription.graphql';
 import { setViewMode } from './data/duck';
 
@@ -22,6 +23,7 @@ import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
 import ToggleButton from '@material-ui/lab/ToggleButton';
 
 import NodeCard from '../../components/NodeCard';
+import withEditDialog from '../../components/hocs/withEditDialog';
 
 const styles = theme => ({
 	container: {
@@ -45,6 +47,7 @@ export const Nodes = ({
 	nodes,
 	onTemplateDataChange,
 	onViewModeChange,
+	onEditNodeClick,
 	classes
 }) => {
 	return (
@@ -77,7 +80,10 @@ export const Nodes = ({
 						))
 					) : (
 						<Grid key={node.id} item className={classes.card}>
-							<NodeCard data={node} />
+							<NodeCard
+								data={node}
+								actions={[{ name: 'Edit', onClick: () => onEditNodeClick(node) }]}
+							/>
 						</Grid>
 					)
 				)}
@@ -164,8 +170,40 @@ export const enhancer = compose(
 						}
 					});
 				});
+				cache.writeQuery({ query: NodesQuery, data });
 			}
 		}
+	}),
+	graphql(UpdateNodeMutation, {
+		props: ({ mutate }) => ({
+			updateNode: mutate
+		}),
+		options: {
+			update: (cache, { data: { updateNode: newNode } }) => {
+				const data = cache.readQuery({ query: NodesQuery });
+				data.nodes = data.nodes.map(node => {
+					if (node.id === newNode.id) {
+						return {
+							...node,
+							...newNode
+						};
+					} else {
+						return node;
+					}
+				});
+				cache.writeQuery({ query: NodesQuery, data });
+			}
+		}
+	}),
+	withEditDialog({
+		dialogName: 'editNode',
+		title: 'Edit node',
+		description: "Edit the node's properties",
+		fields: [
+			{
+				name: 'name'
+			}
+		]
 	}),
 	withHandlers({
 		onTemplateDataChange: ({ updateTemplateData }) => (template, data) => {
@@ -187,6 +225,26 @@ export const enhancer = compose(
 		},
 		onViewModeChange: ({ setViewMode }) => (e, viewMode) => {
 			setViewMode(viewMode[0]);
+		},
+		onEditNodeClick: ({ editNodeOpen, updateNode }) => node => {
+			editNodeOpen({
+				onSubmit: values => {
+					console.log(values);
+					updateNode({
+						variables: {
+							id: node.id,
+							input: values
+						},
+						optimisticResponse: {
+							...node,
+							...values
+						}
+					});
+				},
+				initialValues: {
+					name: node.name
+				}
+			});
 		}
 	}),
 	lifecycle({

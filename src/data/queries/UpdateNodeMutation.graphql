@@ -1,0 +1,6 @@
+mutation UpdateNode($id: ID!, $input: UpdateNodeInput!) {
+	updateNode(id: $id, input: $input) {
+		id
+		name
+	}
+}
