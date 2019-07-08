@@ -59,7 +59,7 @@ const styles = theme => ({
 		color: theme.palette.primary.contrastText
 	},
 	drawer: {
-		width: theme.spacing.unit * 7 + 1,
+		width: theme.spacing(7) + 1,
 		overflow: 'hidden',
 		transition: theme.transitions.create(['width'], {
 			easing: theme.transitions.easing.easeOut,
@@ -80,7 +80,7 @@ const styles = theme => ({
 	content: {
 		flexGrow: 1,
 		marginTop: theme.mixins.toolbar.minHeight,
-		padding: theme.spacing.unit * 3
+		padding: theme.spacing(3)
 	}
 });
 

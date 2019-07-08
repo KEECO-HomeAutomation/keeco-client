@@ -1,13 +1,18 @@
 query Nodes {
 	nodes {
 		id
-		uuid
 		name
+		endpoints {
+			id
+			name
+			output
+			range
+			value
+		}
 		templates {
 			id
 			name
 			data {
-				__typename
 				... on TemplateDataSwitch {
 					id
 					on
@@ -19,6 +24,10 @@ query Nodes {
 					g
 					b
 					dim
+				}
+				... on TemplateDataThermostat {
+					id
+					temperature
 				}
 			}
 		}

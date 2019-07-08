@@ -14,121 +14,86 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
         }
         onGoToHomeClick={[Function]}
       >
-        <WithStyles(Paper)
+        <WithStyles(ForwardRef(Paper))
           className="ErrorNotFound-centerPanel-1"
         >
-          <Paper
+          <ForwardRef(Paper)
             className="ErrorNotFound-centerPanel-1"
             classes={
               Object {
-                "elevation0": "MuiPaper-elevation0-4",
-                "elevation1": "MuiPaper-elevation1-5",
-                "elevation10": "MuiPaper-elevation10-14",
-                "elevation11": "MuiPaper-elevation11-15",
-                "elevation12": "MuiPaper-elevation12-16",
-                "elevation13": "MuiPaper-elevation13-17",
-                "elevation14": "MuiPaper-elevation14-18",
-                "elevation15": "MuiPaper-elevation15-19",
-                "elevation16": "MuiPaper-elevation16-20",
-                "elevation17": "MuiPaper-elevation17-21",
-                "elevation18": "MuiPaper-elevation18-22",
-                "elevation19": "MuiPaper-elevation19-23",
-                "elevation2": "MuiPaper-elevation2-6",
-                "elevation20": "MuiPaper-elevation20-24",
-                "elevation21": "MuiPaper-elevation21-25",
-                "elevation22": "MuiPaper-elevation22-26",
-                "elevation23": "MuiPaper-elevation23-27",
-                "elevation24": "MuiPaper-elevation24-28",
-                "elevation3": "MuiPaper-elevation3-7",
-                "elevation4": "MuiPaper-elevation4-8",
-                "elevation5": "MuiPaper-elevation5-9",
-                "elevation6": "MuiPaper-elevation6-10",
-                "elevation7": "MuiPaper-elevation7-11",
-                "elevation8": "MuiPaper-elevation8-12",
-                "elevation9": "MuiPaper-elevation9-13",
-                "root": "MuiPaper-root-2",
-                "rounded": "MuiPaper-rounded-3",
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
               }
             }
-            component="div"
-            elevation={2}
-            square={false}
           >
             <div
-              className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 ErrorNotFound-centerPanel-1"
+              className="MuiPaper-root MuiPaper-elevation1 ErrorNotFound-centerPanel-1 MuiPaper-rounded"
             >
-              <WithStyles(Typography)
+              <WithStyles(ForwardRef(Typography))
                 gutterBottom={true}
                 variant="h6"
               >
-                <Typography
-                  align="inherit"
+                <ForwardRef(Typography)
                   classes={
                     Object {
-                      "alignCenter": "MuiTypography-alignCenter-52",
-                      "alignJustify": "MuiTypography-alignJustify-54",
-                      "alignLeft": "MuiTypography-alignLeft-51",
-                      "alignRight": "MuiTypography-alignRight-53",
-                      "body1": "MuiTypography-body1-38",
-                      "body2": "MuiTypography-body2-37",
-                      "button": "MuiTypography-button-40",
-                      "caption": "MuiTypography-caption-39",
-                      "colorError": "MuiTypography-colorError-63",
-                      "colorInherit": "MuiTypography-colorInherit-58",
-                      "colorPrimary": "MuiTypography-colorPrimary-59",
-                      "colorSecondary": "MuiTypography-colorSecondary-60",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary-61",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                      "display1": "MuiTypography-display1-33",
-                      "display2": "MuiTypography-display2-32",
-                      "display3": "MuiTypography-display3-31",
-                      "display4": "MuiTypography-display4-30",
-                      "gutterBottom": "MuiTypography-gutterBottom-56",
-                      "h1": "MuiTypography-h1-41",
-                      "h2": "MuiTypography-h2-42",
-                      "h3": "MuiTypography-h3-43",
-                      "h4": "MuiTypography-h4-44",
-                      "h5": "MuiTypography-h5-45",
-                      "h6": "MuiTypography-h6-46",
-                      "headline": "MuiTypography-headline-34",
-                      "inline": "MuiTypography-inline-64",
-                      "noWrap": "MuiTypography-noWrap-55",
-                      "overline": "MuiTypography-overline-49",
-                      "paragraph": "MuiTypography-paragraph-57",
-                      "root": "MuiTypography-root-29",
-                      "srOnly": "MuiTypography-srOnly-50",
-                      "subheading": "MuiTypography-subheading-36",
-                      "subtitle1": "MuiTypography-subtitle1-47",
-                      "subtitle2": "MuiTypography-subtitle2-48",
-                      "title": "MuiTypography-title-35",
+                      "alignCenter": "MuiTypography-alignCenter",
+                      "alignJustify": "MuiTypography-alignJustify",
+                      "alignLeft": "MuiTypography-alignLeft",
+                      "alignRight": "MuiTypography-alignRight",
+                      "body1": "MuiTypography-body1",
+                      "body2": "MuiTypography-body2",
+                      "button": "MuiTypography-button",
+                      "caption": "MuiTypography-caption",
+                      "colorError": "MuiTypography-colorError",
+                      "colorInherit": "MuiTypography-colorInherit",
+                      "colorPrimary": "MuiTypography-colorPrimary",
+                      "colorSecondary": "MuiTypography-colorSecondary",
+                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                      "displayBlock": "MuiTypography-displayBlock",
+                      "displayInline": "MuiTypography-displayInline",
+                      "gutterBottom": "MuiTypography-gutterBottom",
+                      "h1": "MuiTypography-h1",
+                      "h2": "MuiTypography-h2",
+                      "h3": "MuiTypography-h3",
+                      "h4": "MuiTypography-h4",
+                      "h5": "MuiTypography-h5",
+                      "h6": "MuiTypography-h6",
+                      "noWrap": "MuiTypography-noWrap",
+                      "overline": "MuiTypography-overline",
+                      "paragraph": "MuiTypography-paragraph",
+                      "root": "MuiTypography-root",
+                      "srOnly": "MuiTypography-srOnly",
+                      "subtitle1": "MuiTypography-subtitle1",
+                      "subtitle2": "MuiTypography-subtitle2",
                     }
                   }
-                  color="default"
                   gutterBottom={true}
-                  headlineMapping={
-                    Object {
-                      "body1": "p",
-                      "body2": "p",
-                      "display1": "h1",
-                      "display2": "h1",
-                      "display3": "h1",
-                      "display4": "h1",
-                      "h1": "h1",
-                      "h2": "h2",
-                      "h3": "h3",
-                      "h4": "h4",
-                      "h5": "h5",
-                      "h6": "h6",
-                      "headline": "h1",
-                      "subheading": "h3",
-                      "subtitle1": "h6",
-                      "subtitle2": "h6",
-                      "title": "h2",
-                    }
-                  }
-                  inline={false}
-                  noWrap={false}
-                  paragraph={false}
                   theme={
                     Object {
                       "breakpoints": Object {
@@ -261,9 +226,7 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                       "shape": Object {
                         "borderRadius": 4,
                       },
-                      "spacing": Object {
-                        "unit": 8,
-                      },
+                      "spacing": [Function],
                       "transitions": Object {
                         "create": [Function],
                         "duration": Object {
@@ -285,14 +248,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                       },
                       "typography": Object {
                         "body1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.46429em",
-                        },
-                        "body1Next": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1rem",
                           "fontWeight": 400,
@@ -300,29 +255,13 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.5,
                         },
                         "body2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 500,
-                          "lineHeight": "1.71429em",
-                        },
-                        "body2Next": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 400,
                           "letterSpacing": "0.01071em",
-                          "lineHeight": 1.5,
+                          "lineHeight": 1.43,
                         },
                         "button": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 500,
-                          "textTransform": "uppercase",
-                        },
-                        "buttonNext": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 500,
@@ -331,52 +270,11 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "textTransform": "uppercase",
                         },
                         "caption": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.75rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.375em",
-                        },
-                        "captionNext": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.75rem",
                           "fontWeight": 400,
                           "letterSpacing": "0.03333em",
                           "lineHeight": 1.66,
-                        },
-                        "display1": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "2.125rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.20588em",
-                        },
-                        "display2": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "2.8125rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.13333em",
-                          "marginLeft": "-.02em",
-                        },
-                        "display3": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "3.5rem",
-                          "fontWeight": 400,
-                          "letterSpacing": "-.02em",
-                          "lineHeight": "1.30357em",
-                          "marginLeft": "-.02em",
-                        },
-                        "display4": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "7rem",
-                          "fontWeight": 300,
-                          "letterSpacing": "-.04em",
-                          "lineHeight": "1.14286em",
-                          "marginLeft": "-.04em",
                         },
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": 14,
@@ -384,7 +282,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
                         "h1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "6rem",
                           "fontWeight": 300,
@@ -392,7 +289,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1,
                         },
                         "h2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "3.75rem",
                           "fontWeight": 300,
@@ -400,7 +296,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1,
                         },
                         "h3": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "3rem",
                           "fontWeight": 400,
@@ -408,7 +303,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.04,
                         },
                         "h4": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "2.125rem",
                           "fontWeight": 400,
@@ -416,7 +310,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.17,
                         },
                         "h5": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1.5rem",
                           "fontWeight": 400,
@@ -424,22 +317,14 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.33,
                         },
                         "h6": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1.25rem",
                           "fontWeight": 500,
                           "letterSpacing": "0.0075em",
                           "lineHeight": 1.6,
                         },
-                        "headline": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1.5rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.35417em",
-                        },
+                        "htmlFontSize": 16,
                         "overline": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.75rem",
                           "fontWeight": 400,
@@ -449,15 +334,7 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                         },
                         "pxToRem": [Function],
                         "round": [Function],
-                        "subheading": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.5em",
-                        },
                         "subtitle1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1rem",
                           "fontWeight": 400,
@@ -465,21 +342,12 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.75,
                         },
                         "subtitle2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 500,
                           "letterSpacing": "0.00714em",
                           "lineHeight": 1.57,
                         },
-                        "title": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1.3125rem",
-                          "fontWeight": 500,
-                          "lineHeight": "1.16667em",
-                        },
-                        "useNextVariants": false,
                       },
                       "zIndex": Object {
                         "appBar": 1100,
@@ -494,81 +362,48 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                   variant="h6"
                 >
                   <h6
-                    className="MuiTypography-root-29 MuiTypography-h6-46 MuiTypography-gutterBottom-56"
+                    className="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
                   >
                     Error 404
                   </h6>
-                </Typography>
-              </WithStyles(Typography)>
-              <WithStyles(Typography)>
-                <Typography
-                  align="inherit"
+                </ForwardRef(Typography)>
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))>
+                <ForwardRef(Typography)
                   classes={
                     Object {
-                      "alignCenter": "MuiTypography-alignCenter-52",
-                      "alignJustify": "MuiTypography-alignJustify-54",
-                      "alignLeft": "MuiTypography-alignLeft-51",
-                      "alignRight": "MuiTypography-alignRight-53",
-                      "body1": "MuiTypography-body1-38",
-                      "body2": "MuiTypography-body2-37",
-                      "button": "MuiTypography-button-40",
-                      "caption": "MuiTypography-caption-39",
-                      "colorError": "MuiTypography-colorError-63",
-                      "colorInherit": "MuiTypography-colorInherit-58",
-                      "colorPrimary": "MuiTypography-colorPrimary-59",
-                      "colorSecondary": "MuiTypography-colorSecondary-60",
-                      "colorTextPrimary": "MuiTypography-colorTextPrimary-61",
-                      "colorTextSecondary": "MuiTypography-colorTextSecondary-62",
-                      "display1": "MuiTypography-display1-33",
-                      "display2": "MuiTypography-display2-32",
-                      "display3": "MuiTypography-display3-31",
-                      "display4": "MuiTypography-display4-30",
-                      "gutterBottom": "MuiTypography-gutterBottom-56",
-                      "h1": "MuiTypography-h1-41",
-                      "h2": "MuiTypography-h2-42",
-                      "h3": "MuiTypography-h3-43",
-                      "h4": "MuiTypography-h4-44",
-                      "h5": "MuiTypography-h5-45",
-                      "h6": "MuiTypography-h6-46",
-                      "headline": "MuiTypography-headline-34",
-                      "inline": "MuiTypography-inline-64",
-                      "noWrap": "MuiTypography-noWrap-55",
-                      "overline": "MuiTypography-overline-49",
-                      "paragraph": "MuiTypography-paragraph-57",
-                      "root": "MuiTypography-root-29",
-                      "srOnly": "MuiTypography-srOnly-50",
-                      "subheading": "MuiTypography-subheading-36",
-                      "subtitle1": "MuiTypography-subtitle1-47",
-                      "subtitle2": "MuiTypography-subtitle2-48",
-                      "title": "MuiTypography-title-35",
+                      "alignCenter": "MuiTypography-alignCenter",
+                      "alignJustify": "MuiTypography-alignJustify",
+                      "alignLeft": "MuiTypography-alignLeft",
+                      "alignRight": "MuiTypography-alignRight",
+                      "body1": "MuiTypography-body1",
+                      "body2": "MuiTypography-body2",
+                      "button": "MuiTypography-button",
+                      "caption": "MuiTypography-caption",
+                      "colorError": "MuiTypography-colorError",
+                      "colorInherit": "MuiTypography-colorInherit",
+                      "colorPrimary": "MuiTypography-colorPrimary",
+                      "colorSecondary": "MuiTypography-colorSecondary",
+                      "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                      "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                      "displayBlock": "MuiTypography-displayBlock",
+                      "displayInline": "MuiTypography-displayInline",
+                      "gutterBottom": "MuiTypography-gutterBottom",
+                      "h1": "MuiTypography-h1",
+                      "h2": "MuiTypography-h2",
+                      "h3": "MuiTypography-h3",
+                      "h4": "MuiTypography-h4",
+                      "h5": "MuiTypography-h5",
+                      "h6": "MuiTypography-h6",
+                      "noWrap": "MuiTypography-noWrap",
+                      "overline": "MuiTypography-overline",
+                      "paragraph": "MuiTypography-paragraph",
+                      "root": "MuiTypography-root",
+                      "srOnly": "MuiTypography-srOnly",
+                      "subtitle1": "MuiTypography-subtitle1",
+                      "subtitle2": "MuiTypography-subtitle2",
                     }
                   }
-                  color="default"
-                  gutterBottom={false}
-                  headlineMapping={
-                    Object {
-                      "body1": "p",
-                      "body2": "p",
-                      "display1": "h1",
-                      "display2": "h1",
-                      "display3": "h1",
-                      "display4": "h1",
-                      "h1": "h1",
-                      "h2": "h2",
-                      "h3": "h3",
-                      "h4": "h4",
-                      "h5": "h5",
-                      "h6": "h6",
-                      "headline": "h1",
-                      "subheading": "h3",
-                      "subtitle1": "h6",
-                      "subtitle2": "h6",
-                      "title": "h2",
-                    }
-                  }
-                  inline={false}
-                  noWrap={false}
-                  paragraph={false}
                   theme={
                     Object {
                       "breakpoints": Object {
@@ -701,9 +536,7 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                       "shape": Object {
                         "borderRadius": 4,
                       },
-                      "spacing": Object {
-                        "unit": 8,
-                      },
+                      "spacing": [Function],
                       "transitions": Object {
                         "create": [Function],
                         "duration": Object {
@@ -725,14 +558,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                       },
                       "typography": Object {
                         "body1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.46429em",
-                        },
-                        "body1Next": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1rem",
                           "fontWeight": 400,
@@ -740,29 +565,13 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.5,
                         },
                         "body2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 500,
-                          "lineHeight": "1.71429em",
-                        },
-                        "body2Next": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 400,
                           "letterSpacing": "0.01071em",
-                          "lineHeight": 1.5,
+                          "lineHeight": 1.43,
                         },
                         "button": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.875rem",
-                          "fontWeight": 500,
-                          "textTransform": "uppercase",
-                        },
-                        "buttonNext": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 500,
@@ -771,52 +580,11 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "textTransform": "uppercase",
                         },
                         "caption": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "0.75rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.375em",
-                        },
-                        "captionNext": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.75rem",
                           "fontWeight": 400,
                           "letterSpacing": "0.03333em",
                           "lineHeight": 1.66,
-                        },
-                        "display1": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "2.125rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.20588em",
-                        },
-                        "display2": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "2.8125rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.13333em",
-                          "marginLeft": "-.02em",
-                        },
-                        "display3": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "3.5rem",
-                          "fontWeight": 400,
-                          "letterSpacing": "-.02em",
-                          "lineHeight": "1.30357em",
-                          "marginLeft": "-.02em",
-                        },
-                        "display4": Object {
-                          "color": "rgba(0, 0, 0, 0.54)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "7rem",
-                          "fontWeight": 300,
-                          "letterSpacing": "-.04em",
-                          "lineHeight": "1.14286em",
-                          "marginLeft": "-.04em",
                         },
                         "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                         "fontSize": 14,
@@ -824,7 +592,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                         "fontWeightMedium": 500,
                         "fontWeightRegular": 400,
                         "h1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "6rem",
                           "fontWeight": 300,
@@ -832,7 +599,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1,
                         },
                         "h2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "3.75rem",
                           "fontWeight": 300,
@@ -840,7 +606,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1,
                         },
                         "h3": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "3rem",
                           "fontWeight": 400,
@@ -848,7 +613,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.04,
                         },
                         "h4": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "2.125rem",
                           "fontWeight": 400,
@@ -856,7 +620,6 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.17,
                         },
                         "h5": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1.5rem",
                           "fontWeight": 400,
@@ -864,22 +627,14 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.33,
                         },
                         "h6": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1.25rem",
                           "fontWeight": 500,
                           "letterSpacing": "0.0075em",
                           "lineHeight": 1.6,
                         },
-                        "headline": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1.5rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.35417em",
-                        },
+                        "htmlFontSize": 16,
                         "overline": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.75rem",
                           "fontWeight": 400,
@@ -889,15 +644,7 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                         },
                         "pxToRem": [Function],
                         "round": [Function],
-                        "subheading": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1rem",
-                          "fontWeight": 400,
-                          "lineHeight": "1.5em",
-                        },
                         "subtitle1": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "1rem",
                           "fontWeight": 400,
@@ -905,21 +652,12 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                           "lineHeight": 1.75,
                         },
                         "subtitle2": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
                           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                           "fontSize": "0.875rem",
                           "fontWeight": 500,
                           "letterSpacing": "0.00714em",
                           "lineHeight": 1.57,
                         },
-                        "title": Object {
-                          "color": "rgba(0, 0, 0, 0.87)",
-                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
-                          "fontSize": "1.3125rem",
-                          "fontWeight": 500,
-                          "lineHeight": "1.16667em",
-                        },
-                        "useNextVariants": false,
                       },
                       "zIndex": Object {
                         "appBar": 1100,
@@ -933,93 +671,71 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                   }
                 >
                   <p
-                    className="MuiTypography-root-29 MuiTypography-body1-38"
+                    className="MuiTypography-root MuiTypography-body1"
                   >
                     The requested page is not available. Sorry for that.
                   </p>
-                </Typography>
-              </WithStyles(Typography)>
-              <WithStyles(Button)
+                </ForwardRef(Typography)>
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Button))
                 color="primary"
                 onClick={[Function]}
               >
-                <Button
+                <ForwardRef(Button)
                   classes={
                     Object {
-                      "colorInherit": "MuiButton-colorInherit-86",
-                      "contained": "MuiButton-contained-76",
-                      "containedPrimary": "MuiButton-containedPrimary-77",
-                      "containedSecondary": "MuiButton-containedSecondary-78",
-                      "disabled": "MuiButton-disabled-85",
-                      "extendedFab": "MuiButton-extendedFab-83",
-                      "fab": "MuiButton-fab-82",
-                      "flat": "MuiButton-flat-70",
-                      "flatPrimary": "MuiButton-flatPrimary-71",
-                      "flatSecondary": "MuiButton-flatSecondary-72",
-                      "focusVisible": "MuiButton-focusVisible-84",
-                      "fullWidth": "MuiButton-fullWidth-90",
-                      "label": "MuiButton-label-66",
-                      "mini": "MuiButton-mini-87",
-                      "outlined": "MuiButton-outlined-73",
-                      "outlinedPrimary": "MuiButton-outlinedPrimary-74",
-                      "outlinedSecondary": "MuiButton-outlinedSecondary-75",
-                      "raised": "MuiButton-raised-79",
-                      "raisedPrimary": "MuiButton-raisedPrimary-80",
-                      "raisedSecondary": "MuiButton-raisedSecondary-81",
-                      "root": "MuiButton-root-65",
-                      "sizeLarge": "MuiButton-sizeLarge-89",
-                      "sizeSmall": "MuiButton-sizeSmall-88",
-                      "text": "MuiButton-text-67",
-                      "textPrimary": "MuiButton-textPrimary-68",
-                      "textSecondary": "MuiButton-textSecondary-69",
+                      "colorInherit": "MuiButton-colorInherit",
+                      "contained": "MuiButton-contained",
+                      "containedPrimary": "MuiButton-containedPrimary",
+                      "containedSecondary": "MuiButton-containedSecondary",
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "fullWidth": "MuiButton-fullWidth",
+                      "label": "MuiButton-label",
+                      "outlined": "MuiButton-outlined",
+                      "outlinedPrimary": "MuiButton-outlinedPrimary",
+                      "outlinedSecondary": "MuiButton-outlinedSecondary",
+                      "root": "MuiButton-root",
+                      "sizeLarge": "MuiButton-sizeLarge",
+                      "sizeSmall": "MuiButton-sizeSmall",
+                      "text": "MuiButton-text",
+                      "textPrimary": "MuiButton-textPrimary",
+                      "textSecondary": "MuiButton-textSecondary",
                     }
                   }
                   color="primary"
-                  component="button"
-                  disableFocusRipple={false}
-                  disabled={false}
-                  fullWidth={false}
-                  mini={false}
                   onClick={[Function]}
-                  size="medium"
-                  type="button"
-                  variant="text"
                 >
-                  <WithStyles(ButtonBase)
-                    className="MuiButton-root-65 MuiButton-text-67 MuiButton-textPrimary-68 MuiButton-flat-70 MuiButton-flatPrimary-71"
+                  <WithStyles(ForwardRef(ButtonBase))
+                    className="MuiButton-root MuiButton-text MuiButton-textPrimary"
                     component="button"
                     disabled={false}
                     focusRipple={true}
-                    focusVisibleClassName="MuiButton-focusVisible-84"
+                    focusVisibleClassName="Mui-focusVisible"
                     onClick={[Function]}
                     type="button"
                   >
-                    <ButtonBase
-                      centerRipple={false}
-                      className="MuiButton-root-65 MuiButton-text-67 MuiButton-textPrimary-68 MuiButton-flat-70 MuiButton-flatPrimary-71"
+                    <ForwardRef(ButtonBase)
+                      className="MuiButton-root MuiButton-text MuiButton-textPrimary"
                       classes={
                         Object {
-                          "disabled": "MuiButtonBase-disabled-92",
-                          "focusVisible": "MuiButtonBase-focusVisible-93",
-                          "root": "MuiButtonBase-root-91",
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
                         }
                       }
                       component="button"
-                      disableRipple={false}
-                      disableTouchRipple={false}
                       disabled={false}
                       focusRipple={true}
-                      focusVisibleClassName="MuiButton-focusVisible-84"
+                      focusVisibleClassName="Mui-focusVisible"
                       onClick={[Function]}
-                      tabIndex="0"
                       type="button"
                     >
                       <button
-                        className="MuiButtonBase-root-91 MuiButton-root-65 MuiButton-text-67 MuiButton-textPrimary-68 MuiButton-flat-70 MuiButton-flatPrimary-71"
+                        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
                         disabled={false}
                         onBlur={[Function]}
                         onClick={[Function]}
-                        onContextMenu={[Function]}
                         onFocus={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
@@ -1029,58 +745,53 @@ exports[`<ErrorNotFound /> Should match snapshot 1`] = `
                         onTouchEnd={[Function]}
                         onTouchMove={[Function]}
                         onTouchStart={[Function]}
-                        tabIndex="0"
+                        tabIndex={0}
                         type="button"
                       >
                         <span
-                          className="MuiButton-label-66"
+                          className="MuiButton-label"
                         >
                           Go to home!
                         </span>
-                        <NoSsr
-                          defer={false}
-                          fallback={null}
-                        >
+                        <NoSsr>
                           <WithStyles(TouchRipple)
                             center={false}
-                            innerRef={[Function]}
                           >
                             <TouchRipple
                               center={false}
                               classes={
                                 Object {
-                                  "child": "MuiTouchRipple-child-98",
-                                  "childLeaving": "MuiTouchRipple-childLeaving-99",
-                                  "childPulsate": "MuiTouchRipple-childPulsate-100",
-                                  "ripple": "MuiTouchRipple-ripple-95",
-                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate-97",
-                                  "rippleVisible": "MuiTouchRipple-rippleVisible-96",
-                                  "root": "MuiTouchRipple-root-94",
+                                  "child": "MuiTouchRipple-child",
+                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                  "ripple": "MuiTouchRipple-ripple",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                  "root": "MuiTouchRipple-root",
                                 }
                               }
                             >
-                              <TransitionGroup
-                                childFactory={[Function]}
-                                className="MuiTouchRipple-root-94"
-                                component="span"
-                                enter={true}
-                                exit={true}
+                              <span
+                                className="MuiTouchRipple-root"
                               >
-                                <span
-                                  className="MuiTouchRipple-root-94"
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  enter={true}
+                                  exit={true}
                                 />
-                              </TransitionGroup>
+                              </span>
                             </TouchRipple>
                           </WithStyles(TouchRipple)>
                         </NoSsr>
                       </button>
-                    </ButtonBase>
-                  </WithStyles(ButtonBase)>
-                </Button>
-              </WithStyles(Button)>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Button)>
+              </WithStyles(ForwardRef(Button))>
             </div>
-          </Paper>
-        </WithStyles(Paper)>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
       </ErrorNotFound>
     </WithStyles(ErrorNotFound)>
   </withHandlers(WithStyles(ErrorNotFound))>

@@ -3,8 +3,14 @@ subscription NodeSubscription {
 		mutation
 		node {
 			id
-			uuid
 			name
+			endpoints {
+				id
+				name
+				output
+				range
+				value
+			}
 			templates {
 				id
 				name
@@ -20,6 +26,10 @@ subscription NodeSubscription {
 						g
 						b
 						dim
+					}
+					... on TemplateDataThermostat {
+						id
+						temperature
 					}
 				}
 			}
